@@ -1,10 +1,8 @@
-title: Your awesome title
+title: Алекс (Олександр) Рябцев
 author: GitHub User
-email: your-email@domain.com
+email: me@alexrb.name
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Випускник Могилянки. Засновник Startup.In.UA, elcar.com.ua. Експерт Українського стартап фонду.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,8 +10,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Alex Riabtsev
+  tagline: Стартапи. Маркетинг. Освіта
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -21,18 +19,18 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
+    twitter: alexriabtsev
+    github:  alexriabtsev
+    linkedIn: in/alexrb
     rss: rss
     # dribbble: jekyll
     # flickr:   jekyll
-    # instagram: jekyll
+    instagram: alexriabtsev
     # pinterest: jekyll
     # youtube: jekyll
-    # facebook: jekyll
+    facebook: alexriabtsev
     # soundcloud: jekyll
-    # telegram: jekyll
+    telegram: alexriabtsev
 
     # Mastodon instances
     # mastodon:
@@ -51,4 +49,4 @@ theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
-#  - jekyll-feed
+  - jekyll-feed
