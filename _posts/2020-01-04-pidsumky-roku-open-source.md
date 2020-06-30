@@ -1,0 +1,71 @@
+---
+id: 2707
+title: Підсумки року. Open-source
+date: 2020-01-04T14:57:42+02:00
+author: alexrb
+layout: post
+guid: http://alexrb.name/?p=2707
+permalink: /2020/01/pidsumky-roku-open-source/
+xyz_smap_fb_future_to_publish:
+  - 'a:3:{s:18:"post_fb_permission";s:1:"1";s:16:"xyz_fb_po_method";s:1:"2";s:14:"xyz_fb_message";s:51:"{BLOG_TITLE} - {POST_TITLE}{POST_TITLE}{POST_TITLE}";}'
+xyz_smap_tw_future_to_publish:
+  - 'a:3:{s:18:"post_tw_permission";s:1:"1";s:19:"xyz_tw_img_permissn";s:1:"1";s:14:"xyz_tw_message";s:26:"{POST_TITLE} - {PERMALINK}";}'
+xyz_smap:
+  - "1"
+xyz_smap_insert_og:
+  - "1"
+image: /wp-content/uploads/2020/01/image.png
+categories:
+  - Lost-and-found
+---
+<figure class="wp-block-image size-large"><img src="https://alexrb.name/wp-content/uploads/2020/01/g3143spo-1024x512.png" alt="" class="wp-image-2710" srcset="https://alexrb.name/wp-content/uploads/2020/01/g3143spo-1024x512.png 1024w, https://alexrb.name/wp-content/uploads/2020/01/g3143spo-300x150.png 300w, https://alexrb.name/wp-content/uploads/2020/01/g3143spo-768x384.png 768w, https://alexrb.name/wp-content/uploads/2020/01/g3143spo-700x350.png 700w, https://alexrb.name/wp-content/uploads/2020/01/g3143spo.png 1071w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure> 
+
+Те, що відбулося у 2019 році я вирішив розбити на декілька частин, а першою написати про програмне забезпечення, перехід на яке значно впливає на решту аспектів мого життя &#8211; open-source, або ж &#8220;відкрите програмне забезпечення&#8221;.
+
+<!--more-->
+
+Я вже чимало років користуюся macOS, яке не надто сприяє &#8220;піратству&#8221; (так, &#8220;ламану&#8221; програму можна знайти майже завжди, але MAS зроблено настільки просто, щоб витрачати час на пошуки не хотілося). Проте повністю перейти на open-source мене підштовхнули, як це не дивно, великі корпорації &#8211; Facebook та Google.
+
+У цьому дописі, як про локальне програмне забезпечення, так і про сервіси, які сповідують відкритість, як у коді, так і у даних, що вони (не) збирають про своїх користувачів.
+
+  * Homebrew 
+  * Notion/Boostnote < Evernote
+  * ActivityWatch < RescueTime
+  * Monica CRM
+  * Mini diary < DayOne
+  * OSM < Google Maps
+  * QuickSilver < Alfred
+  * Bitwarden < 1Password
+  * Pomodoro telegram bot
+
+Почну з [Homebrew](https://brew.sh), який інсталює усі ті програми, які не потрапили до MAS (хоча є можливість інсталювати й ті, які у ньому є, але про це трохи пізніше). Для тих, хто знайомий, нариклад, з Ubuntu, то це &#8211; менеджер пакетів. 
+
+<blockquote class="wp-block-quote">
+  <p>
+    <code>/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code>
+  </p>
+</blockquote>
+
+Після цього у вас відкривається цілий новий світ &#8220;[формул](https://formulae.brew.sh/)&#8221; для Homebrew та окремий світ [cask](https://formulae.brew.sh/cask/) для встановлення macOS програм. 
+
+Замість Evernote, який хоча й розвивається останній рік дуже активно, але залишається повністю закритою системою, я ще вибираю між двома варіантам &#8211; [Notion](http://notion.so/) або [Boostnote](https://github.com/BoostIO/Boostnote). Вони різні за своїми принципами, тому допускаю, що зупинюся на обох програмах, лише розділю &#8220;сфери впливу&#8221;.
+
+Чи не найбільшою знахідкою за останній рік для мене став [ActivityWatch](https://activitywatch.net/). Я багато років користувався RescueTime та навіть пробував їх premium можливості, тому знайти аналог у світі open-source було надзвичайно приємно! Встановлюється за допомогою, зокрема, вже знайомого Homebrew, а потім висить на localhost, щоб показувати, якими програмами користуюся протягом дня, тижня, місяця.
+
+Десь прочитав, що трендом нового 2020 року стане застосування бізнес рішень у приватному житті, а міленіали, до яких я себе також відношу, застосовують CRM для упорядкування контактів, яких у мене назбиралося більше 10 тисяч, та особистого життя. Для мене таким рішенням стала [Monica CRM](https://www.monicahq.com/), яку спочатку пробував ставити локально на ноутбук, але потім переніс на heroku, щоб мати доступ з різних пристроїв. Рекомендую усім, хто намагається упорядкувати контакти у власному житті!
+
+Ще одним важливим аспектом мого життя вже багато років є письмові практики. Я тривалий час користувався сервісом 750words, а також DayOne, але у світі open-source, як ви вже могли здогадатися, знайшлася заміна і для них &#8211; [Mini Diary](https://github.com/samuelmeuli/mini-diary/). Проста, але при цьому достатня програма для ведення щоденника чи написання &#8220;ранкових сторінок&#8221;.
+
+Якщо говорити про спільноту, яка стала для мене ближчою у 2019 році, то це, безумовно, [OpenStreetMap спільнота в Україні](http://openstreetmap.org.ua). Долучився я до неї майже випадково, хоча зареєструвався ще 2015 року на сайті [openstreetmap.org](http://openstreetmap.org). А тепер не можу уявити себе без однієї чи кількох правок на день, щоб покращити відкриту карту. Не скажу, що повністю відмовився від карт Google, але в оффлайн OSMand явно на першому місці!
+
+Ще однією важливою, хоча й незвичною зміною на моєму макбуку стала заміна Alfred на [QuickSilver](https://qsapp.com). Лаунчером я користувався давно й багато, а замінити однією програмою було важко, бо ті ж сніпети &#8220;переїхали&#8221; до стандартних сніпетів macOS (хоча й розкриваються вони трохи інакше, ніж у Alfred). Загалом, це була чи не найважча зміна, але платити 25 фунтів за powerpack, в якому, як на мене, основна сила, було забагато.
+
+Якщо говорити про приватність, то найперше спадають на думку паролі, їх у кожного з нас сотні, а подекуди й більше. Якщо створювати унікальні для кожного випадку (а я це ДУЖЕ рекомендую!), то запам&#8217;ятати їх може бути важко, тому я користуюся менеджером паролів. 1Password мене задовільняв тривалий час, але минулого року мігрував на open-source альтернативу [Bitwarden](http://bitwarden.com/). Наприкінці року заплатив $10 на рік за додаткові можливості, зокрема, 2FA у самому менеджері паролів, що дозволило мені позбутися Google Authenticator на телефоні. 
+
+І останнє, але не найменш важливе &#8211; [телеграм бот Pomodoro](http://t.me/pomodoro_timer_bot), який замінив для мене чимало спроб використовувати техніку pomodoro у повсякденному житті. Telegram відкрито напевно у кожного, а тепер його можна використовувати ще й з користю. 
+
+У наступній частині підсумків &#8211; 12 книг 2019 року.<figure class="wp-block-image size-large">
+
+<img src="https://alexrb.name/wp-content/uploads/2020/01/image-1024x341.png" alt="" class="wp-image-2709" srcset="https://alexrb.name/wp-content/uploads/2020/01/image-1024x341.png 1024w, https://alexrb.name/wp-content/uploads/2020/01/image-300x100.png 300w, https://alexrb.name/wp-content/uploads/2020/01/image-768x256.png 768w, https://alexrb.name/wp-content/uploads/2020/01/image-700x233.png 700w, https://alexrb.name/wp-content/uploads/2020/01/image.png 1440w" sizes="(max-width: 1024px) 100vw, 1024px" /> </figure> 
+
+У наступній частині підсумків &#8211; 12 книг 2019 року.
