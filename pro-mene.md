@@ -4,6 +4,7 @@ title: Про мене
 date: 2013-09-07T07:50:57+02:00
 author: alexrb
 layout: page
+permalink: /cooperation/
 guid: http://alexrb.name/?page_id=5
 xyz_smap:
   - "1"

@@ -4,6 +4,7 @@ title: Проекти онлайн
 date: 2015-10-15T10:06:25+02:00
 author: alexrb
 layout: page
+permalink: /projects/
 guid: http://alexrb.name/?page_id=2200
 xyz_smap:
   - "1"
