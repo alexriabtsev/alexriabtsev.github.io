@@ -24,7 +24,7 @@ categories:
 
 <!--more--><figure class="wp-block-image size-large">
 
-<img src="http://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637.jpg" alt="" class="wp-image-2715" srcset="https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637.jpg 970w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-300x139.jpg 300w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-768x356.jpg 768w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-700x325.jpg 700w" sizes="(max-width: 970px) 100vw, 970px" /> </figure> 
+<img src="http://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637.jpg" alt="" class="wp-image-2715" srcset="https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637.jpg 970w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-300x139.jpg 300w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-768x356.jpg 768w, https://alexrb.name/wp-content/uploads/2020/01/getty_673965992_20001333183785248481_392637-700x325.jpg 700w" sizes="(max-width: 970px) 100vw, 970px" /> </figure>
 
 За минулий рік я прочитав 12 книжок &#8211; від найдовшої &#8220;Время Березовского&#8221; Петра Авена до найкоротшої &#8220;Трамп та епоха пост-правди&#8221; Кена Уілбера. Влітку була перерва на пару місяців у читанні, оскільки я читаю зазвичай у транспорті, а влітку транспортом я користувався суттєво менше та їздив на відпочинок.
 
