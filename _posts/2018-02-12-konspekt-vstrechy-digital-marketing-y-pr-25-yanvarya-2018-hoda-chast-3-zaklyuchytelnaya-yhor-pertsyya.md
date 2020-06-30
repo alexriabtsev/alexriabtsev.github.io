@@ -14,6 +14,7 @@ image: /wp-content/uploads/2018/01/26757965_166054544014364_3116857582212163213_
 categories:
   - Веб
   - Освіта
+  - notes
 ---
 Первая часть &#8211; [Евгений Шевченко](http://alexrb.name/2018/01/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-1-evhenyj-shevchenko/), вторая &#8211; [Верослава Новосильная](http://alexrb.name/2018/02/digital-marketing-for-startup-chast-2-veroslava-novosylnaya/) и сегодня третья, завершаюшая, часть конспекта встречи про digital marketing и PR. На сцене &#8211; Игорь Перция с коротким, но емким выступление в завершение вечера и буквально пару пунктов в конспекте.
 
