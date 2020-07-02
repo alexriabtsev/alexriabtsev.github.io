@@ -51,5 +51,5 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-menus
-  
+
 google_analytics: UA-114046-45
