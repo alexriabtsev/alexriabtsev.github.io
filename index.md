@@ -1,5 +1,8 @@
 ---
 title: Алекс (Олександр) Рябцев. Персональний блоґ
 layout: home
-menus: header
+menus: 
+  header:
+  title: Головна
+  weight: 1
 ---
