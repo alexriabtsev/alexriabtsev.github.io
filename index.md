@@ -1,8 +1,5 @@
 ---
-title: Алекс (Олександр) Рябцев. Персональний блоґ
-layout: home
-menus: 
-  header:
-  title: Головна
-  weight: 1
+# Superseded by index.html (English business landing).
+# The blog post listing moved to /blog/ (see blog/index.md).
+published: false
 ---
