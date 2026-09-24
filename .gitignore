@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# iCloud conflict copies
+* 2.*
+.DS_Store

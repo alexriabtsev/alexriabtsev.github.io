@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Архів постів</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (saved === 'dark' || (!saved && prefersDark)) {
+      document.documentElement.classList.add('dark');
+    }
+  })();
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href=""> UP </a>
+ |
+ <a accesskey="H" href="https://alexrb.name/"> HOME </a>
+</div><header id="site-header" class="status">
+<img class="avatar" src="/assets/avatar.jpg" alt="Alex Riabtsev" />
+<div class="site-name">Alex Riabtsev</div>
+<div class="site-tagline">Стартапи. Маркетинг. Освіта</div>
+<div class="social-links">
+  <a href="https://github.com/alexriabtsev" title="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+  <a href="#" title="LinkedIn"><svg viewBox="0 0 24 24"><rect x="1" y="1" width="22" height="22" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><text x="12" y="17" font-family="Arial, sans-serif" font-weight="bold" font-size="11" text-anchor="middle" fill="currentColor">in</text></svg></a>
+  <a href="#" title="Twitter/X"><svg viewBox="0 0 24 24"><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg></a>
+  <a href="#" title="Instagram"><svg viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg></a>
+  <a href="#" title="Facebook"><svg viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg></a>
+  <a href="https://t.me/alexriabtsev" title="Telegram"><svg viewBox="0 0 24 24"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg></a>
+</div>
+<div class="copyright">© 2026</div>
+<div class="theme-toggle-wrap">
+  <span>Dark Mode</span>
+  <label class="theme-toggle">
+    <input type="checkbox" id="theme-toggle-checkbox" />
+    <span class="slider"></span>
+  </label>
+</div>
+<script src="/js/theme-toggle.js"></script>
+</header>
+<main id="content" class="content">
+<header>
+<h1 class="title">Архів постів</h1>
+</header><ul class="org-ul">
+<li><time class="datetime">24.09.2026</time> <a href="2026/09/the-comma-problem/index.html">The Comma Problem: What Russian Pop Music Reveals About the Limits of Content Moderation</a></li>
+<li><time class="datetime">01.07.2020</time> <a href="2020/07/01/Jekyll-migration/index.html">Міграція на Jekyll та Github Pages</a></li>
+<li><time class="datetime">25.03.2020</time> <a href="2020/03/ostanniy-den-karantyn-kursu-osobystyy-brend/index.html">Останній день карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">23.03.2020</time> <a href="2020/03/p-iatyy-den-karantyn-kursu-osobystyy-brend/index.html">Передостанній день карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">20.03.2020</time> <a href="2020/03/chetvertyy-den-karantyn-kursu-osobystyy-brend/index.html">Четвертий день карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">19.03.2020</time> <a href="2020/03/tretiy-den-karantyn-kursu-osobystyy-brend/index.html">Третій день карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">18.03.2020</time> <a href="2020/03/konspekt-druhoho-dnia-karantyn-kursu-osobystyy-brend/index.html">Конспект другого дня карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">17.03.2020</time> <a href="2020/03/pershyy-den-karantyn-kursu-osobystyy-brend/index.html">Перший день карантин-курсу "Особистий бренд"</a></li>
+<li><time class="datetime">05.03.2020</time> <a href="2020/03/konspekt-zustrichi-z-dmytrom-korchevs-kym-v-ka-shah/index.html">Конспект зустрічі з Дмитром Корчевським в КА "ШАГ"</a></li>
+<li><time class="datetime">21.01.2020</time> <a href="2020/01/pidsumky-roku-knyhy/index.html">Підсумки року. Книги</a></li>
+<li><time class="datetime">04.01.2020</time> <a href="2020/01/pidsumky-roku-open-source/index.html">Підсумки року. Open-source</a></li>
+<li><time class="datetime">19.03.2019</time> <a href="2019/03/ya-proskanuvav-ukrainu/index.html">Я просканував Україну</a></li>
+<li><time class="datetime">02.10.2018</time> <a href="2018/10/ytohy-sentiabria/index.html">Итоги сентября</a></li>
+<li><time class="datetime">21.07.2018</time> <a href="2018/07/kak-sdelat-vse-vazhnoe-y-ne-sojty-s-uma/index.html">Как сделать "все важное" и не сойти с ума?</a></li>
+<li><time class="datetime">11.06.2018</time> <a href="2018/06/dits-vozmozhnosty-dlya-novychkov-y-senorov/index.html">DITS - возможности для новичков и сеньоров</a></li>
+<li><time class="datetime">12.02.2018</time> <a href="2018/02/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-3-zaklyuchytelnaya-yhor-pertsyya/index.html">Конспект встречи Digital marketing и PR 25 января 2018 года (часть 3,  заключительная – Игорь Перция)</a></li>
+<li><time class="datetime">04.02.2018</time> <a href="2018/02/digital-marketing-for-startup-chast-2-veroslava-novosylnaya/index.html">Конспект встречи Digital marketing и PR 25 января 2018 года (часть 2 &amp;#8211; Верослава Новосильная)</a></li>
+<li><time class="datetime">26.01.2018</time> <a href="2018/01/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-1-evhenyj-shevchenko/index.html">Конспект встречи Digital marketing и PR 25 января 2018 года (часть 1 &amp;#8211; Евгений Шевченко)</a></li>
+<li><time class="datetime">28.11.2017</time> <a href="2017/11/ynteresnyie-zadachy-y-reshenyya-mongodb/index.html">Интересные задачи и решения: mongodb</a></li>
+<li><time class="datetime">27.06.2016</time> <a href="2016/06/brexit-ukrajinski-naslidky/index.html">BrExit: українські наслідки</a></li>
+<li><time class="datetime">19.06.2016</time> <a href="2016/06/spysok-knyh-2016/index.html">Список книг 2016</a></li>
+<li><time class="datetime">10.06.2016</time> <a href="2016/06/99-voprosov-dlya-lychnoho-razvytyya/index.html">99 вопросов для личного развития</a></li>
+<li><time class="datetime">15.05.2016</time> <a href="2016/05/poryadok-dennyj-dlya-ukrajinskoho-suspilstva-pislya-peremohy-dzhamaly/index.html">Порядок денний для українського суспільства після перемоги Джамали</a></li>
+<li><time class="datetime">09.02.2016</time> <a href="2016/02/korotkyj-osint-z-pryvodu-perehoniv-ta-perestrilky/index.html">Короткий OSINT з приводу перегонів та перестрілки</a></li>
+<li><time class="datetime">01.02.2016</time> <a href="2016/02/ytohy-yanvarya/index.html">Итоги января.</a></li>
+<li><time class="datetime">16.01.2016</time> <a href="2016/01/2-nedely-novoho-hoda-rezultatyi/index.html">2 недели Нового Года. Результаты.</a></li>
+<li><time class="datetime">14.01.2016</time> <a href="2016/01/walking-thu-14-jan-2016-221755/index.html">Walking: Thu, 14 Jan 2016 22:17:55</a></li>
+<li><time class="datetime">14.01.2016</time> <a href="2016/01/running-thu-14-jan-2016-173031/index.html">Running: Thu, 14 Jan 2016 17:30:31</a></li>
+<li><time class="datetime">14.01.2016</time> <a href="2016/01/running-thu-14-jan-2016-173029/index.html">Running: Thu, 14 Jan 2016 17:30:29</a></li>
+<li><time class="datetime">13.01.2016</time> <a href="2016/01/running-wed-13-jan-2016-232523/index.html">Running: Wed, 13 Jan 2016 23:25:23</a></li>
+<li><time class="datetime">12.01.2016</time> <a href="2016/01/walking-tue-12-jan-2016-170448/index.html">Walking: Tue, 12 Jan 2016 17:04:48</a></li>
+<li><time class="datetime">12.01.2016</time> <a href="2016/01/running-tue-12-jan-2016-162437/index.html">Running: Tue, 12 Jan 2016 16:24:37</a></li>
+<li><time class="datetime">11.01.2016</time> <a href="2016/01/running-mon-11-jan-2016-144151/index.html">Running: Mon, 11 Jan 2016 14:41:51</a></li>
+<li><time class="datetime">10.01.2016</time> <a href="2016/01/running-sun-10-jan-2016-161713/index.html">Running: Sun, 10 Jan 2016 16:17:13</a></li>
+<li><time class="datetime">10.01.2016</time> <a href="2016/01/running-sun-10-jan-2016-155757/index.html">Running: Sun, 10 Jan 2016 15:57:57</a></li>
+<li><time class="datetime">09.01.2016</time> <a href="2016/01/running-sat-9-jan-2016-183814/index.html">Running: Sat, 9 Jan 2016 18:38:14</a></li>
+<li><time class="datetime">08.01.2016</time> <a href="2016/01/running-fri-8-jan-2016-202427/index.html">Running: Fri, 8 Jan 2016 20:24:27</a></li>
+<li><time class="datetime">07.01.2016</time> <a href="2016/01/running-thu-7-jan-2016-144555/index.html">Running: Thu, 7 Jan 2016 14:45:55</a></li>
+<li><time class="datetime">06.01.2016</time> <a href="2016/01/running-wed-6-jan-2016-193628/index.html">Running: Wed, 6 Jan 2016 19:36:28</a></li>
+<li><time class="datetime">05.01.2016</time> <a href="2016/01/running-tue-5-jan-2016-230247/index.html">Running: Tue, 5 Jan 2016 23:02:47</a></li>
+<li><time class="datetime">05.01.2016</time> <a href="2016/01/walking-tue-5-jan-2016-184848/index.html">Walking: Tue, 5 Jan 2016 18:48:48</a></li>
+<li><time class="datetime">04.01.2016</time> <a href="2016/01/running-mon-4-jan-2016-201525/index.html">Running: Mon, 4 Jan 2016 20:15:25</a></li>
+<li><time class="datetime">04.01.2016</time> <a href="2016/01/running-mon-4-jan-2016-201338/index.html">Running: Mon, 4 Jan 2016 20:13:38</a></li>
+<li><time class="datetime">03.01.2016</time> <a href="2016/01/running-sun-3-jan-2016-182905/index.html">Running: Sun, 3 Jan 2016 18:29:05</a></li>
+<li><time class="datetime">03.01.2016</time> <a href="2016/01/running-sun-3-jan-2016-182852/index.html">Running: Sun, 3 Jan 2016 18:28:52</a></li>
+<li><time class="datetime">03.01.2016</time> <a href="2016/01/walking-sun-3-jan-2016-104811/index.html">Walking: Sun, 3 Jan 2016 10:48:11</a></li>
+<li><time class="datetime">02.01.2016</time> <a href="2016/01/running-sat-2-jan-2016-224803/index.html">Running: Sat, 2 Jan 2016 22:48:03</a></li>
+<li><time class="datetime">02.01.2016</time> <a href="2016/01/walking-sat-2-jan-2016-143941/index.html">Walking: Sat, 2 Jan 2016 14:39:41</a></li>
+<li><time class="datetime">01.01.2016</time> <a href="2016/01/walking-fri-1-jan-2016-155739/index.html">Walking: Fri, 1 Jan 2016 15:57:39</a></li>
+<li><time class="datetime">01.01.2016</time> <a href="2016/01/running-fri-1-jan-2016-153733/index.html">Running: Fri, 1 Jan 2016 15:37:33</a></li>
+<li><time class="datetime">31.12.2015</time> <a href="2015/12/walking-thu-31-dec-2015-182745/index.html">Walking: Thu, 31 Dec 2015 18:27:45</a></li>
+<li><time class="datetime">30.12.2015</time> <a href="2015/12/walking-wed-30-dec-2015-171819/index.html">Walking: Wed, 30 Dec 2015 17:18:19</a></li>
+<li><time class="datetime">29.12.2015</time> <a href="2015/12/walking-tue-29-dec-2015-091019/index.html">Walking: Tue, 29 Dec 2015 09:10:19</a></li>
+<li><time class="datetime">28.12.2015</time> <a href="2015/12/walking-mon-28-dec-2015-174946/index.html">Walking: Mon, 28 Dec 2015 17:49:46</a></li>
+<li><time class="datetime">27.12.2015</time> <a href="2015/12/walking-sun-27-dec-2015-191923/index.html">Walking: Sun, 27 Dec 2015 19:19:23</a></li>
+<li><time class="datetime">25.12.2015</time> <a href="2015/12/walking-fri-25-dec-2015-215909/index.html">Walking: Fri, 25 Dec 2015 21:59:09</a></li>
+<li><time class="datetime">22.12.2015</time> <a href="2015/12/walking-tue-22-dec-2015-230839/index.html">Walking: Tue, 22 Dec 2015 23:08:39</a></li>
+<li><time class="datetime">19.12.2015</time> <a href="2015/12/walking-sat-19-dec-2015-211948/index.html">Walking: Sat, 19 Dec 2015 21:19:48</a></li>
+<li><time class="datetime">18.12.2015</time> <a href="2015/12/walking-fri-18-dec-2015-215850/index.html">Walking: Fri, 18 Dec 2015 21:58:50</a></li>
+<li><time class="datetime">18.12.2015</time> <a href="2015/12/walking-fri-18-dec-2015-165344/index.html">Walking: Fri, 18 Dec 2015 16:53:44</a></li>
+<li><time class="datetime">18.12.2015</time> <a href="2015/12/walking-fri-18-dec-2015-145144/index.html">Walking: Fri, 18 Dec 2015 14:51:44</a></li>
+<li><time class="datetime">17.12.2015</time> <a href="2015/12/walking-thu-17-dec-2015-134731/index.html">Walking: Thu, 17 Dec 2015 13:47:31</a></li>
+<li><time class="datetime">16.12.2015</time> <a href="2015/12/walking-wed-16-dec-2015-233145/index.html">Walking: Wed, 16 Dec 2015 23:31:45</a></li>
+<li><time class="datetime">15.12.2015</time> <a href="2015/12/walking-tue-15-dec-2015-232457/index.html">Walking: Tue, 15 Dec 2015 23:24:57</a></li>
+<li><time class="datetime">15.12.2015</time> <a href="2015/12/walking-tue-15-dec-2015-162115/index.html">Walking: Tue, 15 Dec 2015 16:21:15</a></li>
+<li><time class="datetime">14.12.2015</time> <a href="2015/12/walking-mon-14-dec-2015-230521/index.html">Walking: Mon, 14 Dec 2015 23:05:21</a></li>
+<li><time class="datetime">14.12.2015</time> <a href="2015/12/walking-mon-14-dec-2015-202652/index.html">Walking: Mon, 14 Dec 2015 20:26:52</a></li>
+<li><time class="datetime">13.12.2015</time> <a href="2015/12/walking-sun-13-dec-2015-081207/index.html">Walking: Sun, 13 Dec 2015 08:12:07</a></li>
+<li><time class="datetime">13.12.2015</time> <a href="2015/12/walking-sun-13-dec-2015-054108/index.html">Walking: Sun, 13 Dec 2015 05:41:08</a></li>
+<li><time class="datetime">12.12.2015</time> <a href="2015/12/walking-sat-12-dec-2015-154854/index.html">Walking: Sat, 12 Dec 2015 15:48:54</a></li>
+<li><time class="datetime">12.12.2015</time> <a href="2015/12/walking-sat-12-dec-2015-115258/index.html">Walking: Sat, 12 Dec 2015 11:52:58</a></li>
+<li><time class="datetime">10.12.2015</time> <a href="2015/12/walking-thu-10-dec-2015-121432/index.html">Walking: Thu, 10 Dec 2015 12:14:32</a></li>
+<li><time class="datetime">09.12.2015</time> <a href="2015/12/walking-wed-9-dec-2015-215311/index.html">Walking: Wed, 9 Dec 2015 21:53:11</a></li>
+<li><time class="datetime">09.12.2015</time> <a href="2015/12/walking-wed-9-dec-2015-195705/index.html">Walking: Wed, 9 Dec 2015 19:57:05</a></li>
+<li><time class="datetime">08.12.2015</time> <a href="2015/12/walking-tue-8-dec-2015-230620/index.html">Walking: Tue, 8 Dec 2015 23:06:20</a></li>
+<li><time class="datetime">08.12.2015</time> <a href="2015/12/walking-tue-8-dec-2015-145525/index.html">Walking: Tue, 8 Dec 2015 14:55:25</a></li>
+<li><time class="datetime">07.12.2015</time> <a href="2015/12/walking-mon-7-dec-2015-162955/index.html">Walking: Mon, 7 Dec 2015 16:29:55</a></li>
+<li><time class="datetime">07.12.2015</time> <a href="2015/12/walking-mon-7-dec-2015-151727/index.html">Walking: Mon, 7 Dec 2015 15:17:27</a></li>
+<li><time class="datetime">07.12.2015</time> <a href="2015/12/walking-mon-7-dec-2015-133225/index.html">Walking: Mon, 7 Dec 2015 13:32:25</a></li>
+<li><time class="datetime">06.12.2015</time> <a href="2015/12/walking-sun-6-dec-2015-232740/index.html">Walking: Sun, 6 Dec 2015 23:27:40</a></li>
+<li><time class="datetime">06.12.2015</time> <a href="2015/12/walking-sun-6-dec-2015-144923/index.html">Walking: Sun, 6 Dec 2015 14:49:23</a></li>
+<li><time class="datetime">04.12.2015</time> <a href="2015/12/walking-fri-4-dec-2015-115851/index.html">Walking: Fri, 4 Dec 2015 11:58:51</a></li>
+<li><time class="datetime">03.12.2015</time> <a href="2015/12/running-thu-3-dec-2015-231349/index.html">Running: Thu, 3 Dec 2015 23:13:49</a></li>
+<li><time class="datetime">02.12.2015</time> <a href="2015/12/running-wed-2-dec-2015-233248/index.html">Running: Wed, 2 Dec 2015 23:32:48</a></li>
+<li><time class="datetime">01.12.2015</time> <a href="2015/12/running-tue-1-dec-2015-231811/index.html">Running: Tue, 1 Dec 2015 23:18:11</a></li>
+<li><time class="datetime">01.12.2015</time> <a href="2015/12/walking-tue-1-dec-2015-173929/index.html">Walking: Tue, 1 Dec 2015 17:39:29</a></li>
+<li><time class="datetime">01.12.2015</time> <a href="2015/12/walking-tue-1-dec-2015-124042/index.html">Walking: Tue, 1 Dec 2015 12:40:42</a></li>
+<li><time class="datetime">30.11.2015</time> <a href="2015/11/walking-mon-30-nov-2015-222445/index.html">Walking: Mon, 30 Nov 2015 22:24:45</a></li>
+<li><time class="datetime">29.11.2015</time> <a href="2015/11/running-sun-29-nov-2015-202705/index.html">Running: Sun, 29 Nov 2015 20:27:05</a></li>
+<li><time class="datetime">28.11.2015</time> <a href="2015/11/running-sat-28-nov-2015-203915/index.html">Running: Sat, 28 Nov 2015 20:39:15</a></li>
+<li><time class="datetime">28.11.2015</time> <a href="2015/11/running-sat-28-nov-2015-203913/index.html">Running: Sat, 28 Nov 2015 20:39:13</a></li>
+<li><time class="datetime">27.11.2015</time> <a href="2015/11/running-fri-27-nov-2015-231500/index.html">Running: Fri, 27 Nov 2015 23:15:00</a></li>
+<li><time class="datetime">26.11.2015</time> <a href="2015/11/running-thu-26-nov-2015-215119/index.html">Running: Thu, 26 Nov 2015 21:51:19</a></li>
+<li><time class="datetime">26.11.2015</time> <a href="2015/11/running-thu-26-nov-2015-215057/index.html">Running: Thu, 26 Nov 2015 21:50:57</a></li>
+<li><time class="datetime">26.11.2015</time> <a href="2015/11/walking-thu-26-nov-2015-144818/index.html">Walking: Thu, 26 Nov 2015 14:48:18</a></li>
+<li><time class="datetime">26.11.2015</time> <a href="2015/11/walking-thu-26-nov-2015-123834/index.html">Walking: Thu, 26 Nov 2015 12:38:34</a></li>
+<li><time class="datetime">25.11.2015</time> <a href="2015/11/walking-wed-25-nov-2015-132422/index.html">Walking: Wed, 25 Nov 2015 13:24:22</a></li>
+<li><time class="datetime">25.11.2015</time> <a href="2015/11/running-wed-25-nov-2015-130303/index.html">Running: Wed, 25 Nov 2015 13:03:03</a></li>
+<li><time class="datetime">25.11.2015</time> <a href="2015/11/running-wed-25-nov-2015-120957/index.html">Running: Wed, 25 Nov 2015 12:09:57</a></li>
+<li><time class="datetime">24.11.2015</time> <a href="2015/11/running-tue-24-nov-2015-163316/index.html">Running: Tue, 24 Nov 2015 16:33:16</a></li>
+<li><time class="datetime">24.11.2015</time> <a href="2015/11/running-tue-24-nov-2015-160424/index.html">Running: Tue, 24 Nov 2015 16:04:24</a></li>
+<li><time class="datetime">24.11.2015</time> <a href="2015/11/running-tue-24-nov-2015-160100/index.html">Running: Tue, 24 Nov 2015 16:01:00</a></li>
+<li><time class="datetime">24.11.2015</time> <a href="2015/11/walking-tue-24-nov-2015-145253/index.html">Walking: Tue, 24 Nov 2015 14:52:53</a></li>
+<li><time class="datetime">23.11.2015</time> <a href="2015/11/running-mon-23-nov-2015-200727/index.html">Running: Mon, 23 Nov 2015 20:07:27</a></li>
+<li><time class="datetime">23.11.2015</time> <a href="2015/11/running-mon-23-nov-2015-200728/index.html">Running: Mon, 23 Nov 2015 20:07:28</a></li>
+<li><time class="datetime">22.11.2015</time> <a href="2015/11/running-sun-22-nov-2015-155437/index.html">Running: Sun, 22 Nov 2015 15:54:37</a></li>
+<li><time class="datetime">22.11.2015</time> <a href="2015/11/running-sun-22-nov-2015-153147/index.html">Running: Sun, 22 Nov 2015 15:31:47</a></li>
+<li><time class="datetime">22.11.2015</time> <a href="2015/11/running-sun-22-nov-2015-135933/index.html">Running: Sun, 22 Nov 2015 13:59:33</a></li>
+<li><time class="datetime">21.11.2015</time> <a href="2015/11/post-blahodarnosty-1-vyacheslav-suhomlynov/index.html">Пост благодарности №1. Вячеслав Сухомлинов</a></li>
+<li><time class="datetime">21.11.2015</time> <a href="2015/11/running-sat-21-nov-2015-153219/index.html">Running: Sat, 21 Nov 2015 15:32:19</a></li>
+<li><time class="datetime">21.11.2015</time> <a href="2015/11/running-sat-21-nov-2015-152526-4/index.html">Running: Sat, 21 Nov 2015 15:25:26</a></li>
+<li><time class="datetime">21.11.2015</time> <a href="2015/11/running-sat-21-nov-2015-152526/index.html">Running: Sat, 21 Nov 2015 15:25:26</a></li>
+<li><time class="datetime">20.11.2015</time> <a href="2015/11/running-fri-20-nov-2015-141659/index.html">Running: Fri, 20 Nov 2015 14:16:59</a></li>
+<li><time class="datetime">17.11.2015</time> <a href="2015/11/running-tue-17-nov-2015-220446/index.html">Running: Tue, 17 Nov 2015 22:04:46</a></li>
+<li><time class="datetime">16.11.2015</time> <a href="2015/11/running-mon-16-nov-2015-231633/index.html">Running: Mon, 16 Nov 2015 23:16:33</a></li>
+<li><time class="datetime">16.11.2015</time> <a href="2015/11/walking-mon-16-nov-2015-220641/index.html">Walking: Mon, 16 Nov 2015 22:06:41</a></li>
+<li><time class="datetime">16.11.2015</time> <a href="2015/11/walking-mon-16-nov-2015-172828/index.html">Walking: Mon, 16 Nov 2015 17:28:28</a></li>
+<li><time class="datetime">16.11.2015</time> <a href="2015/11/walking-mon-16-nov-2015-083446/index.html">Walking: Mon, 16 Nov 2015 08:34:46</a></li>
+<li><time class="datetime">12.11.2015</time> <a href="2015/11/walking-thu-12-nov-2015-185607/index.html">Walking: Thu, 12 Nov 2015 18:56:07</a></li>
+<li><time class="datetime">10.11.2015</time> <a href="2015/11/running-tue-10-nov-2015-195610/index.html">Running: Tue, 10 Nov 2015 19:56:10</a></li>
+<li><time class="datetime">09.11.2015</time> <a href="2015/11/running-mon-9-nov-2015-211404/index.html">Running: Mon, 9 Nov 2015 21:14:04</a></li>
+<li><time class="datetime">09.11.2015</time> <a href="2015/11/walking-mon-9-nov-2015-193331/index.html">Walking: Mon, 9 Nov 2015 19:33:31</a></li>
+<li><time class="datetime">09.11.2015</time> <a href="2015/11/ahent-007-spektr/index.html">Агент 007. Спектр</a></li>
+<li><time class="datetime">09.11.2015</time> <a href="2015/11/pobeh-yz-shoushenka/index.html">&amp;#8220;Побег из Шоушенка&amp;#8221;</a></li>
+<li><time class="datetime">07.11.2015</time> <a href="2015/11/walking-sat-7-nov-2015-171631/index.html">Walking: Sat, 7 Nov 2015 17:16:31</a></li>
+<li><time class="datetime">06.11.2015</time> <a href="2015/11/walking-fri-6-nov-2015-150007/index.html">Walking: Fri, 6 Nov 2015 15:00:07</a></li>
+<li><time class="datetime">05.11.2015</time> <a href="2015/11/walking-thu-5-nov-2015-110417/index.html">Walking: Thu, 5 Nov 2015 11:04:17</a></li>
+<li><time class="datetime">04.11.2015</time> <a href="2015/11/walking-wed-4-nov-2015-191222/index.html">Walking: Wed, 4 Nov 2015 19:12:22</a></li>
+<li><time class="datetime">04.11.2015</time> <a href="2015/11/walking-wed-4-nov-2015-182149/index.html">Walking: Wed, 4 Nov 2015 18:21:49</a></li>
+<li><time class="datetime">04.11.2015</time> <a href="2015/11/walking-wed-4-nov-2015-161010/index.html">Walking: Wed, 4 Nov 2015 16:10:10</a></li>
+<li><time class="datetime">03.11.2015</time> <a href="2015/11/walking-tue-3-nov-2015-211111/index.html">Walking: Tue, 3 Nov 2015 21:11:11</a></li>
+<li><time class="datetime">03.11.2015</time> <a href="2015/11/walking-tue-3-nov-2015-182000/index.html">Walking: Tue, 3 Nov 2015 18:20:00</a></li>
+<li><time class="datetime">02.11.2015</time> <a href="2015/11/walking-mon-2-nov-2015-144219/index.html">Walking: Mon, 2 Nov 2015 14:42:19</a></li>
+<li><time class="datetime">02.11.2015</time> <a href="2015/11/walking-mon-2-nov-2015-125019/index.html">Walking: Mon, 2 Nov 2015 12:50:19</a></li>
+<li><time class="datetime">01.11.2015</time> <a href="2015/11/poslednyj-zamok-ystoryya-henerala/index.html">&amp;#8220;Последний замок&amp;#8221; &amp;#8211; история генерала</a></li>
+<li><time class="datetime">01.11.2015</time> <a href="2015/11/den-byuttner-pravyla-dolholetyya/index.html">Дэн Бюттнер &amp;#8220;Правила долголетия&amp;#8221;</a></li>
+<li><time class="datetime">01.11.2015</time> <a href="2015/11/ejzenhauer-krestovyij-pohod-v-evropu/index.html">Эйзенхауэр &amp;#8220;Крестовый поход в Европу&amp;#8221;</a></li>
+<li><time class="datetime">29.10.2015</time> <a href="2015/10/walking-thu-29-oct-2015-135934/index.html">Walking: Thu, 29 Oct 2015 13:59:34</a></li>
+<li><time class="datetime">28.10.2015</time> <a href="2015/10/walking-wed-28-oct-2015-232120-3/index.html">Walking: Wed, 28 Oct 2015 23:21:20</a></li>
+<li><time class="datetime">27.10.2015</time> <a href="2015/10/walking-tue-27-oct-2015-131645-3/index.html">Walking: Tue, 27 Oct 2015 13:16:45</a></li>
+<li><time class="datetime">27.10.2015</time> <a href="2015/10/walking-tue-27-oct-2015-115852/index.html">Walking: Tue, 27 Oct 2015 11:58:52</a></li>
+<li><time class="datetime">24.10.2015</time> <a href="2015/10/walking-sat-24-oct-2015-135728/index.html">Walking: Sat, 24 Oct 2015 13:57:28</a></li>
+<li><time class="datetime">24.10.2015</time> <a href="2015/10/walking-sat-24-oct-2015-115345-2/index.html">Walking: Sat, 24 Oct 2015 11:53:45</a></li>
+<li><time class="datetime">21.10.2015</time> <a href="2015/10/walking-wed-21-oct-2015-184444-2/index.html">Walking: Wed, 21 Oct 2015 18:44:44</a></li>
+<li><time class="datetime">21.10.2015</time> <a href="2015/10/walking-wed-21-oct-2015-174557-2/index.html">Walking: Wed, 21 Oct 2015 17:45:57</a></li>
+<li><time class="datetime">21.10.2015</time> <a href="2015/10/walking-wed-21-oct-2015-162140/index.html">Walking: Wed, 21 Oct 2015 16:21:40</a></li>
+<li><time class="datetime">21.10.2015</time> <a href="2015/10/walking-wed-21-oct-2015-150413/index.html">Walking: Wed, 21 Oct 2015 15:04:13</a></li>
+<li><time class="datetime">21.10.2015</time> <a href="2015/10/walking-wed-21-oct-2015-135530-3/index.html">Walking: Wed, 21 Oct 2015 13:55:30</a></li>
+<li><time class="datetime">20.10.2015</time> <a href="2015/10/walking-tue-20-oct-2015-222814-2/index.html">Walking: Tue, 20 Oct 2015 22:28:14</a></li>
+<li><time class="datetime">20.10.2015</time> <a href="2015/10/walking-tue-20-oct-2015-215824-3/index.html">Walking: Tue, 20 Oct 2015 21:58:24</a></li>
+<li><time class="datetime">20.10.2015</time> <a href="2015/10/walking-tue-20-oct-2015-211002-3/index.html">Walking: Tue, 20 Oct 2015 21:10:02</a></li>
+<li><time class="datetime">19.10.2015</time> <a href="2015/10/walking-mon-19-oct-2015-175657-3/index.html">Walking: Mon, 19 Oct 2015 17:56:57</a></li>
+<li><time class="datetime">19.10.2015</time> <a href="2015/10/walking-mon-19-oct-2015-164614-2/index.html">Walking: Mon, 19 Oct 2015 16:46:14</a></li>
+<li><time class="datetime">19.10.2015</time> <a href="2015/10/walking-mon-19-oct-2015-164614-3/index.html">Walking: Mon, 19 Oct 2015 16:46:14</a></li>
+<li><time class="datetime">19.10.2015</time> <a href="2015/10/walking-mon-19-oct-2015-153850/index.html">Walking: Mon, 19 Oct 2015 15:38:50</a></li>
+<li><time class="datetime">19.10.2015</time> <a href="2015/10/walking-mon-19-oct-2015-140939-2/index.html">Walking: Mon, 19 Oct 2015 14:09:39</a></li>
+<li><time class="datetime">18.10.2015</time> <a href="2015/10/walking-sun-18-oct-2015-171746-3/index.html">Walking: Sun, 18 Oct 2015 17:17:46</a></li>
+<li><time class="datetime">18.10.2015</time> <a href="2015/10/walking-sun-18-oct-2015-160044-5/index.html">Walking: Sun, 18 Oct 2015 16:00:44</a></li>
+<li><time class="datetime">18.10.2015</time> <a href="2015/10/walking-sun-18-oct-2015-134005-3/index.html">Walking: Sun, 18 Oct 2015 13:40:05</a></li>
+<li><time class="datetime">17.10.2015</time> <a href="2015/10/walking-sat-17-oct-2015-172312-3/index.html">Walking: Sat, 17 Oct 2015 17:23:12</a></li>
+<li><time class="datetime">17.10.2015</time> <a href="2015/10/walking-sat-17-oct-2015-165220-2/index.html">Walking: Sat, 17 Oct 2015 16:52:20</a></li>
+<li><time class="datetime">16.10.2015</time> <a href="2015/10/walking-fri-16-oct-2015-215309-2/index.html">Walking: Fri, 16 Oct 2015 21:53:09</a></li>
+<li><time class="datetime">16.10.2015</time> <a href="2015/10/walking-fri-16-oct-2015-211226/index.html">Walking: Fri, 16 Oct 2015 21:12:26</a></li>
+<li><time class="datetime">15.10.2015</time> <a href="2015/10/walking-thu-15-oct-2015-154829/index.html">Walking: Thu, 15 Oct 2015 15:48:29</a></li>
+<li><time class="datetime">15.10.2015</time> <a href="2015/10/cloudhq-2015/index.html">CloudHQ &amp;#8211; возможность порядка в мире цифрового хаоса</a></li>
+<li><time class="datetime">13.10.2015</time> <a href="2015/10/walking-tue-13-oct-2015-191254/index.html">Walking: Tue, 13 Oct 2015 19:12:54</a></li>
+<li><time class="datetime">12.10.2015</time> <a href="2015/10/walking-mon-12-oct-2015-195501/index.html">Walking: Mon, 12 Oct 2015 19:55:01</a></li>
+<li><time class="datetime">09.10.2015</time> <a href="2015/10/walking-fri-9-oct-2015-191351-2/index.html">Walking: Fri, 9 Oct 2015 19:13:51</a></li>
+<li><time class="datetime">08.10.2015</time> <a href="2015/10/walking-thu-8-oct-2015-175854/index.html">Walking: Thu, 8 Oct 2015 17:58:54</a></li>
+<li><time class="datetime">07.10.2015</time> <a href="2015/10/walking-wed-7-oct-2015-213624-2/index.html">Walking: Wed, 7 Oct 2015 21:36:24</a></li>
+<li><time class="datetime">07.10.2015</time> <a href="2015/10/walking-wed-7-oct-2015-183058-2/index.html">Walking: Wed, 7 Oct 2015 18:30:58</a></li>
+<li><time class="datetime">07.10.2015</time> <a href="2015/10/walking-wed-7-oct-2015-181005-2/index.html">Walking: Wed, 7 Oct 2015 18:10:05</a></li>
+<li><time class="datetime">06.10.2015</time> <a href="2015/10/walking-tue-6-oct-2015-152736/index.html">Walking: Tue, 6 Oct 2015 15:27:36</a></li>
+<li><time class="datetime">03.10.2015</time> <a href="2015/10/running-sat-3-oct-2015-094752-2/index.html">Running: Sat, 3 Oct 2015 09:47:52</a></li>
+<li><time class="datetime">03.10.2015</time> <a href="2015/10/walking-sat-3-oct-2015-094722-2/index.html">Walking: Sat, 3 Oct 2015 09:47:22</a></li>
+<li><time class="datetime">02.10.2015</time> <a href="2015/10/walking-fri-2-oct-2015-182523-2/index.html">Walking: Fri, 2 Oct 2015 18:25:23</a></li>
+<li><time class="datetime">02.10.2015</time> <a href="2015/10/walking-fri-2-oct-2015-152247/index.html">Walking: Fri, 2 Oct 2015 15:22:47</a></li>
+<li><time class="datetime">01.10.2015</time> <a href="2015/10/other-thu-1-oct-2015-190522/index.html">Other: Thu, 1 Oct 2015 19:05:22</a></li>
+<li><time class="datetime">01.10.2015</time> <a href="2015/10/running-thu-1-oct-2015-183119/index.html">Running: Thu, 1 Oct 2015 18:31:19</a></li>
+<li><time class="datetime">30.09.2015</time> <a href="2015/09/walking-wed-30-sep-2015-142742/index.html">Walking: Wed, 30 Sep 2015 14:27:42</a></li>
+<li><time class="datetime">27.09.2015</time> <a href="2015/09/running-sun-27-sep-2015-104804/index.html">Running: Sun, 27 Sep 2015 10:48:04</a></li>
+<li><time class="datetime">26.09.2015</time> <a href="2015/09/walking-sat-26-sep-2015-161341/index.html">Walking: Sat, 26 Sep 2015 16:13:41</a></li>
+<li><time class="datetime">01.09.2015</time> <a href="2015/09/ytohy-avhusta-2015/index.html">Итоги августа-2015</a></li>
+<li><time class="datetime">01.05.2015</time> <a href="2015/05/forumone-fredryk-haren/index.html">ForumOne. Фредрик Харен</a></li>
+<li><time class="datetime">01.05.2015</time> <a href="2015/05/forumone-evhenyj-chychvarkyn/index.html">ForumOne. Евгений Чичваркин</a></li>
+<li><time class="datetime">01.05.2015</time> <a href="2015/05/forumone-richard-brenson/index.html">ForumOne. Річард Бренсон</a></li>
+<li><time class="datetime">06.04.2015</time> <a href="2015/04/frantsuzy-spalyly-sofiyu-kyjivsku/index.html">Французи спалили Софію Київську</a></li>
+<li><time class="datetime">21.10.2014</time> <a href="2014/10/fyzyka-buduscheho-mytyo-kaku/index.html">&amp;#8220;Физика будущего&amp;#8221; Митио Каку</a></li>
+<li><time class="datetime">17.10.2014</time> <a href="2014/10/eta-strannaya-zhyzn-lyudyna-ta-systema/index.html">&amp;#8220;Эта странная жизнь&amp;#8221; &amp;#8211; Людина та Система</a></li>
+<li><time class="datetime">17.10.2014</time> <a href="2014/10/nedobraya-staraya-anhlyya-viktorianska-doba-na-dni/index.html">&amp;#8220;Недобрая старая Англия&amp;#8221;: вікторіанська доба &amp;#8220;на дні&amp;#8221;</a></li>
+<li><time class="datetime">17.10.2014</time> <a href="2014/10/tehkemp-kyrhyzstan-korotki-vrazhennya/index.html">ТехКемп Киргизстан: короткі враження</a></li>
+<li><time class="datetime">29.09.2014</time> <a href="2014/09/fb-free-misyats-pozadu/index.html">#FB-FREE. Місяць позаду.</a></li>
+<li><time class="datetime">09.09.2014</time> <a href="2014/09/frydman-sleduyuschye-100-let/index.html">Фридман &amp;#8220;Следующие 100 лет&amp;#8221;</a></li>
+<li><time class="datetime">08.09.2014</time> <a href="2014/09/fb-free-pershyj-tyzhden/index.html">#FB-FREE. Перший тиждень</a></li>
+<li><time class="datetime">03.09.2014</time> <a href="2014/09/fb-free-den-tretij/index.html">#FB-FREE. День третій</a></li>
+<li><time class="datetime">01.09.2014</time> <a href="2014/09/fb-free-den-pershyj/index.html">#FB-free. День перший.</a></li>
+<li><time class="datetime">28.08.2014</time> <a href="2014/08/pro-prychyny-ta-ochikuvani-naslidky-eksperymentu-fb-free/index.html">Про причини та очікувані наслідки експерименту #fb-free</a></li>
+<li><time class="datetime">10.11.2013</time> <a href="2013/11/pojizdka-do-harkova-v-inkubator-voomy/index.html">Поїздка до Харкова в інкубатор Voomy</a></li>
+<li><time class="datetime">28.10.2013</time> <a href="2013/10/cloudhq-use-najkrasche-razom/index.html">CloudHQ &amp;#8211; усе найкраще разом</a></li>
+<li><time class="datetime">05.10.2013</time> <a href="2013/10/stiv-dzhobs-2-roky-po-tomu/index.html">Стів Джобс: 2 роки по тому&amp;#8230;</a></li>
+<li><time class="datetime">02.08.2013</time> <a href="2013/08/hruzyya-batumy-den-chetvertyij/index.html">Грузия. Батуми. День четвертый.</a></li>
+<li><time class="datetime">02.08.2013</time> <a href="2013/08/hruzyya-batumy-den-tretyj/index.html">Грузия. Батуми. День третий</a></li>
+<li><time class="datetime">01.08.2013</time> <a href="2013/08/hruzyya-batumy-den-vtoroj/index.html">Грузия. Батуми. День второй</a></li>
+<li><time class="datetime">30.07.2013</time> <a href="2013/07/hruzyya-batumy-den-pervyij/index.html">Грузия. Батуми. День первый</a></li>
+<li><time class="datetime">13.01.2013</time> <a href="2013/01/bitcoin/index.html">О bitcoin</a></li>
+<li><time class="datetime">04.01.2013</time> <a href="2013/01/4-01-2013-3-1-3/index.html">[4-01-2013] 3-в-1 выпуск №3</a></li>
+<li><time class="datetime">02.01.2013</time> <a href="2013/01/2-01-2013-3-1-2/index.html">[2-01-2013] 3-в-1: Выпуск №2</a></li>
+<li><time class="datetime">01.01.2013</time> <a href="2013/01/1012013-3-1/index.html">[1.01.2013] 3-в-1 вечером</a></li>
+<li><time class="datetime">31.12.2012</time> <a href="2012/12/2012/index.html">Итоги 2012</a></li>
+<li><time class="datetime">28.12.2012</time> <a href="2012/12/opencart/index.html">Редактирование полей в корзине OpenCart</a></li>
+<li><time class="datetime">26.12.2012</time> <a href="2012/12/173029846/index.html">Про кириллицу и латиницу в профилях</a></li>
+<li><time class="datetime">24.12.2012</time> <a href="2012/12/nachynaem-novohodnye-pozdravlenyya/index.html">Начинаем новогодние поздравления!</a></li>
+<li><time class="datetime">02.10.2012</time> <a href="2012/10/v-chetverh-moj-pervyij-vebynar/index.html">В четверг &amp;#8211; мой первый вебинар</a></li>
+<li><time class="datetime">06.04.2012</time> <a href="2012/04/nastup-na-ukrajinskyj-dublyazh/index.html">Наступ на український дубляж!</a></li>
+<li><time class="datetime">27.03.2012</time> <a href="2012/03/32/index.html">32</a></li>
+<li><time class="datetime">23.02.2012</time> <a href="2012/02/104539882/index.html">Про этапность в жизни</a></li>
+<li><time class="datetime">19.02.2012</time> <a href="2012/02/103244768/index.html">Зі старих нотаток</a></li>
+<li><time class="datetime">09.01.2012</time> <a href="2012/01/qso-cards/index.html">QSL cards</a></li>
+<li><time class="datetime">09.01.2012</time> <a href="2012/01/92971108/index.html">Притча про дровосеков</a></li>
+<li><time class="datetime">04.01.2012</time> <a href="2012/01/self-management/index.html">Self-management: моя система</a></li>
+<li><time class="datetime">28.11.2011</time> <a href="2011/11/82515092/index.html">Листопад: неописані події</a></li>
+<li><time class="datetime">27.10.2011</time> <a href="2011/10/77459532/index.html">О разнице во встречах с блоггерами</a></li>
+<li><time class="datetime">12.10.2011</time> <a href="2011/10/icamplviv/index.html">Про #icamplviv та розвиток подій</a></li>
+<li><time class="datetime">03.10.2011</time> <a href="2011/10/antyreklama-kyyany-proshu-reposta/index.html">Антиреклама! Кияни, прошу репоста</a></li>
+<li><time class="datetime">20.09.2011</time> <a href="2011/09/afhantsyi-berut-shturmom-verhovnuyu-radu/index.html">&amp;quot;Афганцы&amp;quot; берут штурмом Верховную Раду</a></li>
+<li><time class="datetime">08.09.2011</time> <a href="2011/09/69061152/index.html">механізм контролю чи продовження &amp;#8220;листопадових&amp;#8221; тез</a></li>
+<li><time class="datetime">05.09.2011</time> <a href="2011/09/a-website-designed-visual-ly/index.html">A Website, Designed | Visual.ly</a></li>
+<li><time class="datetime">25.08.2011</time> <a href="2011/08/evernote-and-gtd-productivity-101/index.html">Evernote and GTD | Productivity 101</a></li>
+<li><time class="datetime">18.08.2011</time> <a href="2011/08/lazymeter/index.html">LazyMeter</a></li>
+<li><time class="datetime">13.05.2011</time> <a href="2011/05/spetsyalno-dlya-rossyyan-kotoryie-ohuely-ot-sytuatsyy-vo-lvove-na-9-maya/index.html">Специально для россиян, которые охуели от ситуации во Львове на 9 мая</a></li>
+<li><time class="datetime">10.05.2011</time> <a href="2011/05/52494541/index.html">Львів. Є можливість проконсультутвати</a></li>
+<li><time class="datetime">01.05.2011</time> <a href="2011/05/51420090/index.html">Консультації у Львові</a></li>
+<li><time class="datetime">05.04.2011</time> <a href="2011/04/uzhtwevent-7/index.html">UzhTwevent: 7 причин, чтобы НЕ ехать</a></li>
+<li><time class="datetime">05.04.2011</time> <a href="2011/04/ukrtweet/index.html">UkrTweet &amp;#8211; провинция? Нет &amp;#8211; украинский центр Твиттера!</a></li>
+<li><time class="datetime">29.03.2011</time> <a href="2011/03/markoblogo/index.html">2011-03-29-markoblogo</a></li>
+<li><time class="datetime">26.03.2011</time> <a href="2011/03/4-rules-for-building-a-big-business/index.html">4 Rules For Building A Big Business</a></li>
+<li><time class="datetime">26.03.2011</time> <a href="2011/03/think-quarterly/index.html">Think Quarterly</a></li>
+<li><time class="datetime">22.02.2011</time> <a href="2011/02/reklamnaya-pauza-2/index.html">[Рекламная пауза</a>]</li>
+<li><time class="datetime">12.01.2011</time> <a href="2011/01/na-zahyst-budynku-barona-foto-video/index.html">На захист Будинку Барона (фото, відео)</a></li>
+<li><time class="datetime">10.01.2011</time> <a href="2011/01/zamok-barona/index.html">Замок Барона</a></li>
+<li><time class="datetime">23.11.2010</time> <a href="2010/11/noyabrskye-tezysyi-yly-revolyutsyya-ne-otmenyaetsya/index.html">&amp;#8220;Ноябрьские тезисы&amp;#8221; или Революция НЕ отменяется</a></li>
+<li><time class="datetime">06.10.2010</time> <a href="2010/10/devushky-zhurfaka-mhu-razdelys-dlya-putyna/index.html">Девушки журфака МГУ разделись для Путина</a></li>
+<li><time class="datetime">15.09.2010</time> <a href="2010/09/alo-sbushnyky-ya-vyrishyv-zdaty-derzhavnu-tajemnytsyu/index.html">Альо, СБУшники, я вирішив здати державну таємницю!</a></li>
+<li><time class="datetime">09.09.2010</time> <a href="2010/09/tsely-na-blyzhajshye-12-mesyatsev/index.html">Цели на ближайшие 12 месяцев</a></li>
+<li><time class="datetime">27.08.2010</time> <a href="2010/08/vpervyie-v-ukrayne-onlajn-premera-zhurnala-ynternet-byznes/index.html">Впервые в Украине: онлайн-премьера журнала Интернет-Бизнес</a></li>
+<li><time class="datetime">12.08.2010</time> <a href="2010/08/najkraschyj-podarunok-v-sviti/index.html">найкращий подарунок в світі</a></li>
+<li><time class="datetime">27.03.2010</time> <a href="2010/03/podarky-na-dr/index.html">подарки на ДР</a></li>
+<li><time class="datetime">27.03.2010</time> <a href="2010/03/30-vsyo-tolko-nachynaetsya/index.html">30! Всё только начинается! :)</a></li>
+<li><time class="datetime">10.03.2010</time> <a href="2010/03/moya-lyderskaya-prohramma-doroha-v-zhyzn/index.html">моя лидерская программа &amp;#8220;Дорога в жизнь&amp;#8221;</a></li>
+<li><time class="datetime">01.03.2010</time> <a href="2010/03/moya-lyderskaya-prohramma/index.html">Моя Лидерская программа</a></li>
+<li><time class="datetime">06.09.2009</time> <a href="2009/09/oktyabr-kak-sdelat-pervyie-prodazhy-ynternet-trenynh/index.html">[октябрь] Как сделать ПЕРВЫЕ продажи [интернет тренинг</a>]</li>
+<li><time class="datetime">12.08.2009</time> <a href="2009/08/o-taro/index.html">о Таро</a></li>
+<li><time class="datetime">01.06.2009</time> <a href="2009/06/pryjmaty-uchast-vyid-koka-kola/index.html">Приймати участь від Кока-Кола</a></li>
+<li><time class="datetime">28.05.2009</time> <a href="2009/05/aprelskyj-furshet-lebedeva/index.html">апрельский фуршет Лебедева</a></li>
+<li><time class="datetime">27.05.2009</time> <a href="2009/05/wifi-security/index.html">wifi security</a></li>
+<li><time class="datetime">27.03.2009</time> <a href="2009/03/29/index.html">29</a></li>
+<li><time class="datetime">15.01.2009</time> <a href="2009/01/997/index.html">Цели-2009</a></li>
+<li><time class="datetime">20.12.2008</time> <a href="2008/12/o-vlyyanyy/index.html">о влиянии</a></li>
+<li><time class="datetime">08.12.2008</time> <a href="2008/12/dmoz-redaktor-v-hostyah-u-blohosfery/index.html">DMOZ редактор в гостях у Блогосфери</a></li>
+<li><time class="datetime">24.10.2008</time> <a href="2008/10/shukayu-lyudej/index.html">шукаю людей!</a></li>
+<li><time class="datetime">08.09.2008</time> <a href="2008/09/manifest-proty-kurinnya/index.html">маніфест проти куріння</a></li>
+<li><time class="datetime">28.08.2008</time> <a href="2008/08/flesh-mob-31-serpnya/index.html">флеш-моб 31 серпня</a></li>
+<li><time class="datetime">25.08.2008</time> <a href="2008/08/sotsiolohichne/index.html">соціологічне</a></li>
+<li><time class="datetime">24.08.2008</time> <a href="2008/08/otakoji-zapysaly-v-koryfeji/index.html">отакої, записали в корифеї :)</a></li>
+<li><time class="datetime">24.08.2008</time> <a href="2008/08/kupujemo-kvytochky-na-mizhhalaktychni-rejsy/index.html">купуємо квиточки на міжгалактичні рейси</a></li>
+<li><time class="datetime">21.08.2008</time> <a href="2008/08/chudovyj-rolyk/index.html">чудовий ролик</a></li>
+<li><time class="datetime">21.08.2008</time> <a href="2008/08/drupalkemp-ta-vsi-vsi-vsi/index.html">ДрупалКемп та всі-всі-всі</a></li>
+<li><time class="datetime">20.08.2008</time> <a href="2008/08/2715-min/index.html">27$/15 min</a></li>
+<li><time class="datetime">18.08.2008</time> <a href="2008/08/fantastychnyj-fontan-v-yaponiji/index.html">фантастичний фонтан в Японії</a></li>
+<li><time class="datetime">18.08.2008</time> <a href="2008/08/usa-vs-china/index.html">USA vs China</a></li>
+<li><time class="datetime">18.08.2008</time> <a href="2008/08/pro-wordpress/index.html">про WordPress</a></li>
+<li><time class="datetime">17.08.2008</time> <a href="2008/08/i-sche-olimpijska-radist/index.html">і ще олімпійська радість</a></li>
+<li><time class="datetime">17.08.2008</time> <a href="2008/08/nadal-olimpijskyj-chempion/index.html">Надаль &amp;#8211; олімпійський чемпіон</a></li>
+<li><time class="datetime">17.08.2008</time> <a href="2008/08/filmy/index.html">фільми</a></li>
+<li><time class="datetime">16.08.2008</time> <a href="2008/08/avtomobilne/index.html">автомобільне</a></li>
+<li><time class="datetime">11.08.2008</time> <a href="2008/08/vsi-pro-vijnu-a-ya-pro-olimpiadu/index.html">всі про війну, а я про олімпіаду</a></li>
+<li><time class="datetime">11.08.2008</time> <a href="2008/08/keyboard-shortcut/index.html">keyboard shortcut</a></li>
+<li><time class="datetime">09.08.2008</time> <a href="2008/08/hora-shajjen/index.html">гора Шайєн</a></li>
+<li><time class="datetime">08.08.2008</time> <a href="2008/08/pro-kulturu/index.html">про культуру</a></li>
+<li><time class="datetime">08.08.2008</time> <a href="2008/08/meni-odnomu-vvyzhajetsya-vvp-blondyn/index.html">мені одному ввижається ВВП-блондин?</a></li>
+<li><time class="datetime">04.08.2008</time> <a href="2008/08/944/index.html">2008-08-04-944</a></li>
+<li><time class="datetime">03.08.2008</time> <a href="2008/08/pro-naukma-ta-tsohorichne-vstupne-testuvannya/index.html">про НаУКМА та цьогорічне вступне тестування</a></li>
+<li><time class="datetime">02.08.2008</time> <a href="2008/08/pro-brauzery-ta-os/index.html">про браузери та ОС</a></li>
+<li><time class="datetime">29.07.2008</time> <a href="2008/07/routine-tasks/index.html">routine tasks</a></li>
+<li><time class="datetime">26.07.2008</time> <a href="2008/07/pro-futbol/index.html">про футбол</a></li>
+<li><time class="datetime">25.07.2008</time> <a href="2008/07/oho-na-ubuntu-bonus-bezdrotovyj-internet/index.html">ОГО! на Ubuntu + бонус (бездротовий інтернет)</a></li>
+<li><time class="datetime">22.07.2008</time> <a href="2008/07/azh-holova-kruzhytsya/index.html">аж голова кружится</a></li>
+<li><time class="datetime">05.07.2008</time> <a href="2008/07/937/index.html">2008-07-05-937</a></li>
+<li><time class="datetime">17.06.2008</time> <a href="2008/06/firefox-3-2/index.html">Firefox 3</a></li>
+<li><time class="datetime">15.06.2008</time> <a href="2008/06/935/index.html">2008-06-15-935</a></li>
+<li><time class="datetime">10.06.2008</time> <a href="2008/06/firefox-3/index.html">Firefox 3</a></li>
+<li><time class="datetime">05.06.2008</time> <a href="2008/06/mail-ua/index.html">mail.ua</a></li>
+<li><time class="datetime">30.05.2008</time> <a href="2008/05/hotovtsev-pro-nahlyadovu-radu-zhzh/index.html">Готовцев про Наглядову раду ЖЖ</a></li>
+<li><time class="datetime">28.05.2008</time> <a href="2008/05/prodam/index.html">продам</a></li>
+<li><time class="datetime">26.05.2008</time> <a href="2008/05/930/index.html">2008-05-26-930</a></li>
+<li><time class="datetime">24.05.2008</time> <a href="2008/05/pro-minikemp/index.html">про мінікемп</a></li>
+<li><time class="datetime">21.05.2008</time> <a href="2008/05/slonoart/index.html">слоноарт</a></li>
+<li><time class="datetime">16.05.2008</time> <a href="2008/05/pro-tennis/index.html">про тенніс</a></li>
+<li><time class="datetime">11.05.2008</time> <a href="2008/05/dexpose/index.html">DExposE</a></li>
+<li><time class="datetime">11.05.2008</time> <a href="2008/05/iron-man/index.html">Iron Man</a></li>
+<li><time class="datetime">07.05.2008</time> <a href="2008/05/ukr-net-kupyv-sche-ain/index.html">Ukr.net купив ще  АІН?</a></li>
+<li><time class="datetime">28.04.2008</time> <a href="2008/04/923/index.html">2008-04-28-923</a></li>
+<li><time class="datetime">27.04.2008</time> <a href="2008/04/peoplenet-piarytsya/index.html">peoplenet піариться</a></li>
+<li><time class="datetime">25.04.2008</time> <a href="2008/04/hotuyusya-do-ubuntu/index.html">готуюся до Убунту</a></li>
+<li><time class="datetime">24.04.2008</time> <a href="2008/04/bachyty-bilshe/index.html">бачити більше&amp;#8230;</a></li>
+<li><time class="datetime">22.04.2008</time> <a href="2008/04/sumno/index.html">сумно</a></li>
+<li><time class="datetime">22.04.2008</time> <a href="2008/04/potribna-pidtrymka-zhurnalistiv-i-piarnykiv/index.html">потрібна підтримка журналістів і піарників</a></li>
+<li><time class="datetime">22.04.2008</time> <a href="2008/04/mynulyj-chetver/index.html">минулий четвер</a></li>
+<li><time class="datetime">15.04.2008</time> <a href="2008/04/pro-ulyublenu-kompaniyu/index.html">про улюблену компанію :)</a></li>
+<li><time class="datetime">12.04.2008</time> <a href="2008/04/915/index.html">2008-04-12-915</a></li>
+<li><time class="datetime">11.04.2008</time> <a href="2008/04/nimechchyna/index.html">німеччина</a></li>
+<li><time class="datetime">10.04.2008</time> <a href="2008/04/zustrich-u-shevchenka/index.html">зустріч у &amp;#8220;Шевченка&amp;#8221;</a></li>
+<li><time class="datetime">01.04.2008</time> <a href="2008/04/912/index.html">2008-04-01-912</a></li>
+<li><time class="datetime">30.03.2008</time> <a href="2008/03/911/index.html">2008-03-30-911</a></li>
+<li><time class="datetime">28.03.2008</time> <a href="2008/03/informatsijnyj-proekt-novitni-internet-tehnolohiji/index.html">Інформаційний проект «Новітні інтернет технології»</a></li>
+<li><time class="datetime">27.03.2008</time> <a href="2008/03/pozdravlyat-mozhno-zdes/index.html">поздравлять можно здесь!</a></li>
+<li><time class="datetime">26.03.2008</time> <a href="2008/03/wishlist/index.html">wishlist</a></li>
+<li><time class="datetime">26.03.2008</time> <a href="2008/03/eto-pizdjets/index.html">ето піздєц!</a></li>
+<li><time class="datetime">24.03.2008</time> <a href="2008/03/treba-bude-shodyty/index.html">треба буде сходити</a></li>
+<li><time class="datetime">23.03.2008</time> <a href="2008/03/kalendar-google-outlook-synhronizatsiya/index.html">Календар Google + Outlook = синхронізація</a></li>
+<li><time class="datetime">14.03.2008</time> <a href="2008/03/905/index.html">2008-03-14-905</a></li>
+<li><time class="datetime">13.03.2008</time> <a href="2008/03/hordyj-buty-ukrajintsem-klove-video/index.html">гордий бути українцем (кльове відео)</a></li>
+<li><time class="datetime">08.03.2008</time> <a href="2008/03/kompyuterne/index.html">комп&amp;#8217;ютерне</a></li>
+<li><time class="datetime">07.03.2008</time> <a href="2008/03/ex-umcers-abo-znahidky-u-linkedin/index.html">ex-UMCers або знахідки у ЛінкедІН</a></li>
+<li><time class="datetime">07.03.2008</time> <a href="2008/03/hackintosh/index.html">Hackintosh</a></li>
+<li><time class="datetime">07.03.2008</time> <a href="2008/03/guinness/index.html">Guinness</a></li>
+<li><time class="datetime">23.02.2008</time> <a href="2008/02/minibarcamp/index.html">miniBarCamp</a></li>
+<li><time class="datetime">09.02.2008</time> <a href="2008/02/harkiv/index.html">Харків</a></li>
+<li><time class="datetime">29.01.2008</time> <a href="2008/01/vechirka-v-ukrajini/index.html">вечірка  в Україні</a></li>
+<li><time class="datetime">06.01.2008</time> <a href="2008/01/pro-ohlyadachi/index.html">про оглядачі</a></li>
+<li><time class="datetime">17.12.2007</time> <a href="2007/12/894/index.html">2007-12-17-894</a></li>
+<li><time class="datetime">15.12.2007</time> <a href="2007/12/mh-i-kompaniya/index.html">МГ і компанія</a></li>
+<li><time class="datetime">29.11.2007</time> <a href="2007/11/yak-stvoryuvavsya-lohotyp-olimpiady-v-pekini/index.html">як створювався логотип олімпіади в Пекіні</a></li>
+<li><time class="datetime">28.11.2007</time> <a href="2007/11/mashynka-dlya-stryzhky/index.html">машинка для стрижки?</a></li>
+<li><time class="datetime">01.11.2007</time> <a href="2007/11/vidpochynok/index.html">відпочинок</a></li>
+<li><time class="datetime">15.10.2007</time> <a href="2007/10/chto-zhe-eto-budet/index.html">что же это будет&amp;#8230;.</a></li>
+<li><time class="datetime">24.09.2007</time> <a href="2007/09/kupy-knyzhku-druhovi/index.html">Купи книжку другові</a></li>
+<li><time class="datetime">21.09.2007</time> <a href="2007/09/malo-ne-zabuv/index.html">мало не забув</a></li>
+<li><time class="datetime">13.09.2007</time> <a href="2007/09/rosijska-mova-u-kazahstani/index.html">російська мова у Казахстані</a></li>
+<li><time class="datetime">05.09.2007</time> <a href="2007/09/yak-shovaty-aviabudivnyj-zavod/index.html">Як сховати авіабудівний завод?</a></li>
+<li><time class="datetime">02.09.2007</time> <a href="2007/09/ua-webstar-2007/index.html">UA Webstar 2007</a></li>
+<li><time class="datetime">21.08.2007</time> <a href="2007/08/sho-za-hujnya/index.html">шо за хуйня?</a></li>
+<li><time class="datetime">19.08.2007</time> <a href="2007/08/zhadajmo-pro-futbol/index.html">згадаймо про футбол</a></li>
+<li><time class="datetime">07.08.2007</time> <a href="2007/08/ne-rozumiyu-nahrena-vono-meni-treba-postyty/index.html">не розумію нахрена воно мені треба постити&amp;#8230;.</a></li>
+<li><time class="datetime">08.07.2007</time> <a href="2007/07/nemozhlyvi-fihury/index.html">неможливі фігури</a></li>
+<li><time class="datetime">29.06.2007</time> <a href="2007/06/steve-pavlina/index.html">Steve Pavlina</a></li>
+<li><time class="datetime">21.06.2007</time> <a href="2007/06/do-mojih-frendess/index.html">до моїх френдесс</a></li>
+<li><time class="datetime">21.06.2007</time> <a href="2007/06/updated/index.html">updated</a></li>
+<li><time class="datetime">21.06.2007</time> <a href="2007/06/son/index.html">сон</a></li>
+<li><time class="datetime">19.06.2007</time> <a href="2007/06/google-press-day-2007/index.html">Google Press Day 2007</a></li>
+<li><time class="datetime">16.06.2007</time> <a href="2007/06/101/index.html">101</a></li>
+<li><time class="datetime">14.06.2007</time> <a href="2007/06/ahov-frendy/index.html">Агов, френди!</a></li>
+<li><time class="datetime">13.06.2007</time> <a href="2007/06/ubuntu-2/index.html">Ubuntu</a></li>
+<li><time class="datetime">06.06.2007</time> <a href="2007/06/sche-pro-hrabli/index.html">ще про граблі</a></li>
+<li><time class="datetime">06.06.2007</time> <a href="2007/06/ubuntukubuntu/index.html">ubuntu/kubuntu</a></li>
+<li><time class="datetime">04.06.2007</time> <a href="2007/06/akuly-biznesu/index.html">&amp;#8220;Акули бізнесу&amp;#8221;</a></li>
+<li><time class="datetime">02.06.2007</time> <a href="2007/06/sche-pro-googleholic-2/index.html">Ще про Googleholic</a></li>
+<li><time class="datetime">02.06.2007</time> <a href="2007/06/pro-pravyla-kiev-ua/index.html">Про правила .kiev.ua&amp;#8230;</a></li>
+<li><time class="datetime">31.05.2007</time> <a href="2007/05/malenkyj-osobystyj-anty-rekord/index.html">маленький особистий (анти-)рекорд</a></li>
+<li><time class="datetime">29.05.2007</time> <a href="2007/05/spam-u-blozi/index.html">Спам у блозі</a></li>
+<li><time class="datetime">25.05.2007</time> <a href="2007/05/sche-pro-googleholic/index.html">ще про googleholic</a></li>
+<li><time class="datetime">22.05.2007</time> <a href="2007/05/googleholic-pershyj-den-polit-normalnyj/index.html">Googleholic &amp;#8211; перший день, політ нормальний</a></li>
+<li><time class="datetime">21.05.2007</time> <a href="2007/05/zapustyv-novyj-bloh/index.html">запустив новий блог</a></li>
+<li><time class="datetime">06.05.2007</time> <a href="2007/05/joost/index.html">Joost!</a></li>
+<li><time class="datetime">21.04.2007</time> <a href="2007/04/svit-dikkensa/index.html">Світ Діккенса</a></li>
+<li><time class="datetime">13.04.2007</time> <a href="2007/04/wtf-mac-store/index.html">WTF Mac Store</a></li>
+<li><time class="datetime">10.04.2007</time> <a href="2007/04/belhijtsi-proponuyut-druzhynu-naprokat/index.html">бельгійці пропонують дружину-напрокат</a></li>
+<li><time class="datetime">10.04.2007</time> <a href="2007/04/ua-digg-clone/index.html">UA digg clone</a></li>
+<li><time class="datetime">09.04.2007</time> <a href="2007/04/rasshyryaemsya/index.html">расширяемся</a></li>
+<li><time class="datetime">06.04.2007</time> <a href="2007/04/pershokvitnevi-zharty-vid-huhl/index.html">першоквітневі жарти від Гугл</a></li>
+<li><time class="datetime">05.04.2007</time> <a href="2007/04/avtoportret/index.html">автопортрет</a></li>
+<li><time class="datetime">05.04.2007</time> <a href="2007/04/google-day-pics/index.html">Google Day (pics)</a></li>
+<li><time class="datetime">29.03.2007</time> <a href="2007/03/google-day/index.html">Google Day</a></li>
+<li><time class="datetime">27.03.2007</time> <a href="2007/03/vitannya-pryjmayutsya-tut/index.html">вітання приймаються тут :)</a></li>
+<li><time class="datetime">26.03.2007</time> <a href="2007/03/potriben-buhhatler/index.html">потрібен бухгатлер</a></li>
+<li><time class="datetime">22.03.2007</time> <a href="2007/03/des-tak-vono-j-je/index.html">десь так воно й є&amp;#8230;</a></li>
+<li><time class="datetime">22.03.2007</time> <a href="2007/03/847/index.html">* * *</a></li>
+<li><time class="datetime">22.03.2007</time> <a href="2007/03/dni-google-v-naukma/index.html">Дні Google в НаУКМА</a></li>
+<li><time class="datetime">01.03.2007</time> <a href="2007/03/zymu-ya-perezhyv/index.html">зиму я пережив :)</a></li>
+<li><time class="datetime">06.01.2007</time> <a href="2007/01/clones/index.html">clones</a></li>
+<li><time class="datetime">06.01.2007</time> <a href="2007/01/iming/index.html">IMing</a></li>
+<li><time class="datetime">04.01.2007</time> <a href="2007/01/hyhy/index.html">гиги!</a></li>
+<li><time class="datetime">04.01.2007</time> <a href="2007/01/novyj-rik/index.html">Новий рік</a></li>
+<li><time class="datetime">04.01.2007</time> <a href="2007/01/novyj-ryik-vidsvyatkuvaly-j-onlajn-zmi/index.html">Новий рык відсвяткували й онлайн ЗМІ</a></li>
+<li><time class="datetime">29.12.2006</time> <a href="2006/12/prodayu/index.html">продаю</a></li>
+<li><time class="datetime">29.12.2006</time> <a href="2006/12/nplus/index.html">nplus?</a></li>
+<li><time class="datetime">26.12.2006</time> <a href="2006/12/zarplatomer/index.html">zarplatomer</a></li>
+<li><time class="datetime">19.12.2006</time> <a href="2006/12/kultura-net-ua/index.html">kultura.net.ua</a></li>
+<li><time class="datetime">14.12.2006</time> <a href="2006/12/nuzhna-pomosch/index.html">нужна помощь</a></li>
+<li><time class="datetime">14.12.2006</time> <a href="2006/12/labazov/index.html">Labazov</a></li>
+<li><time class="datetime">13.12.2006</time> <a href="2006/12/scho-i-treba-bulo-dovesty/index.html">що і треба було довести!</a></li>
+<li><time class="datetime">13.12.2006</time> <a href="2006/12/ukrajinskoyu/index.html">українською!</a></li>
+<li><time class="datetime">12.12.2006</time> <a href="2006/12/mns-ocholyv-shufrych/index.html">МНС очолив Шуфрич</a></li>
+<li><time class="datetime">10.12.2006</time> <a href="2006/12/kak-eto-on-ee-klyknul/index.html">Как это он ее кликнул?</a></li>
+<li><time class="datetime">08.12.2006</time> <a href="2006/12/fun-2/index.html">fun</a></li>
+<li><time class="datetime">06.12.2006</time> <a href="2006/12/posted-using-lj-talk/index.html">Posted using LJ Talk&amp;#8230;</a></li>
+<li><time class="datetime">04.12.2006</time> <a href="2006/12/news-analyst/index.html">News analyst</a></li>
+<li><time class="datetime">02.12.2006</time> <a href="2006/12/pershyj-ulyublenyj-kanal/index.html">перший улюблений канал</a></li>
+<li><time class="datetime">02.12.2006</time> <a href="2006/12/volia-premium-tv/index.html">volia premium tv</a></li>
+<li><time class="datetime">02.12.2006</time> <a href="2006/12/a-chy-je-v-kohos/index.html">а чи є в когось?</a></li>
+<li><time class="datetime">01.12.2006</time> <a href="2006/12/nuzhnyi-kontaktyi/index.html">нужны контакты</a></li>
+<li><time class="datetime">01.12.2006</time> <a href="2006/12/trudnosty-perevoda/index.html">трудности перевода</a></li>
+<li><time class="datetime">30.11.2006</time> <a href="2006/11/mohylyantsyam/index.html">могилянцям</a></li>
+<li><time class="datetime">30.11.2006</time> <a href="2006/11/mona-lisa-descending-a-staircase/index.html">Mona Lisa Descending a Staircase</a></li>
+<li><time class="datetime">29.11.2006</time> <a href="2006/11/cherhova-zhzh-zaraz/index.html">чергова ЖЖ-зараз</a></li>
+<li><time class="datetime">28.11.2006</time> <a href="2006/11/ubuntu/index.html">Ubuntu</a></li>
+<li><time class="datetime">27.11.2006</time> <a href="2006/11/holosujmo/index.html">голосуймо!</a></li>
+<li><time class="datetime">25.11.2006</time> <a href="2006/11/uzviz/index.html">узвіз</a></li>
+<li><time class="datetime">22.11.2006</time> <a href="2006/11/horosha-obitsyanka/index.html">хороша обіцянка</a></li>
+<li><time class="datetime">14.11.2006</time> <a href="2006/11/a-tyi-proshel-test-ot-msado/index.html">а ты прошел тест от msado?</a></li>
+<li><time class="datetime">29.10.2006</time> <a href="2006/10/happy-birthday/index.html">Happy birthday</a></li>
+<li><time class="datetime">27.10.2006</time> <a href="2006/10/812/index.html">2006-10-27-812</a></li>
+<li><time class="datetime">26.10.2006</time> <a href="2006/10/ukrajinskyj-ff/index.html">український ФФ</a></li>
+<li><time class="datetime">26.10.2006</time> <a href="2006/10/perception-is-reality/index.html">perception is reality</a></li>
+<li><time class="datetime">25.10.2006</time> <a href="2006/10/dyyavol-nosyt-prada/index.html">&amp;#8220;Диявол носить Прада&amp;#8221;</a></li>
+<li><time class="datetime">25.10.2006</time> <a href="2006/10/macbook-pro/index.html">macBook Pro</a></li>
+<li><time class="datetime">25.10.2006</time> <a href="2006/10/pryz-hlyadatskyh-sympatij-36-mkf-molodist/index.html">Приз глядацьких симпатій 36 МКФ &amp;#8220;Молодість&amp;#8221;</a></li>
+<li><time class="datetime">24.10.2006</time> <a href="2006/10/vse-sche-nemaje/index.html">все ще немає</a></li>
+<li><time class="datetime">24.10.2006</time> <a href="2006/10/poperlo/index.html">поперло&amp;#8230;</a></li>
+<li><time class="datetime">24.10.2006</time> <a href="2006/10/803/index.html">* * *</a></li>
+<li><time class="datetime">23.10.2006</time> <a href="2006/10/ya-davno-chekav-na-tsyu-stattyu/index.html">я давно чекав на цю статтю</a></li>
+<li><time class="datetime">22.10.2006</time> <a href="2006/10/opytuvannya-opros/index.html">Опитування / Опрос</a></li>
+<li><time class="datetime">17.10.2006</time> <a href="2006/10/perevirymo-lzh-cherez-dzhabber/index.html">перевіримо ЛЖ через Джаббер</a></li>
+<li><time class="datetime">15.10.2006</time> <a href="2006/10/poraduvav-yandeks/index.html">порадував Яндекс</a></li>
+<li><time class="datetime">14.10.2006</time> <a href="2006/10/reklama-apple/index.html">реклама Apple</a></li>
+<li><time class="datetime">13.10.2006</time> <a href="2006/10/dobroho-ranku/index.html">доброго ранку?!</a></li>
+<li><time class="datetime">12.10.2006</time> <a href="2006/10/seminar-yandeks/index.html">семінар Яндекс</a></li>
+<li><time class="datetime">12.10.2006</time> <a href="2006/10/i-znovu-pro-google/index.html">і знову про Google</a></li>
+<li><time class="datetime">11.10.2006</time> <a href="2006/10/ukrajino-vpered/index.html">Україно, вперед!</a></li>
+<li><time class="datetime">10.10.2006</time> <a href="2006/10/na-manjezhje-vso-tje-zhe/index.html">на манєжє всьо тє же</a></li>
+<li><time class="datetime">10.10.2006</time> <a href="2006/10/google-kupyv-youtube/index.html">Google купив YouTube</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/stattya-u-dt/index.html">стаття у ДТ</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/chudove-intervyu/index.html">чудове інтерв&amp;#8217;ю</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/pro-zmi/index.html">про  ЗМІ</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/google-blog-russia/index.html">Google Blog Russia</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/serhij-bryn-novi-optsiji-a-ne-novi-servisy/index.html">Сергій Брин: &amp;#8220;Нові опції, а не нові сервіси&amp;#8221;</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/zalatanyj-blogspot/index.html">&amp;#8220;Залатаний&amp;#8221; blogspot</a></li>
+<li><time class="datetime">09.10.2006</time> <a href="2006/10/google-calendar/index.html">Google Calendar</a></li>
+<li><time class="datetime">08.10.2006</time> <a href="2006/10/pro-rosiyu/index.html">про Росію</a></li>
+<li><time class="datetime">08.10.2006</time> <a href="2006/10/google-video-youtube/index.html">Google Video = YouTube</a></li>
+<li><time class="datetime">05.10.2006</time> <a href="2006/10/na-pidtrymku/index.html">на підтримку</a></li>
+<li><time class="datetime">05.10.2006</time> <a href="2006/10/pro-fokus/index.html">про &amp;#8220;Фокус&amp;#8221;</a></li>
+<li><time class="datetime">05.10.2006</time> <a href="2006/10/pochytaty/index.html">почитати</a></li>
+<li><time class="datetime">05.10.2006</time> <a href="2006/10/779/index.html">2006-10-05-779</a></li>
+<li><time class="datetime">05.10.2006</time> <a href="2006/10/iphone/index.html">iPhone</a></li>
+<li><time class="datetime">04.10.2006</time> <a href="2006/10/ajkydo-ot-syhala/index.html">айкидо от Сигала</a></li>
+<li><time class="datetime">04.10.2006</time> <a href="2006/10/o-dalnobojschykah/index.html">о дальнобойщиках</a></li>
+<li><time class="datetime">02.10.2006</time> <a href="2006/10/shedevr-vid-maserati/index.html">шедевр від maserati</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/pro-yandeks/index.html">про Яндекс</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/odessytyi-ne-zavydujte/index.html">одесситы не завидуйте</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/mizh-inshym/index.html">між іншим</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/podumalosya/index.html">подумалося</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/verhovna-rada/index.html">Верховна Рада</a></li>
+<li><time class="datetime">01.10.2006</time> <a href="2006/10/pro-podatok-na-neruhome-majno/index.html">про  податок на нерухоме майно</a></li>
+<li><time class="datetime">29.09.2006</time> <a href="2006/09/apple-iphone/index.html">Apple iPhone</a></li>
+<li><time class="datetime">29.09.2006</time> <a href="2006/09/google-maps-bug/index.html">Google Maps bug</a></li>
+<li><time class="datetime">29.09.2006</time> <a href="2006/09/stiven-sihal/index.html">Стівен Сігал</a></li>
+<li><time class="datetime">29.09.2006</time> <a href="2006/09/zreshtoyu-prokynuvsya-mzs/index.html">зрештою прокинувся МЗС</a></li>
+<li><time class="datetime">28.09.2006</time> <a href="2006/09/distaly/index.html">дістали</a></li>
+<li><time class="datetime">28.09.2006</time> <a href="2006/09/ony-uzhe-v-kyeve/index.html">они уже в Киеве</a></li>
+<li><time class="datetime">26.09.2006</time> <a href="2006/09/ryidal/index.html">рыдалЪ</a></li>
+<li><time class="datetime">26.09.2006</time> <a href="2006/09/reklama-kotoraya-svodyt-s-uma/index.html">Реклама, которая сводит с ума</a></li>
+<li><time class="datetime">26.09.2006</time> <a href="2006/09/nas-poschytaly/index.html">нас посчитали</a></li>
+<li><time class="datetime">26.09.2006</time> <a href="2006/09/ya-okruzhen-paroykamy/index.html">я окружен пароиками&amp;#8230;</a></li>
+<li><time class="datetime">25.09.2006</time> <a href="2006/09/smile-its-monday/index.html">Smile! It&amp;#8217;s Monday!</a></li>
+<li><time class="datetime">25.09.2006</time> <a href="2006/09/myr-tesen/index.html">мир тесен</a></li>
+<li><time class="datetime">19.09.2006</time> <a href="2006/09/prohress-robototehnyky/index.html">прогресс робототехники</a></li>
+<li><time class="datetime">17.09.2006</time> <a href="2006/09/skazka-lozh/index.html">сказка &amp;#8211; ложь&amp;#8230;.</a></li>
+<li><time class="datetime">17.09.2006</time> <a href="2006/09/web-2-0/index.html">web 2.0.</a></li>
+<li><time class="datetime">17.09.2006</time> <a href="2006/09/interfejs-zhzh/index.html">інтерфейс ЖЖ</a></li>
+<li><time class="datetime">17.09.2006</time> <a href="2006/09/flock/index.html">Flock</a></li>
+<li><time class="datetime">17.09.2006</time> <a href="2006/09/ariston/index.html">Ariston</a></li>
+<li><time class="datetime">16.09.2006</time> <a href="2006/09/rapyda-vyidala/index.html">рапида выдала</a></li>
+<li><time class="datetime">14.09.2006</time> <a href="2006/09/zapros-v-ramblere/index.html">запрос в Рамблере</a></li>
+<li><time class="datetime">13.09.2006</time> <a href="2006/09/ne-ponyal/index.html">не понял</a></li>
+<li><time class="datetime">13.09.2006</time> <a href="2006/09/v-vot-y-trete-soobschenye-v-blohe-google-russia/index.html">в вот и третье сообщение в блоге Google. Russia</a></li>
+<li><time class="datetime">13.09.2006</time> <a href="2006/09/ynteresnaya-domashnyaya-stranychka/index.html">интересная домашняя страничка</a></li>
+<li><time class="datetime">11.09.2006</time> <a href="2006/09/najdy-10-otlychyj/index.html">найди 10 отличий</a></li>
+<li><time class="datetime">09.09.2006</time> <a href="2006/09/40-let-odnako-muzhyku/index.html">40 лет, однако мужику&amp;#8230;</a></li>
+<li><time class="datetime">09.09.2006</time> <a href="2006/09/he-he-2/index.html">хе-хе</a></li>
+<li><time class="datetime">09.09.2006</time> <a href="2006/09/windows-live-writer-test/index.html">Windows Live Writer test</a></li>
+<li><time class="datetime">08.09.2006</time> <a href="2006/09/741/index.html">Ищу замену SearchBox</a></li>
+<li><time class="datetime">08.09.2006</time> <a href="2006/09/chetverh/index.html">четверг</a></li>
+<li><time class="datetime">08.09.2006</time> <a href="2006/09/netsenzurschyna/index.html"><b>*</b> нецензурщина</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/ya-vchera-prosachkoval-s-rekomendatsyyamy/index.html">я вчера просачковал с рекомендациями</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/zlopyihatelyam/index.html">&amp;#8220;злопыхателям&amp;#8221; ;)</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/lyubymyij-anekdot/index.html">любимый анекдот</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/ie7/index.html">IE7</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/posle-offys-2007-pyitayus-podruzhytsya-s-ye7/index.html">после оффис 2007 пытаюсь подружиться с ИЕ7</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/vernul-kesh/index.html">вернул кеш</a></li>
+<li><time class="datetime">07.09.2006</time> <a href="2006/09/prezentatsyy/index.html">презентации</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/rusol/index.html">Русол!</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/12/index.html">62</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/11-2/index.html">61</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/10/index.html">60</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/vsem-bolet-za-ukraynu/index.html">всем болеть за Украину</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/vspomnylos/index.html">вспомнилось</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/shryft-calibri/index.html">шрифт Calibri</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/na-behu-pochty-rekomendatsyy/index.html">[на бегу] почти рекомендации</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/vot-eto-mne-nravytsya/index.html">вот это мне нравится</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/otklyuchyl-dyskovyie-kesh/index.html">отключил дисковые кеш</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/google-desktop/index.html">Google desktop</a></li>
+<li><time class="datetime">06.09.2006</time> <a href="2006/09/office-2007/index.html">Office 2007</a></li>
+<li><time class="datetime">05.09.2006</time> <a href="2006/09/nyu-nyu/index.html">ню-ню</a></li>
+<li><time class="datetime">05.09.2006</time> <a href="2006/09/wridea/index.html">Wridea</a></li>
+<li><time class="datetime">05.09.2006</time> <a href="2006/09/a-vse-taky-eto-vozmozhno/index.html">а все таки это возможно</a></li>
+<li><time class="datetime">05.09.2006</time> <a href="2006/09/prykolnyie-devushky/index.html">прикольные девушки</a></li>
+<li><time class="datetime">04.09.2006</time> <a href="2006/09/prodolzhayu-o-muzyike/index.html">продолжаю о музыке</a></li>
+<li><time class="datetime">04.09.2006</time> <a href="2006/09/pro-movne-pytannya/index.html">про мовне питання</a></li>
+<li><time class="datetime">04.09.2006</time> <a href="2006/09/komanda-perekladachiv/index.html">команда перекладачів</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/google-webmasters/index.html">Google Webmasters</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/do-rechi/index.html">до речі</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/esche-paru-slov-o-muzyike-na-amazon/index.html">еще пару слов о музыке на Amazon</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/rekomendatsyy/index.html">рекомендации</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/o-muzyike/index.html">о музыке</a></li>
+<li><time class="datetime">03.09.2006</time> <a href="2006/09/pryhlashenye-dlya-hrazhdanyna-yndyy/index.html">приглашение для гражданина Индии</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/tawoo/index.html">TAWOO</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/esche-voprosyk-est/index.html">еще вопросик есть</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/s-dnem-rozhdenyya-neo/index.html">с днем рождения, Neo</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/vdohonku-2/index.html">вдогонку</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/vyi-esche-somneavetes-chtov-rossyy-vozrozhdaetsya-ymperyya/index.html">вы еще сомнеаветесь, чтов России возрождается империя?</a></li>
+<li><time class="datetime">02.09.2006</time> <a href="2006/09/stoyt-najty-knyhu-kak-nahodytsya-esche-s-pyatok/index.html">стоит найти книгу, как находится еще с пяток</a></li>
+<li><time class="datetime">01.09.2006</time> <a href="2006/09/shykarnoe-kommyunyty/index.html">шикарное коммьюнити</a></li>
+<li><time class="datetime">01.09.2006</time> <a href="2006/09/request-ukraynskoe-tv/index.html">[request] украинское ТВ</a></li>
+<li><time class="datetime">31.08.2006</time> <a href="2006/08/o-knyhe/index.html">о книге</a></li>
+<li><time class="datetime">30.08.2006</time> <a href="2006/08/k-meleon/index.html">K-Meleon</a></li>
+<li><time class="datetime">30.08.2006</time> <a href="2006/08/tsenyi-na-vista/index.html">цены на Vista</a></li>
+<li><time class="datetime">30.08.2006</time> <a href="2006/08/voice-recognition/index.html">voice recognition</a></li>
+<li><time class="datetime">30.08.2006</time> <a href="2006/08/pomenyal-oformlenye-zhurnala/index.html">поменял оформление журнала</a></li>
+<li><time class="datetime">30.08.2006</time> <a href="2006/08/sliv-prosto-nema/index.html">Слів просто нема!</a></li>
+<li><time class="datetime">29.08.2006</time> <a href="2006/08/a-kto-to-proboval-uzhe/index.html">а кто-то пробовал уже</a></li>
+<li><time class="datetime">29.08.2006</time> <a href="2006/08/viewing-980-entries-back/index.html">viewing: 980 entries back</a></li>
+<li><time class="datetime">29.08.2006</time> <a href="2006/08/na-pravah-polunochnoho-breda/index.html">на правах полуночного бреда&amp;#8230;</a></li>
+<li><time class="datetime">28.08.2006</time> <a href="2006/08/vyi-budete-smeyatsya/index.html">вы будете смеяться</a></li>
+<li><time class="datetime">28.08.2006</time> <a href="2006/08/firefox/index.html">Firefox</a></li>
+<li><time class="datetime">28.08.2006</time> <a href="2006/08/posle-dolhoho-pereryiva/index.html">после долгого перерыва</a></li>
+<li><time class="datetime">27.08.2006</time> <a href="2006/08/dlya-lyubytelej-shahmat/index.html">для любителей шахмат</a></li>
+<li><time class="datetime">25.08.2006</time> <a href="2006/08/hruppa-e/index.html">группа Е</a></li>
+<li><time class="datetime">22.08.2006</time> <a href="2006/08/babushkynyi-sovetyi/index.html">бабушкины советы&amp;#8230;</a></li>
+<li><time class="datetime">22.08.2006</time> <a href="2006/08/kak-zhe-ya-hochu-macbookpro/index.html">как же я хочу MacBookPro</a></li>
+<li><time class="datetime">22.08.2006</time> <a href="2006/08/he-he/index.html">хе-хе</a></li>
+<li><time class="datetime">22.08.2006</time> <a href="2006/08/y-kto-smozhet-eto-obyasnyt/index.html">и кто сможет это объяснить</a></li>
+<li><time class="datetime">20.08.2006</time> <a href="2006/08/o-google/index.html">о Google</a></li>
+<li><time class="datetime">20.08.2006</time> <a href="2006/08/reklamnaya-pauza/index.html">рекламная пауза</a></li>
+<li><time class="datetime">18.08.2006</time> <a href="2006/08/library-doesnt-exist-spaw/index.html">&amp;#8220;library doesn&amp;#8217;t exist&amp;#8221; spaw</a></li>
+<li><time class="datetime">16.08.2006</time> <a href="2006/08/esche-odyn-brauzer/index.html">еще один браузер</a></li>
+<li><time class="datetime">15.08.2006</time> <a href="2006/08/ob-avtotyunynhe/index.html">об автотюнинге</a></li>
+<li><time class="datetime">14.08.2006</time> <a href="2006/08/ynteresnyij-hlyuk/index.html">интересный глюк</a></li>
+<li><time class="datetime">14.08.2006</time> <a href="2006/08/it-produktyi/index.html">IT-продукты</a></li>
+<li><time class="datetime">13.08.2006</time> <a href="2006/08/ya-plakal/index.html">я плакал</a></li>
+<li><time class="datetime">13.08.2006</time> <a href="2006/08/allylujya/index.html">аллилуйя!</a></li>
+<li><time class="datetime">13.08.2006</time> <a href="2006/08/vylkommen/index.html">вилькоммен</a></li>
+<li><time class="datetime">12.08.2006</time> <a href="2006/08/kto-esche-ne-zametyl/index.html">кто еще не заметил&amp;#8230;..</a></li>
+<li><time class="datetime">10.08.2006</time> <a href="2006/08/tut-daveche-razhovor-byil/index.html">тут давече разговор был&amp;#8230;.</a></li>
+<li><time class="datetime">09.08.2006</time> <a href="2006/08/fun-lekarstvo/index.html">[fun] лекарство</a></li>
+<li><time class="datetime">09.08.2006</time> <a href="2006/08/31/index.html">181</a></li>
+<li><time class="datetime">06.08.2006</time> <a href="2006/08/fun/index.html">fun</a></li>
+<li><time class="datetime">04.08.2006</time> <a href="2006/08/horoshaya-zapys/index.html">хорошая запись</a></li>
+<li><time class="datetime">04.08.2006</time> <a href="2006/08/kak-mozhno-doveryat/index.html">как можно доверять&amp;#8230;</a></li>
+<li><time class="datetime">04.08.2006</time> <a href="2006/08/tendentsyya-odnako/index.html">тенденция однако</a></li>
+<li><time class="datetime">04.08.2006</time> <a href="2006/08/lukyanenko-sprashyvaet/index.html">Лукьяненко спрашивает</a></li>
+<li><time class="datetime">03.08.2006</time> <a href="2006/08/muzhskye-pryvelehyy/index.html">мужские привелегии</a></li>
+<li><time class="datetime">03.08.2006</time> <a href="2006/08/659/index.html">* * *</a></li>
+<li><time class="datetime">30.07.2006</time> <a href="2006/07/ob-osyah/index.html">об осях</a></li>
+<li><time class="datetime">30.07.2006</time> <a href="2006/07/postavyl-novyij-yuzerpyk-dlya-zapysej-o-knyhah/index.html">поставил новый юзерпик для записей о книгах.</a></li>
+<li><time class="datetime">30.07.2006</time> <a href="2006/07/u-menya-byilo-takoe-podozrenye-no/index.html">у меня было такое подозрение, но</a></li>
+<li><time class="datetime">30.07.2006</time> <a href="2006/07/dobroe-utro-5/index.html">доброе утро!?</a></li>
+<li><time class="datetime">29.07.2006</time> <a href="2006/07/nashel-ynteresnuyu-ssyilku/index.html">нашел интересную ссылку</a></li>
+<li><time class="datetime">29.07.2006</time> <a href="2006/07/yz-novyih-onlajn-servysov/index.html">из новых (онлайн) сервисов</a></li>
+<li><time class="datetime">29.07.2006</time> <a href="2006/07/652/index.html">2006-07-29-652</a></li>
+<li><time class="datetime">29.07.2006</time> <a href="2006/07/example-note-1/index.html">Example Note 1</a></li>
+<li><time class="datetime">29.07.2006</time> <a href="2006/07/davnenko-nycheho-ne-pysal-ya/index.html">давненько ничего не писал я&amp;#8230;</a></li>
+<li><time class="datetime">02.06.2006</time> <a href="2006/06/futbolnaya-molodezhka-v-fynale/index.html">ФУТБОЛЬНАЯ молодежка в ФИНАЛЕ!!!!!!!</a></li>
+<li><time class="datetime">28.05.2006</time> <a href="2006/05/frank-lacy-sehodnya/index.html">Frank Lacy сегодня</a></li>
+<li><time class="datetime">18.05.2006</time> <a href="2006/05/esche-odna-krasotyscha/index.html">еще одна красотища</a></li>
+<li><time class="datetime">17.05.2006</time> <a href="2006/05/uvydeno-vo-frendlente/index.html">увидено во френдленте</a></li>
+<li><time class="datetime">16.05.2006</time> <a href="2006/05/645/index.html">* * *</a></li>
+<li><time class="datetime">16.05.2006</time> <a href="2006/05/myr-bez-hranyts/index.html">мир без границ</a></li>
+<li><time class="datetime">15.05.2006</time> <a href="2006/05/google-oscommerce/index.html">google &amp;#038; oscommerce</a></li>
+<li><time class="datetime">12.05.2006</time> <a href="2006/05/pro-yajtsa/index.html">про яйца</a></li>
+<li><time class="datetime">12.05.2006</time> <a href="2006/05/evrobachennya/index.html">Євробачення</a></li>
+<li><time class="datetime">11.05.2006</time> <a href="2006/05/vchera-ne-rabotal-deepest-sender/index.html">вчера не работал Deepest Sender</a></li>
+<li><time class="datetime">11.05.2006</time> <a href="2006/05/zapys-znakomstv/index.html">запись знакомств :)</a></li>
+<li><time class="datetime">11.05.2006</time> <a href="2006/05/tytanyk-2/index.html">Титаник 2</a></li>
+<li><time class="datetime">10.05.2006</time> <a href="2006/05/ydealnyij-rss-ahrehator/index.html">идеальный rss агрегатор</a></li>
+<li><time class="datetime">10.05.2006</time> <a href="2006/05/kyjivstar-prodaly-rossyyanam/index.html">&amp;#8220;Київстар&amp;#8221; продали россиянам</a></li>
+<li><time class="datetime">10.05.2006</time> <a href="2006/05/dobroe-dozhdlyvoe-utro/index.html">доброе дождливое утро!</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/afyhet/index.html">афигеть</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/wince-6-previewed/index.html">WinCE 6 previewed</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/632/index.html">* * *</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/pretty-woman/index.html">Pretty woman</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/muzyika-2/index.html">музыка</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/obo-mne/index.html">обо мне</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/mi3/index.html">MI3</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/frendyi/index.html">френды!</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/gorshkoffu/index.html">gorshkoff&amp;#8217;у</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/del-icio-us-sidebar/index.html">del.icio.us sidebar</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/esly-vam-nuzhno-prosto-napysat-mne/index.html">Если вам нужно просто написать мне</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/allods-pocketpc/index.html">Allods PocketPC</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/623/index.html">* * *</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/s-dnem-pobedyi/index.html">с днем Победы!</a></li>
+<li><time class="datetime">09.05.2006</time> <a href="2006/05/o-proektah/index.html">О проектах</a></li>
+<li><time class="datetime">08.05.2006</time> <a href="2006/05/novyij-frend/index.html">новый френд</a></li>
+<li><time class="datetime">08.05.2006</time> <a href="2006/05/karta-pamyaty-minisd-1gb-80x-transcend/index.html">Карта памяти miniSD 1Gb 80X Transcend</a></li>
+<li><time class="datetime">07.05.2006</time> <a href="2006/05/pobyival-na-forume-master-x/index.html">побывал на форуме Master-X</a></li>
+<li><time class="datetime">04.05.2006</time> <a href="2006/05/o-ladoshkah/index.html">о &amp;#8220;Ладошках&amp;#8221;</a></li>
+<li><time class="datetime">03.05.2006</time> <a href="2006/05/gmail-y-attachy/index.html">Gmail и аттачи</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/places-ne-budet-v-firefox-2-0/index.html">Places не будет в Firefox 2.0</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/complete-miles-davis-discography/index.html">Complete Miles Davis discography</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/sketches-of-spain-by-miles-davis/index.html">Sketches of Spain by Miles Davis</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/jazzstandarts/index.html">JazzStandarts</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/porgy-and-bess/index.html">Porgy and Bess</a></li>
+<li><time class="datetime">02.05.2006</time> <a href="2006/05/v-evrope-vovsyu-podtalkyvayut-k-donosam/index.html">в Европе вовсю подталкивают к доносам</a></li>
+<li><time class="datetime">01.05.2006</time> <a href="2006/05/608/index.html"><b>*</b></a></li>
+<li><time class="datetime">01.05.2006</time> <a href="2006/05/mezhdunarodnyij-dzhazovyij-abonement/index.html">Международный Джазовый абонемент</a></li>
+<li><time class="datetime">30.04.2006</time> <a href="2006/04/pro-muzyiku-y-ynternet/index.html">про музыку и интернет</a></li>
+<li><time class="datetime">30.04.2006</time> <a href="2006/04/ya-voshyschen/index.html">я восхищен!</a></li>
+<li><time class="datetime">30.04.2006</time> <a href="2006/04/o-novom-fyrmennom-style/index.html">о новом фирменном стиле</a></li>
+<li><time class="datetime">30.04.2006</time> <a href="2006/04/novoe-radyo-otkril-dlya-sebya/index.html">новое радио откріл для себя</a></li>
+<li><time class="datetime">28.04.2006</time> <a href="2006/04/4-vstrechy-za-den/index.html">4 встречи за день</a></li>
+<li><time class="datetime">28.04.2006</time> <a href="2006/04/dobroe-utro-4/index.html">доброе утро?!</a></li>
+<li><time class="datetime">28.04.2006</time> <a href="2006/04/no-comments/index.html">no comments!</a></li>
+<li><time class="datetime">27.04.2006</time> <a href="2006/04/po-motyvam-staroho-anekdota-pochty/index.html">по мотивам старого анекдота (почти)</a></li>
+<li><time class="datetime">27.04.2006</time> <a href="2006/04/nemnoho-o-sekse/index.html">немного о сексе</a></li>
+<li><time class="datetime">27.04.2006</time> <a href="2006/04/popolnenye-muzyikalnoj-kollektsyy/index.html">пополнение музыкальной коллекции</a></li>
+<li><time class="datetime">27.04.2006</time> <a href="2006/04/catch-up/index.html">catch up</a></li>
+<li><time class="datetime">27.04.2006</time> <a href="2006/04/vsem-udachnoho-dnya/index.html">всем удачного дня!</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/razocharovanye-dnya/index.html">разочарование дня</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/pashalnoe-bohosluzhenye-dlya-vyisshyh-chynov-rossyy/index.html">пасхальное богослужение для высших чинов России</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/artlyha-mezhdunarodnyij-dzhazovyij-abonement-y-kompanyya/index.html">Артлига, Международный джазовый абонемент и компания</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/chernobyil/index.html">Чернобыль</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/denek/index.html">денек</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/shoubyz-2005/index.html">ШоуБиз-2005</a></li>
+<li><time class="datetime">26.04.2006</time> <a href="2006/04/afftar-vyipej-jadu/index.html">аффтар выпей йаду</a></li>
+<li><time class="datetime">24.04.2006</time> <a href="2006/04/signature/index.html">signature</a></li>
+<li><time class="datetime">24.04.2006</time> <a href="2006/04/pryshel-spam/index.html">пришел спам</a></li>
+<li><time class="datetime">24.04.2006</time> <a href="2006/04/ray-charles/index.html">Ray Charles</a></li>
+<li><time class="datetime">24.04.2006</time> <a href="2006/04/dobroe-utro1/index.html">доброе утро?1</a></li>
+<li><time class="datetime">22.04.2006</time> <a href="2006/04/zloycowboy/index.html">zloycowboy</a></li>
+<li><time class="datetime">22.04.2006</time> <a href="2006/04/steel_aacher/index.html">steel<sub>aacher</sub></a></li>
+<li><time class="datetime">22.04.2006</time> <a href="2006/04/krugle/index.html">krugle</a></li>
+<li><time class="datetime">21.04.2006</time> <a href="2006/04/sony-budet-vyipuskat-zerkalnyie-fotokameryi/index.html">Sony будет выпускать зеркальные фотокамеры</a></li>
+<li><time class="datetime">21.04.2006</time> <a href="2006/04/ya-vo-frendlente/index.html">я во френдленте</a></li>
+<li><time class="datetime">21.04.2006</time> <a href="2006/04/dobroe-utro-3/index.html">доброе утро?!</a></li>
+<li><time class="datetime">21.04.2006</time> <a href="2006/04/florentsyya-bylyard/index.html">&amp;#8220;флоренция&amp;#8221;, бильярд</a></li>
+<li><time class="datetime">20.04.2006</time> <a href="2006/04/dobroe-utro-2/index.html">доброе утро?!</a></li>
+<li><time class="datetime">20.04.2006</time> <a href="2006/04/yesss/index.html">yesss!</a></li>
+<li><time class="datetime">19.04.2006</time> <a href="2006/04/dobroe-utro/index.html">доброе утро?!</a></li>
+<li><time class="datetime">19.04.2006</time> <a href="2006/04/torrent/index.html">torrent</a></li>
+<li><time class="datetime">18.04.2006</time> <a href="2006/04/dela/index.html">дела</a></li>
+<li><time class="datetime">15.04.2006</time> <a href="2006/04/friends/index.html">friends</a></li>
+<li><time class="datetime">15.04.2006</time> <a href="2006/04/i-love-firefox/index.html">I love FireFox</a></li>
+<li><time class="datetime">09.04.2006</time> <a href="2006/04/enyhma-avtokvest-komanda-y-prochee/index.html">Энигма, Автоквест, команда и прочее</a></li>
+<li><time class="datetime">09.04.2006</time> <a href="2006/04/lajf-vse-esche-yschet/index.html">Лайф все еще ищет :)</a></li>
+<li><time class="datetime">09.04.2006</time> <a href="2006/04/ymu-2006/index.html">ИМУ-2006</a></li>
+<li><time class="datetime">03.04.2006</time> <a href="2006/04/byaka-prokatylas-po-zhzh-v-smyisle-test/index.html">бяка прокатилась по ЖЖ (в смысле тест)</a></li>
+<li><time class="datetime">03.04.2006</time> <a href="2006/04/ydejnaya-fotka/index.html">идейная фотка</a></li>
+<li><time class="datetime">28.03.2006</time> <a href="2006/03/chut-chut-pro-vyiboryi-veseloe/index.html">чуть-чуть про выборы (веселое)</a></li>
+<li><time class="datetime">27.03.2006</time> <a href="2006/03/wish-list/index.html">wish-list</a></li>
+<li><time class="datetime">27.03.2006</time> <a href="2006/03/pozdravlyat-s-dr-mozhno-zdes/index.html">Поздравлять с ДР можно здесь :)</a></li>
+<li><time class="datetime">23.03.2006</time> <a href="2006/03/nebolshoj-pyar/index.html">небольшой пиар</a></li>
+<li><time class="datetime">19.03.2006</time> <a href="2006/03/zahadky-vyndyi/index.html">загадки &amp;#8220;винды&amp;#8221;</a></li>
+<li><time class="datetime">18.03.2006</time> <a href="2006/03/festyval-ednyst/index.html">Фестиваль &amp;#8220;Еднисть&amp;#8221;</a></li>
+<li><time class="datetime">12.03.2006</time> <a href="2006/03/esche-o-reklame/index.html">еще о рекламе</a></li>
+<li><time class="datetime">12.03.2006</time> <a href="2006/03/salary-matic/index.html">salary-matic</a></li>
+<li><time class="datetime">09.03.2006</time> <a href="2006/03/karpatske/index.html">Карпатське</a></li>
+<li><time class="datetime">08.03.2006</time> <a href="2006/03/s-8-marta/index.html">с 8 марта</a></li>
+<li><time class="datetime">06.03.2006</time> <a href="2006/03/reklama-via-dz/index.html">реклама via dz</a></li>
+<li><time class="datetime">06.03.2006</time> <a href="2006/03/qwika-y-avtomatycheskyj-perevod/index.html">qwika и автоматический перевод</a></li>
+<li><time class="datetime">05.03.2006</time> <a href="2006/03/eryk-maryental/index.html">Эрик Мариентал</a></li>
+<li><time class="datetime">01.03.2006</time> <a href="2006/03/bytva-pry-molodyah/index.html">битва при Молодях</a></li>
+<li id="<time class="datetime">01.03.2006</time> [[<a href="2006/03/nado-chasche-vstrechatsya-bylyard/index.html">2006/03/nado-chasche-vstrechatsya-bylyard/index.html</a>][надо чаще встречаться">бильярд]]</li>
+<li><time class="datetime">01.03.2006</time> <a href="2006/03/ulytsyi/index.html">улицы</a></li>
+<li><time class="datetime">25.02.2006</time> <a href="2006/02/dlya-lyubytelej-fastfood/index.html">для любителей fastfood</a></li>
+<li><time class="datetime">25.02.2006</time> <a href="2006/02/poezdka/index.html">поездка</a></li>
+<li><time class="datetime">24.02.2006</time> <a href="2006/02/couchirard-z-dnem-rozhdenyya/index.html">couchirard з днем рождения</a></li>
+<li><time class="datetime">24.02.2006</time> <a href="2006/02/546/index.html">2006-02-24-546</a></li>
+<li><time class="datetime">22.02.2006</time> <a href="2006/02/545/index.html">2006-02-22-545</a></li>
+<li><time class="datetime">17.02.2006</time> <a href="2006/02/atomnyij-vzryiv/index.html">атомный взрыв</a></li>
+<li><time class="datetime">15.02.2006</time> <a href="2006/02/543/index.html">2006-02-15-543</a></li>
+<li><time class="datetime">14.02.2006</time> <a href="2006/02/ya-ponyal-chto-ya-hochu/index.html">я понял, что я хочу :)</a></li>
+<li><time class="datetime">12.02.2006</time> <a href="2006/02/songbird/index.html">songbird</a></li>
+<li><time class="datetime">04.02.2006</time> <a href="2006/02/marketing-expert/index.html">marketing expert</a></li>
+<li><time class="datetime">02.02.2006</time> <a href="2006/02/moskovskym-frendam/index.html">московским френдам</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/prysoedynyajtes/index.html">присоединяйтесь!</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/neskolko-vechernyh-myislej/index.html">несколько вечерних мыслей</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/vstrecha-zavtra/index.html">встреча завтра</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/pro-yaponyyu-y-yaponschynu/index.html">Про Японию и &amp;#8220;японщину&amp;#8221;</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/prybolel/index.html">приболел</a></li>
+<li><time class="datetime">01.02.2006</time> <a href="2006/02/umc-2/index.html">UMC</a></li>
+<li><time class="datetime">31.01.2006</time> <a href="2006/01/u-koho-yz-frendov-v-kommentaryyah/index.html">у кого из френдов (?) (в комментариях?)&amp;#8230;</a></li>
+<li><time class="datetime">31.01.2006</time> <a href="2006/01/umc/index.html">umc</a></li>
+<li><time class="datetime">30.01.2006</time> <a href="2006/01/ninja-keyboard/index.html">ninja keyboard</a></li>
+<li><time class="datetime">30.01.2006</time> <a href="2006/01/hto-je-hto-na-politychnomu-olimpi/index.html">хто є хто на політичному Олімпі</a></li>
+<li><time class="datetime">30.01.2006</time> <a href="2006/01/dny-rozhdenyya-y-pozdravlenyya/index.html">Дни рождения и поздравления</a></li>
+<li><time class="datetime">30.01.2006</time> <a href="2006/01/skype/index.html">skype</a></li>
+<li><time class="datetime">29.01.2006</time> <a href="2006/01/pro-honhadze/index.html">про Гонгадзе</a></li>
+<li><time class="datetime">26.01.2006</time> <a href="2006/01/vyi-znaete-skolko-vesyat-12-myllyardov-dollarov/index.html">вы знаете сколько весят 12 миллиардов долларов</a></li>
+<li><time class="datetime">25.01.2006</time> <a href="2006/01/pro-sytronyks-y-afk-systemu/index.html">про Ситроникс и АФК Систему</a></li>
+<li><time class="datetime">25.01.2006</time> <a href="2006/01/s-dnem-tatyanyi/index.html">С днем Татьяны</a></li>
+<li><time class="datetime">24.01.2006</time> <a href="2006/01/vdohonku/index.html">вдогонку</a></li>
+<li><time class="datetime">24.01.2006</time> <a href="2006/01/proshloe-y-buduschee/index.html">прошлое и будущее</a></li>
+<li><time class="datetime">20.01.2006</time> <a href="2006/01/elitarium/index.html">elitarium</a></li>
+<li><time class="datetime">19.01.2006</time> <a href="2006/01/milionpixels-in-ua/index.html">milionpixels.in.ua</a></li>
+<li><time class="datetime">19.01.2006</time> <a href="2006/01/vyi-zabyily-chto-takoe-temnyky-tohda-myi-ydem-k-vam/index.html">вы забыли что такое темники? тогда мы идем к вам!</a></li>
+<li><time class="datetime">16.01.2006</time> <a href="2006/01/kak-vyihlyadel-pervyij-veb-server/index.html">как выглядел первый веб-сервер?</a></li>
+<li><time class="datetime">16.01.2006</time> <a href="2006/01/vot-tak-vsehda-2/index.html">вот так всегда</a></li>
+<li><time class="datetime">16.01.2006</time> <a href="2006/01/10-veschej-kotoryie-mozhno-delat-v-tokyo-besplatno-_/index.html">10 вещей, которые можно делать в Токио бесплатно ^_^</a></li>
+<li><time class="datetime">16.01.2006</time> <a href="2006/01/fylmyi/index.html">фильмы</a></li>
+<li><time class="datetime">15.01.2006</time> <a href="2006/01/trohy-anty-polityky/index.html">трохи (анти-)політики</a></li>
+<li><time class="datetime">14.01.2006</time> <a href="2006/01/utrennyj-syurpryz/index.html">утренний сюрприз</a></li>
+<li><time class="datetime">09.01.2006</time> <a href="2006/01/polunoshnoe-nychehonydelane/index.html">полуношное ничегониделанье</a></li>
+<li><time class="datetime">06.01.2006</time> <a href="2006/01/pro-sponsorov/index.html">про спонсоров</a></li>
+<li><time class="datetime">03.01.2006</time> <a href="2006/01/ynteresnoe-chtyvo/index.html">интересное чтиво</a></li>
+<li><time class="datetime">01.01.2006</time> <a href="2006/01/yhrushka-na-oboze/index.html">игрушка на &amp;#8220;Обозе&amp;#8221;</a></li>
+<li><time class="datetime">01.01.2006</time> <a href="2006/01/pomny-pro-haz-ne-pokupaj-rossyjskye-tovaryi/index.html">ПОМНИ ПРО ГАЗ &amp;#8211; НЕ ПОКУПАЙ РОССИЙСКИЕ ТОВАРЫ!</a></li>
+<li><time class="datetime">31.12.2005</time> <a href="2005/12/c-nastupayuschym-novyim-hodom/index.html">C наступающим Новым Годом!</a></li>
+<li><time class="datetime">28.12.2005</time> <a href="2005/12/prodakt-plejsment/index.html">продакт-плейсмент</a></li>
+<li><time class="datetime">28.12.2005</time> <a href="2005/12/linux-vs-xp/index.html">linux vs XP</a></li>
+<li><time class="datetime">26.12.2005</time> <a href="2005/12/raljeans-com-ua/index.html">ral@jeans.com.ua</a></li>
+<li><time class="datetime">26.12.2005</time> <a href="2005/12/last-fm/index.html">last.fm</a></li>
+<li><time class="datetime">25.12.2005</time> <a href="2005/12/telefonnaya-rozetka-rj12/index.html">телефонная розетка rj12</a></li>
+<li><time class="datetime">22.12.2005</time> <a href="2005/12/kartynka-dnya/index.html">картинка дня</a></li>
+<li><time class="datetime">21.12.2005</time> <a href="2005/12/498/index.html">2005-12-21-498</a></li>
+<li><time class="datetime">20.12.2005</time> <a href="2005/12/bodyart/index.html">бодиарт</a></li>
+<li><time class="datetime">20.12.2005</time> <a href="2005/12/arhytektura-google-via-dali_bude/index.html">архитектура Google via dali<sub>bude</sub></a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/ocherednaya-bolyachka/index.html">очередная &amp;#8220;болячка&amp;#8221;</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/prosmtaryvaya-frendlentu-ua_all/index.html">просмтаривая френдленту ua<sub>all</sub></a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/na-bajkale-najdenyi-drevnye-artefaktyi-vyisokoobrazovannoj-tsyvylyzatsyy/index.html">На Байкале найдены древние артефакты высокообразованной цивилизации</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/one-word-meme/index.html">One-word meme</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/novyij-druh/index.html">новый друг</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/boleyu-2/index.html">болею&amp;#8230;</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/55-voprosov-hr/index.html">55 вопросов hr</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/permanent-account/index.html">permanent account</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/hy-hy/index.html">хи-хи</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/tradytsyonnyij-zaholovok-y-snova-pro-gmail/index.html">[традиционный заголовок] и снова про GMail</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/del-icio-us/index.html">del.icio.us</a></li>
+<li><time class="datetime">19.12.2005</time> <a href="2005/12/usic/index.html">USIC</a></li>
+<li><time class="datetime">18.12.2005</time> <a href="2005/12/spysok-smeshnyih-y-nelepyih-nazvanyj-sajtov/index.html">список смешных и нелепых названий сайтов</a></li>
+<li><time class="datetime">18.12.2005</time> <a href="2005/12/roma-voronezhskyj/index.html">Рома Воронежский</a></li>
+<li><time class="datetime">17.12.2005</time> <a href="2005/12/lychnoe/index.html">личное</a></li>
+<li><time class="datetime">17.12.2005</time> <a href="2005/12/zadevaet-chuvstva/index.html">задевает чувства&amp;#8230;</a></li>
+<li><time class="datetime">14.12.2005</time> <a href="2005/12/redaktora-na-myilo/index.html">Редактора на мыло</a></li>
+<li><time class="datetime">14.12.2005</time> <a href="2005/12/tyisyacha-ymen-znaka-via-simplyme777/index.html">тысяча имен знака @  via simplyme777</a></li>
+<li><time class="datetime">14.12.2005</time> <a href="2005/12/lukyanenko-zhzhot/index.html">Лукьяненко ЖЖОТ!</a></li>
+<li><time class="datetime">13.12.2005</time> <a href="2005/12/firefox-y-antyvyrusyi/index.html">FireFox и антивирусы?</a></li>
+<li><time class="datetime">13.12.2005</time> <a href="2005/12/gif-anymatsyya/index.html">gif анимация</a></li>
+<li><time class="datetime">11.12.2005</time> <a href="2005/12/firefox-y-del-icio-us/index.html">FireFox и del.icio.us</a></li>
+<li><time class="datetime">11.12.2005</time> <a href="2005/12/nastroyl-mylj/index.html">настроил MyLJ</a></li>
+<li><time class="datetime">10.12.2005</time> <a href="2005/12/y-snova-pro-gmail/index.html">и снова про Gmail</a></li>
+<li><time class="datetime">10.12.2005</time> <a href="2005/12/yaponskyj/index.html">японский</a></li>
+<li><time class="datetime">10.12.2005</time> <a href="2005/12/kpnemo/index.html">kpnemo</a></li>
+<li><time class="datetime">10.12.2005</time> <a href="2005/12/umer-robert-shekly-via-worder/index.html">умер Роберт Шекли (via worder)</a></li>
+<li><time class="datetime">10.12.2005</time> <a href="2005/12/google-rulyt/index.html">Google &amp;#8220;рулит&amp;#8221;</a></li>
+<li><time class="datetime">09.12.2005</time> <a href="2005/12/tsvetnyie-fotohrafyy-nachala-20-veka/index.html">цветные фотографии начала 20 века</a></li>
+<li><time class="datetime">08.12.2005</time> <a href="2005/12/znamenytaya-pesnya-bh/index.html">знаменитая песня БГ</a></li>
+<li><time class="datetime">08.12.2005</time> <a href="2005/12/v-aeroportu-majamy-zastrelen-muzhchyna/index.html">в аэропорту Майами застрелен мужчина</a></li>
+<li><time class="datetime">08.12.2005</time> <a href="2005/12/nyheryjskyj-spam/index.html">нигерийский спам</a></li>
+<li><time class="datetime">08.12.2005</time> <a href="2005/12/ocherednoj-povod-dlya-hordosty-za-mohylyanku/index.html">Очередной повод для гордости за могилянку</a></li>
+<li><time class="datetime">07.12.2005</time> <a href="2005/12/kto-hochet-yzuchyt-novyij-yazyik/index.html">кто хочет изучить новый язык?</a></li>
+<li><time class="datetime">07.12.2005</time> <a href="2005/12/o-tehnolohyyah/index.html">о технологиях</a></li>
+<li><time class="datetime">06.12.2005</time> <a href="2005/12/kalyan-opasnee-chem-schytalos-ranee/index.html">Кальян опаснее, чем считалось ранее</a></li>
+<li><time class="datetime">06.12.2005</time> <a href="2005/12/16-horyachyh-devushek/index.html">16 горячих девушек</a></li>
+<li><time class="datetime">30.11.2005</time> <a href="2005/11/ukrayna-stala-stranoj-s-ryinochnoj-ekonomykoj/index.html">Украина стала страной с рыночной экономикой</a></li>
+<li><time class="datetime">30.11.2005</time> <a href="2005/11/blyznetsyi/index.html">близнецы</a></li>
+<li><time class="datetime">22.11.2005</time> <a href="2005/11/z800-prodam/index.html">z800 продам</a></li>
+<li><time class="datetime">18.11.2005</time> <a href="2005/11/esche-rustavi/index.html">еще Rustavi</a></li>
+<li><time class="datetime">16.11.2005</time> <a href="2005/11/ystoryya-amerykanskoj-lehendyi-kompanyy-harlej-devydson/index.html">история американской легенды &amp;#8211; компании &amp;#8220;Харлей Дэвидсон&amp;#8221;</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/o-patentah-y-buduschem-yz-kompyulentyi/index.html">о патентах и будущем (из компьюленты)</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/pro-fejs-kontrol/index.html">про фейс-контроль</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/druzya-druzej/index.html">друзья друзей</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/umeete-ly-vyi-materytsya/index.html">умеете ли вы материться? :)</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/esly-vyi-dumaete-chto/index.html">если вы думаете, что&amp;#8230;</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/sluchajno-podsmotreno-u-gl_notes/index.html">случайно подсмотрено у gl<sub>notes</sub></a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/novaya-zhzhshnaya-zaraza/index.html">&amp;#8220;новая&amp;#8221; (?) ЖЖшная зараза :)</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/o-pyve/index.html">о пиве</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/ne-dlya-padonkov/index.html">не для пАдонков :)</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/sony-vaio-vgn-u71p/index.html">Sony Vaio VGN-U71P</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/japanese-input/index.html">japanese input</a></li>
+<li><time class="datetime">15.11.2005</time> <a href="2005/11/odessa-by-tema-ru/index.html">Одесса (by tema.ru)</a></li>
+<li><time class="datetime">14.11.2005</time> <a href="2005/11/derybasovskaya-20/index.html">Дерибасовская, 20</a></li>
+<li><time class="datetime">14.11.2005</time> <a href="2005/11/gorshkoff-s-dnem-rozhdenyya/index.html">gorshkoff с днем рождения!</a></li>
+<li><time class="datetime">11.11.2005</time> <a href="2005/11/shkolnyk-kotoroho-yzbraly-merom/index.html">школьник, которого избрали мэром</a></li>
+<li><time class="datetime">11.11.2005</time> <a href="2005/11/dalaj-lamu-prynyaly-v-belom-dome/index.html">Далай ламу приняли в Белом Доме</a></li>
+<li><time class="datetime">11.11.2005</time> <a href="2005/11/v-prodolzhenye-podborky-materyalov-pro-frantsyyu/index.html">в продолжение подборки материалов про Францию</a></li>
+<li><time class="datetime">11.11.2005</time> <a href="2005/11/na-temu-frantsyy-neplohaya-podborka-materyalov-s-e-xecutive/index.html">на тему Франции (неплохая подборка материалов с e-xecutive)</a></li>
+<li><time class="datetime">11.11.2005</time> <a href="2005/11/radyo/index.html">радио</a></li>
+<li><time class="datetime">10.11.2005</time> <a href="2005/11/sehodnya-den-rozhdenyya-alekseya-kohana/index.html">сегодня день рождения Алексея Когана</a></li>
+<li><time class="datetime">09.11.2005</time> <a href="2005/11/zhzh-kyevlyane/index.html">ЖЖ киевляне</a></li>
+<li><time class="datetime">09.11.2005</time> <a href="2005/11/30-fevralya/index.html">30 февраля</a></li>
+<li><time class="datetime">09.11.2005</time> <a href="2005/11/y-hot-do-dnya-rozhdenya-daleko/index.html">и хоть до дня рожденья далеко&amp;#8230;</a></li>
+<li><time class="datetime">09.11.2005</time> <a href="2005/11/pohyb-yuryj-hajchyn/index.html">погиб Юрий Хайчин</a></li>
+<li><time class="datetime">07.11.2005</time> <a href="2005/11/dozhdalys/index.html">дождались :)</a></li>
+<li><time class="datetime">07.11.2005</time> <a href="2005/11/2-vakansyy-v-ral-studio-aktualno-do-7-noyabrya/index.html">2 вакансии в RAL Studio (актуально до 7 ноября)</a></li>
+<li><time class="datetime">04.11.2005</time> <a href="2005/11/superrolyk/index.html">суперролик!</a></li>
+<li><time class="datetime">04.11.2005</time> <a href="2005/11/voprosyi/index.html">вопросы&amp;#8230;.</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/fasterfox/index.html">FasterFox</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/pochystyl-frendlentu/index.html">почистил френдленту</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/vodafone-prodaet-telefonyi-kak-shokoladky/index.html">Vodafone продает телефоны, как шоколадки</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/10-sovetov-po-uluchshenyyu-bloha/index.html">10 советов по улучшению блога</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/deadman/index.html">DeadMan</a></li>
+<li><time class="datetime">30.10.2005</time> <a href="2005/10/kod-da-vynchy-na-stb/index.html">&amp;#8220;Код да Винчи&amp;#8221; на СТБ</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/vecher-udalsya/index.html">вечер удался!</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/lehkoe-kyno-hornychnaya-v-manhettene/index.html">[легкое кино] Горничная в Манхеттене</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/google-org/index.html">Google.org</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/to-whom-it-may-concern/index.html">to whom it may concern</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/oformlenye-zhurnala/index.html">оформление журнала</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/pro-base-google-com/index.html">про base.google.com</a></li>
+<li><time class="datetime">29.10.2005</time> <a href="2005/10/414/index.html">2005-10-29-414</a></li>
+<li><time class="datetime">28.10.2005</time> <a href="2005/10/rss-friends/index.html">rss friends</a></li>
+<li><time class="datetime">28.10.2005</time> <a href="2005/10/byllu-hejtsu-50/index.html">Биллу Гейтсу &amp;#8211; 50!</a></li>
+<li><time class="datetime">28.10.2005</time> <a href="2005/10/google-sozdaet-konkurenta-ebay/index.html">Google создает конкурента eBay?</a></li>
+<li><time class="datetime">28.10.2005</time> <a href="2005/10/otlychnyij-sposob-raskrutky-sajta/index.html">отличный способ раскрутки сайта</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/lyubytelyam-bmw/index.html">любителям bmw</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/friends-v-xml/index.html">friends в xml</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/tk-domain/index.html">.tk domain</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/es-bolshe-ne-ynteresuetsya-ukraynoj-die-welt/index.html">ЕС больше не интересуется Украиной (Die Welt)</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/mozhet-kto-esche-ne-vydel/index.html">может кто еще не видел?</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/reklamnoe/index.html">рекламное</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/zhyvenkoe-obsuzhdenye-vakansyy-v-veb-studyy/index.html">живенькое обсуждение вакансии в веб-студии</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/pysma-vladeltsa-evrosety/index.html">письма владельца &amp;#8220;Евросети&amp;#8221;</a></li>
+<li><time class="datetime">27.10.2005</time> <a href="2005/10/ob-ubytyih-komyunyty/index.html">об убитых комьюнити</a></li>
+<li><time class="datetime">26.10.2005</time> <a href="2005/10/kalkulyator-v-windows/index.html">калькулятор в windows</a></li>
+<li><time class="datetime">26.10.2005</time> <a href="2005/10/web-2-0-compulenta/index.html">web 2.0 @ compulenta</a></li>
+<li><time class="datetime">25.10.2005</time> <a href="2005/10/rover/index.html">Rover</a></li>
+<li><time class="datetime">25.10.2005</time> <a href="2005/10/livejournal-comportal/index.html">livejournal.com/portal</a></li>
+<li><time class="datetime">24.10.2005</time> <a href="2005/10/kpk-na-baze-winxp/index.html">КПК на базе WinXP</a></li>
+<li><time class="datetime">24.10.2005</time> <a href="2005/10/o-knyhovorote/index.html">о книговороте</a></li>
+<li><time class="datetime">24.10.2005</time> <a href="2005/10/for-mcstrick/index.html">for mcstrick</a></li>
+<li><time class="datetime">23.10.2005</time> <a href="2005/10/o-syine/index.html">о сыне</a></li>
+<li><time class="datetime">22.10.2005</time> <a href="2005/10/chascha/index.html">&amp;#8220;Чаща&amp;#8221;</a></li>
+<li><time class="datetime">22.10.2005</time> <a href="2005/10/flock-testing-2/index.html">Flock testing</a></li>
+<li><time class="datetime">22.10.2005</time> <a href="2005/10/flock-testing/index.html">Flock testing</a></li>
+<li><time class="datetime">20.10.2005</time> <a href="2005/10/posvyaschaetsya-kimaki/index.html">посвящается kimaki</a></li>
+<li><time class="datetime">20.10.2005</time> <a href="2005/10/civilization-iv/index.html">Civilization IV</a></li>
+<li><time class="datetime">20.10.2005</time> <a href="2005/10/kyno-v-chasche/index.html">кино в &amp;#8220;Чаще&amp;#8221;</a></li>
+<li><time class="datetime">13.10.2005</time> <a href="2005/10/prodam-noutbuk-samsung-q20/index.html">продам ноутбук Samsung Q20</a></li>
+<li><time class="datetime">11.10.2005</time> <a href="2005/10/sensatsyya-kotoraya-dlya-menya-sovsem-ne-sensatsyya/index.html">сенсация, которая для меня совсем не сенсация</a></li>
+<li><time class="datetime">11.10.2005</time> <a href="2005/10/u-menya-poyavylsya-kotenok/index.html">у меня появился котенок</a></li>
+<li><time class="datetime">09.10.2005</time> <a href="2005/10/fraza-dnya/index.html">фраза дня</a></li>
+<li><time class="datetime">08.10.2005</time> <a href="2005/10/de/index.html">.de</a></li>
+<li><time class="datetime">08.10.2005</time> <a href="2005/10/379/index.html">2005-10-08-379</a></li>
+<li><time class="datetime">06.10.2005</time> <a href="2005/10/icq-umerlo/index.html">icq умерло</a></li>
+<li><time class="datetime">29.09.2005</time> <a href="2005/09/filmz/index.html">filmz</a></li>
+<li><time class="datetime">13.09.2005</time> <a href="2005/09/lyk-kyeva/index.html">Лик Киева</a></li>
+<li><time class="datetime">10.09.2005</time> <a href="2005/09/chto-s-nnm-ru/index.html">что с nnm.ru?</a></li>
+<li><time class="datetime">09.09.2005</time> <a href="2005/09/kak-zastavyt-google-yskat-mp3-fajlyi/index.html">Как заставить Google искать mp3-файлы?</a></li>
+<li><time class="datetime">06.09.2005</time> <a href="2005/09/gmail-search/index.html">Gmail search</a></li>
+<li><time class="datetime">06.09.2005</time> <a href="2005/09/google-os-realnost-yly-horoshaya-poddelka/index.html">Google OS &amp;#8211; реальность или хорошая подделка</a></li>
+<li><time class="datetime">04.09.2005</time> <a href="2005/09/ukrayna-edet-na-chm-2006/index.html">УКРАИНА едет на ЧМ-2006!!!!</a></li>
+<li><time class="datetime">14.08.2005</time> <a href="2005/08/pereezd/index.html">переезд</a></li>
+<li><time class="datetime">25.07.2005</time> <a href="2005/07/gmail-2/index.html">gmail</a></li>
+<li><time class="datetime">21.07.2005</time> <a href="2005/07/anons-dzhaz-na-molodom/index.html">анонс &amp;#8220;Джаз на Молодом&amp;#8221;</a></li>
+<li><time class="datetime">18.07.2005</time> <a href="2005/07/snymu-1-komnatnuyu-kvartyru/index.html">сниму 1-комнатную квартиру</a></li>
+<li><time class="datetime">13.07.2005</time> <a href="2005/07/radyjnoe/index.html">радийное</a></li>
+<li><time class="datetime">05.07.2005</time> <a href="2005/07/neuzhely-ya-takoj-svoloch-druhy-moya/index.html">неужели я такой сволочь, други моя?</a></li>
+<li><time class="datetime">05.07.2005</time> <a href="2005/07/10-days-countdown/index.html">10 days countdown</a></li>
+<li><time class="datetime">04.07.2005</time> <a href="2005/07/podsmotreno-u-temyi/index.html">подсмотрено у Темы</a></li>
+<li><time class="datetime">29.06.2005</time> <a href="2005/06/via/index.html">via</a></li>
+<li><time class="datetime">17.06.2005</time> <a href="2005/06/srochno-prodam-kpk-sony-nz90-300/index.html">СРОЧНО продам КПК &amp;#8211; Sony NZ90 &amp;#8211; 300$</a></li>
+<li><time class="datetime">15.06.2005</time> <a href="2005/06/lj/index.html">LJ</a></li>
+<li><time class="datetime">15.06.2005</time> <a href="2005/06/pervyij-vseukraynskyj-kataloh-veb-studyj/index.html">Первый Всеукраинский Каталог Веб-студий</a></li>
+<li><time class="datetime">15.06.2005</time> <a href="2005/06/andrewf-vernys/index.html">andrewf вернись!</a></li>
+<li><time class="datetime">13.06.2005</time> <a href="2005/06/mazepa-fest-den-1/index.html">Мазепа фест (день 1)</a></li>
+<li><time class="datetime">03.06.2005</time> <a href="2005/06/na-pravah-pr/index.html">На правах PR</a></li>
+<li><time class="datetime">01.06.2005</time> <a href="2005/06/knopka-dlya-rasprostranenyya/index.html">Кнопка для распространения</a></li>
+<li><time class="datetime">01.06.2005</time> <a href="2005/06/rasskaz-znakomoho-vzyato-u-nbite/index.html">рассказ знакомого (взято у nbite</a></li>
+<li><time class="datetime">31.05.2005</time> <a href="2005/05/354/index.html">2005-05-31-354</a></li>
+<li><time class="datetime">26.05.2005</time> <a href="2005/05/prohrammystskoe/index.html">программистское</a></li>
+<li><time class="datetime">22.05.2005</time> <a href="2005/05/hretsyya-pobedytel-evrovydenyya-2005/index.html">Греция &amp;#8211; победитель Евровидения-2005</a></li>
+<li><time class="datetime">20.05.2005</time> <a href="2005/05/the-bat-y-delivery-report/index.html">The Bat и delivery report</a></li>
+<li><time class="datetime">19.05.2005</time> <a href="2005/05/pereklyuchenye-peredach-na-bajke-sbylos/index.html">переключение передач на байке (сбилось?)</a></li>
+<li><time class="datetime">19.05.2005</time> <a href="2005/05/prodayu-t630/index.html">продаю t630</a></li>
+<li><time class="datetime">19.05.2005</time> <a href="2005/05/sbor-deneh-na-lechenye-roberta-shekly/index.html">Сбор денег на лечение Роберта Шекли</a></li>
+<li><time class="datetime">17.05.2005</time> <a href="2005/05/ynteresnaya-lychnaya-stranytsa/index.html">интересная личная страница</a></li>
+<li><time class="datetime">17.05.2005</time> <a href="2005/05/v-predveryy-starwars-iii/index.html">В предверии &amp;#8220;Starwars III&amp;#8221;</a></li>
+<li><time class="datetime">03.05.2005</time> <a href="2005/05/druh-vseh-russkoyazyichnyih-polzovatelej-zhzh/index.html">Друг всех русскоязычных пользователей ЖЖ</a></li>
+<li><time class="datetime">03.05.2005</time> <a href="2005/05/dobro-pozhalovat-v-rassyilku/index.html">добро пожаловать в рассылку</a></li>
+<li><time class="datetime">21.04.2005</time> <a href="2005/04/prodozhenye-ystoryy-y-hosterah/index.html">продожение истории и хостерах</a></li>
+<li><time class="datetime">20.04.2005</time> <a href="2005/04/342/index.html">2005-04-20-342</a></li>
+<li><time class="datetime">20.04.2005</time> <a href="2005/04/deklaratsyya-o-nezavysymosty-ssha/index.html">Декларация о независимости США</a></li>
+<li><time class="datetime">20.04.2005</time> <a href="2005/04/prosba-k-frendam/index.html">просьба к френдам</a></li>
+<li><time class="datetime">19.04.2005</time> <a href="2005/04/nenavzhu-hosterov/index.html">ненавжу хостеров!</a></li>
+<li><time class="datetime">19.04.2005</time> <a href="2005/04/yschu-srochno-veb-dyzajnera/index.html">ищу срочно веб-дизайнера</a></li>
+<li><time class="datetime">19.04.2005</time> <a href="2005/04/molode-com-ua/index.html">molode.com.ua</a></li>
+<li><time class="datetime">19.04.2005</time> <a href="2005/04/srochno-yschu-html-verstalschyka/index.html">срочно ищу html-верстальщика</a></li>
+<li><time class="datetime">11.04.2005</time> <a href="2005/04/hod-nazad/index.html">год назад&amp;#8230;</a></li>
+<li><time class="datetime">11.04.2005</time> <a href="2005/04/spamofan/index.html">спамофан</a></li>
+<li><time class="datetime">11.04.2005</time> <a href="2005/04/sajt-moej-veb-studyy/index.html">Сайт моей веб-студии</a></li>
+<li><time class="datetime">03.04.2005</time> <a href="2005/04/umer-yoan-pavel-ii/index.html">умер Иоан Павел II</a></li>
+<li><time class="datetime">30.03.2005</time> <a href="2005/03/ring-2/index.html">Ring 2</a></li>
+<li><time class="datetime">27.03.2005</time> <a href="2005/03/s-dnem-rozhdenyya-3/index.html">с днем рождения!</a></li>
+<li><time class="datetime">26.03.2005</time> <a href="2005/03/blyzytsya-moj-dr/index.html">Близится мой ДР</a></li>
+<li><time class="datetime">14.03.2005</time> <a href="2005/03/pro-gmail/index.html">про Gmail</a></li>
+<li><time class="datetime">14.03.2005</time> <a href="2005/03/hermanyya/index.html">Германия?</a></li>
+<li><time class="datetime">13.03.2005</time> <a href="2005/03/ulyibnytes/index.html">улыбнитесь!</a></li>
+<li><time class="datetime">10.03.2005</time> <a href="2005/03/vyihodnyie/index.html">выходные</a></li>
+<li><time class="datetime">10.03.2005</time> <a href="2005/03/s-dnem-rozhdenyya-2/index.html">с днем рождения</a></li>
+<li><time class="datetime">28.02.2005</time> <a href="2005/02/o-polytyke-kratko/index.html">о политике (кратко)</a></li>
+<li><time class="datetime">25.02.2005</time> <a href="2005/02/o-tehnyke-y-tehnolohyyah/index.html">о технике и технологиях</a></li>
+<li><time class="datetime">25.02.2005</time> <a href="2005/02/snova-pro-zyair-b500/index.html">снова про ZyAir B500</a></li>
+<li><time class="datetime">24.02.2005</time> <a href="2005/02/s-dnem-rozhdenyya/index.html">с днем рождения!</a></li>
+<li><time class="datetime">23.02.2005</time> <a href="2005/02/gmail-bug/index.html">gmail bug</a></li>
+<li><time class="datetime">22.02.2005</time> <a href="2005/02/o-kyno/index.html">о кино</a></li>
+<li><time class="datetime">22.02.2005</time> <a href="2005/02/gmail-spam/index.html">gmail spam</a></li>
+<li><time class="datetime">22.02.2005</time> <a href="2005/02/boleyu/index.html">болею&amp;#8230;</a></li>
+<li><time class="datetime">19.02.2005</time> <a href="2005/02/novyie-ynteresyi/index.html">новые интересы</a></li>
+<li><time class="datetime">18.02.2005</time> <a href="2005/02/ohtori/index.html">ohtori</a></li>
+<li><time class="datetime">18.02.2005</time> <a href="2005/02/moy-kommentatoryi/index.html">мои комментаторы</a></li>
+<li><time class="datetime">18.02.2005</time> <a href="2005/02/27-marta-den-osobyij/index.html">27 марта &amp;#8211; день особый</a></li>
+<li><time class="datetime">18.02.2005</time> <a href="2005/02/byorytmyi-myi-sozdaem-yh-samy/index.html">биоритмы&amp;#8230; мы создаем их сами ))</a></li>
+<li><time class="datetime">16.02.2005</time> <a href="2005/02/hostynh/index.html">хостинг</a></li>
+<li><time class="datetime">16.02.2005</time> <a href="2005/02/forex/index.html">forex</a></li>
+<li><time class="datetime">16.02.2005</time> <a href="2005/02/zyair-b500/index.html">ZyAir B500</a></li>
+<li><time class="datetime">15.02.2005</time> <a href="2005/02/predlahayu-rabotu/index.html">Предлагаю работу</a></li>
+<li><time class="datetime">06.01.2005</time> <a href="2005/01/lj2me-rozhdestvo/index.html">[LJ2ME] Рождество</a></li>
+<li><time class="datetime">05.01.2005</time> <a href="2005/01/lj2me-kohda-zhe-obed/index.html">[LJ2ME] Когда же обед?</a></li>
+<li><time class="datetime">04.01.2005</time> <a href="2005/01/lj2me-domoj/index.html">[LJ2ME] Домой</a></li>
+<li><time class="datetime">04.01.2005</time> <a href="2005/01/lj2me-y-opyat-lj2me/index.html">[LJ2ME] И опять lj2me</a></li>
+<li><time class="datetime">04.01.2005</time> <a href="2005/01/fraza-na-2005-hod/index.html">фраза на 2005 год</a></li>
+<li><time class="datetime">03.01.2005</time> <a href="2005/01/ukradeno/index.html">украдено</a></li>
+<li><time class="datetime">23.12.2004</time> <a href="2004/12/299/index.html">Inner European</a></li>
+<li><time class="datetime">10.12.2004</time> <a href="2004/12/lj2me-otpusk/index.html">[LJ2ME] Отпуск</a></li>
+<li><time class="datetime">14.11.2004</time> <a href="2004/11/lj2me-webviewer/index.html">[LJ2ME] WebViewer</a></li>
+<li><time class="datetime">14.11.2004</time> <a href="2004/11/lj2me-ynternetnoe/index.html">[LJ2ME] Интернетное</a></li>
+<li><time class="datetime">12.11.2004</time> <a href="2004/11/winamp/index.html">winamp</a></li>
+<li><time class="datetime">10.11.2004</time> <a href="2004/11/lj2me-zhzh-s-telefona/index.html">[LJ2ME] ЖЖ с телефона</a></li>
+<li><time class="datetime">04.11.2004</time> <a href="2004/11/lj2me-nespeshno-vyibyrayu/index.html">[LJ2ME] неспешно выбираю</a></li>
+<li><time class="datetime">29.10.2004</time> <a href="2004/10/dlya-podnyatyya-nastroenyya/index.html">для поднятия настроения</a></li>
+<li><time class="datetime">29.10.2004</time> <a href="2004/10/290/index.html">2004-10-29-290</a></li>
+<li><time class="datetime">29.10.2004</time> <a href="2004/10/ynhosstrah/index.html">ИнГосСтрах</a></li>
+<li><time class="datetime">29.10.2004</time> <a href="2004/10/svobodnaya-strana/index.html">&amp;#8220;свободная страна&amp;#8221;</a></li>
+<li><time class="datetime">28.10.2004</time> <a href="2004/10/mda-chto-ly-yuzerpyk-pomenyat/index.html">мда&amp;#8230; что ли юзерпик поменять :)</a></li>
+<li><time class="datetime">20.10.2004</time> <a href="2004/10/aua-idiaadea/index.html">åùå ïðîâåðêà</a></li>
+<li><time class="datetime">20.10.2004</time> <a href="2004/10/rocks/index.html">ROCKS!</a></li>
+<li><time class="datetime">14.10.2004</time> <a href="2004/10/spam-botynky/index.html">СПАМ. Ботинки</a></li>
+<li><time class="datetime">06.10.2004</time> <a href="2004/10/otlychnaya-stranychka/index.html">отличная страничка :)</a></li>
+<li><time class="datetime">04.10.2004</time> <a href="2004/10/zn/index.html">&amp;#8220;ЗН&amp;#8221;</a></li>
+<li><time class="datetime">04.10.2004</time> <a href="2004/10/karta-urkaynyi/index.html">карта Уркаины</a></li>
+<li><time class="datetime">04.10.2004</time> <a href="2004/10/rekomenduyu/index.html">Рекомендую</a></li>
+<li><time class="datetime">04.10.2004</time> <a href="2004/10/nam-byi-tak/index.html">Нам бы так&amp;#8230;.</a></li>
+<li><time class="datetime">01.10.2004</time> <a href="2004/10/hronyky-ryddyka/index.html">Хроники Риддика</a></li>
+<li><time class="datetime">01.10.2004</time> <a href="2004/10/moj-vtoroj-bloh/index.html">мой второй блог</a></li>
+<li><time class="datetime">30.09.2004</time> <a href="2004/09/roman-havrysh/index.html">Роман Гавриш</a></li>
+<li><time class="datetime">29.09.2004</time> <a href="2004/09/aforyzm-v-dejstvye/index.html">афоризм в действие</a></li>
+<li><time class="datetime">28.09.2004</time> <a href="2004/09/pro-ya/index.html">про Я</a></li>
+<li><time class="datetime">28.09.2004</time> <a href="2004/09/pro-devushek-po-vyizovu-v-blohah/index.html">про девушек по вызову в блогах</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/fun-mercedes/index.html">Fun | Mercedes</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/novaya-tema-dlya-firefox/index.html">новая тема для FireFox</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/yz-aforyzmov-dnya/index.html">Из афоризмов дня</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/pro-kpk/index.html">про КПК</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/mechtyi-lyudej/index.html">мечты людей</a></li>
+<li><time class="datetime">24.09.2004</time> <a href="2004/09/multisystem-offline-editor/index.html">multisystem offline editor</a></li>
+<li><time class="datetime">23.09.2004</time> <a href="2004/09/krasyvo/index.html">красиво</a></li>
+<li><time class="datetime">21.09.2004</time> <a href="2004/09/esche-odno-foto/index.html">еще одно фото</a></li>
+<li><time class="datetime">21.09.2004</time> <a href="2004/09/hlubokomyislennoe-foto/index.html">глубокомысленное фото</a></li>
+<li><time class="datetime">21.09.2004</time> <a href="2004/09/fotky/index.html">фотки</a></li>
+<li><time class="datetime">21.09.2004</time> <a href="2004/09/byometrycheskye-pasporta/index.html">Биометрические паспорта</a></li>
+<li><time class="datetime">21.09.2004</time> <a href="2004/09/planyi-na-vyihodnyie/index.html">Планы на выходные</a></li>
+<li><time class="datetime">20.09.2004</time> <a href="2004/09/tyazhela-y-nekazysta/index.html">тяжела и неказиста</a></li>
+<li><time class="datetime">17.09.2004</time> <a href="2004/09/v-chestnyie-vyiboryi-veryat-12-ukrayntsev/index.html">В честные выборы верят 12% украинцев</a></li>
+<li><time class="datetime">16.09.2004</time> <a href="2004/09/operatsyonnaya-systema-buduscheho/index.html">Операционная система будущего?</a></li>
+<li><time class="datetime">15.09.2004</time> <a href="2004/09/mozilla-firefox-1-0-rc/index.html">Mozilla Firefox 1.0 RC</a></li>
+<li><time class="datetime">14.09.2004</time> <a href="2004/09/vidkrytyj-lyst-yavorivskoho-do-kuchmy/index.html">відкритий лист Яворівського до Кучми</a></li>
+<li><time class="datetime">11.09.2004</time> <a href="2004/09/vtoroj-den-chytayu/index.html">второй день читаю&amp;#8230;</a></li>
+<li><time class="datetime">08.09.2004</time> <a href="2004/09/ukraynskyj-yumor/index.html">украинский юмор</a></li>
+<li><time class="datetime">07.09.2004</time> <a href="2004/09/fotohostynh/index.html">фотохостинг</a></li>
+<li><time class="datetime">07.09.2004</time> <a href="2004/09/zhyzn-2-0-beta-testyrovanye/index.html">Жизнь 2.0 бета тестирование</a></li>
+<li><time class="datetime">07.09.2004</time> <a href="2004/09/traur/index.html">траур</a></li>
+<li><time class="datetime">06.09.2004</time> <a href="2004/09/hm-2/index.html">хм&amp;#8230;</a></li>
+<li><time class="datetime">06.09.2004</time> <a href="2004/09/razbyrayus-s-blohher/index.html">разбираюсь с блоггер</a></li>
+<li><time class="datetime">03.09.2004</time> <a href="2004/09/blogger/index.html">blogger</a></li>
+<li><time class="datetime">03.09.2004</time> <a href="2004/09/odessa-kak-vsehda-otlychaetsya-oryhynalnost/index.html">одесса как всегда отличается оригинальность</a></li>
+<li><time class="datetime">03.09.2004</time> <a href="2004/09/o-lyteraturnom-perevode/index.html">о литературном переводе</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/pochty-v-prodolzhenye-predyiduscheho-posta/index.html">почти в продолжение предыдущего поста</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/pro-lyubov/index.html">про любовь</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/borodatoe-soobschestvo/index.html">бородатое сообщество</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/244/index.html">2004-09-02-244</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/243/index.html">2004-09-02-243</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/foto-po-prosbe-andrewf/index.html">фото по просьбе andrewf</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/esly-vyi-dumaete/index.html">если вы думаете..</a></li>
+<li><time class="datetime">02.09.2004</time> <a href="2004/09/vchera-vecherom/index.html">вчера вечером</a></li>
+<li><time class="datetime">01.09.2004</time> <a href="2004/09/fotky-s-syinom/index.html">фотки с сыном</a></li>
+<li><time class="datetime">01.09.2004</time> <a href="2004/09/v-moskve-prohremely-vzryivyi/index.html">В Москве прогремели взрывы&amp;#8230;</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/237/index.html">2004-08-31-237</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/pervyij-opyit-sozdanyya-animated-gif/index.html">первый опыт создания animated gif</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/okoloformulnoe/index.html">околоФормульное</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/podsmotreno-u-anatbela/index.html">подсмотрено у anatbel&amp;#8217;a</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/zabavnaya-kartynka/index.html">забавная картинка</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/ubyt-bylla-reloaded/index.html">Убить Билла reloaded?</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/korrespondent-tupyt/index.html">корреспондент &amp;#8220;тупит&amp;#8221;</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/staroe-no-fotky-prykolnyie/index.html">старое, но фотки прикольные</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/tak/index.html">ТАК!</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/vopros-k-frendam/index.html">вопрос к френдам</a></li>
+<li><time class="datetime">31.08.2004</time> <a href="2004/08/utrennyj-dyaloh/index.html">утренний диалог</a></li>
+<li><time class="datetime">30.08.2004</time> <a href="2004/08/napytky/index.html">напитки</a></li>
+<li><time class="datetime">30.08.2004</time> <a href="2004/08/yaponskye-ruhatelstva/index.html">японские ругательства</a></li>
+<li><time class="datetime">27.08.2004</time> <a href="2004/08/5-yij-element/index.html">5-ый элемент</a></li>
+<li><time class="datetime">27.08.2004</time> <a href="2004/08/gmail-lezhyt/index.html">GMail лежит ((</a></li>
+<li><time class="datetime">27.08.2004</time> <a href="2004/08/vot-tak-vsehda/index.html">вот так всегда</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/sajt-po-olymypyade/index.html">сайт по Олимипиаде</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/sekretyi-masterstva/index.html">секреты мастерства</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/vpervyie-na-olympyade-v-afynah-2004/index.html">впервые на олимпиаде в афинах-2004</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/ya-vot-tut-zadumalsya/index.html">я вот тут задумался</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/tiny-mp3-player/index.html">tiny mp3 player</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/kyrkorov-zamolchyt/index.html">Киркоров замолчит&amp;#8230;</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/lyublyu-nahodchyvyih-devushek/index.html">люблю находчивых девушек</a></li>
+<li><time class="datetime">26.08.2004</time> <a href="2004/08/gmail-invitations/index.html">GMail invitations</a></li>
+<li><time class="datetime">25.08.2004</time> <a href="2004/08/novost-dlya-lyubytelej-gmail/index.html">новость для любителей GMail</a></li>
+<li><time class="datetime">25.08.2004</time> <a href="2004/08/yumor/index.html">юмор</a></li>
+<li><time class="datetime">21.08.2004</time> <a href="2004/08/nu-pochemu-utvrzhdenye-prohodyt-vsehda-tak-medlenno/index.html">ну почему утврждение проходит всегда так медленно</a></li>
+<li><time class="datetime">21.08.2004</time> <a href="2004/08/2-vstrechy-proshlo/index.html">2 встречи прошло</a></li>
+<li><time class="datetime">20.08.2004</time> <a href="2004/08/dajdzhest-proshedsheho-dnya/index.html">дайджест прошедшего дня</a></li>
+<li><time class="datetime">19.08.2004</time> <a href="2004/08/chudesa-tehnyky/index.html">Чудеса техники</a></li>
+<li><time class="datetime">18.08.2004</time> <a href="2004/08/potryasayusche/index.html">потрясающе</a></li>
+<li><time class="datetime">18.08.2004</time> <a href="2004/08/davno-ne-zahodyl-k-lebedevu/index.html">давно не заходил к Лебедеву</a></li>
+<li><time class="datetime">18.08.2004</time> <a href="2004/08/krasyvyie-postelky/index.html">красивые постельки</a></li>
+<li><time class="datetime">18.08.2004</time> <a href="2004/08/po-povodu-proshlo-pyatnytsyi/index.html">по поводу прошло пятницы</a></li>
+<li><time class="datetime">16.08.2004</time> <a href="2004/08/ynteresnaya-kollektsyya/index.html">интересная коллекция</a></li>
+<li><time class="datetime">16.08.2004</time> <a href="2004/08/voskrsene/index.html">воскрсенье</a></li>
+<li><time class="datetime">13.08.2004</time> <a href="2004/08/idiaadea/index.html">ïðîâåðêà</a></li>
+<li><time class="datetime">13.08.2004</time> <a href="2004/08/yahoo-mail/index.html">Yahoo Mail</a></li>
+<li><time class="datetime">13.08.2004</time> <a href="2004/08/olympyada/index.html">олимпиада</a></li>
+<li><time class="datetime">13.08.2004</time> <a href="2004/08/zastavlyaet-zadumatsya/index.html">заставляет задуматься</a></li>
+<li><time class="datetime">13.08.2004</time> <a href="2004/08/prezentatsyya/index.html">презентация</a></li>
+<li><time class="datetime">11.08.2004</time> <a href="2004/08/y-esche-odyn-spam/index.html">и еще один спам</a></li>
+<li><time class="datetime">11.08.2004</time> <a href="2004/08/naveyalo/index.html">навеяло&amp;#8230;</a></li>
+<li><time class="datetime">10.08.2004</time> <a href="2004/08/myrandu-kolbasyt/index.html">Миранду колбасит</a></li>
+<li><time class="datetime">10.08.2004</time> <a href="2004/08/jabber/index.html">Jabber</a></li>
+<li><time class="datetime">09.08.2004</time> <a href="2004/08/z-pryvodu-slovnyka/index.html">з приводу словника</a></li>
+<li><time class="datetime">09.08.2004</time> <a href="2004/08/ynteresnyij-proekt/index.html">интересный проект</a></li>
+<li><time class="datetime">09.08.2004</time> <a href="2004/08/podsmotreno-y-podslushano/index.html">подсмотрено и подслушано</a></li>
+<li><time class="datetime">06.08.2004</time> <a href="2004/08/klych-k-entuzyastam-s-hudozhestvennyim-vkusom/index.html">клич к энтузиастам с художественным вкусом</a></li>
+<li><time class="datetime">03.08.2004</time> <a href="2004/08/menedzhment/index.html">менеджмент</a></li>
+<li><time class="datetime">03.08.2004</time> <a href="2004/08/7-shahov-k-uspehu/index.html">7 шагов к успеху</a></li>
+<li><time class="datetime">02.08.2004</time> <a href="2004/08/yumor-po-fylmu-nochnoj-dozor/index.html">юмор по фильму &amp;#8220;Ночной Дозор&amp;#8221;</a></li>
+<li><time class="datetime">02.08.2004</time> <a href="2004/08/metro/index.html">Метро</a></li>
+<li><time class="datetime">02.08.2004</time> <a href="2004/08/razyiskyvaetsya-chaj/index.html">разыскивается чай</a></li>
+<li><time class="datetime">30.07.2004</time> <a href="2004/07/hashy-hashi-v-kyeve/index.html">хаши (hashi) в Киеве</a></li>
+<li><time class="datetime">30.07.2004</time> <a href="2004/07/v-kyeve-lyven/index.html">в Киеве ливень</a></li>
+<li><time class="datetime">30.07.2004</time> <a href="2004/07/nedelya-nemetskoho-kyno-v-kynoteatre-zhovten/index.html">неделя немецкого кино в кинотеатре &amp;#8220;Жовтень&amp;#8221;</a></li>
+<li><time class="datetime">29.07.2004</time> <a href="2004/07/drevneevrejskye-boevyie-yskusstva/index.html">древнееврейские боевые искусства</a></li>
+<li><time class="datetime">29.07.2004</time> <a href="2004/07/otlychnaya-statya-na-elytaryume/index.html">отличная статья на Элитариуме</a></li>
+<li><time class="datetime">29.07.2004</time> <a href="2004/07/prosba-o-pomoschy/index.html">просьба о помощи</a></li>
+<li><time class="datetime">29.07.2004</time> <a href="2004/07/na-pravah-spama/index.html">на правах спама</a></li>
+<li><time class="datetime">28.07.2004</time> <a href="2004/07/na-pravah-svodnychestva-a-est-ly/index.html">(на правах сводничества) а есть ли</a></li>
+<li><time class="datetime">28.07.2004</time> <a href="2004/07/pochemu/index.html">почему?</a></li>
+<li><time class="datetime">27.07.2004</time> <a href="2004/07/lychnosty-v-ystoryy/index.html">Личности в истории</a></li>
+<li><time class="datetime">27.07.2004</time> <a href="2004/07/propazha/index.html">&amp;#8220;пропажа&amp;#8221;</a></li>
+<li><time class="datetime">27.07.2004</time> <a href="2004/07/pro-lyudej-rozhdennyih-mezhdu-1982-y-1983/index.html">про людей рожденных между 1982 и 1983</a></li>
+<li><time class="datetime">27.07.2004</time> <a href="2004/07/y-etot-chelovek-hochet-stat-prezydentom/index.html">и этот человек хочет стать Президентом&amp;#8230;</a></li>
+<li><time class="datetime">26.07.2004</time> <a href="2004/07/hotov-sany-letom/index.html">готовь сани летом&amp;#8230;</a></li>
+<li><time class="datetime">26.07.2004</time> <a href="2004/07/subbota-24-yyulya/index.html">Суббота, 24 июля</a></li>
+<li><time class="datetime">26.07.2004</time> <a href="2004/07/multyk-pro-busha-y-kerry/index.html">мультик про Буша и Керри</a></li>
+<li><time class="datetime">26.07.2004</time> <a href="2004/07/permanent-account-aka-postoyannyij-polzovatel/index.html">Permanent account aka постоянный пользователь</a></li>
+<li><time class="datetime">23.07.2004</time> <a href="2004/07/otzyiv-ekslera-o-zatoychy/index.html">Отзыв Экслера о &amp;#8220;Затоичи&amp;#8221;</a></li>
+<li><time class="datetime">23.07.2004</time> <a href="2004/07/kyevskoe-metro-v-buduschem/index.html">Киевское метро в будущем</a></li>
+<li><time class="datetime">23.07.2004</time> <a href="2004/07/nu-vot-uzhe-pochty-pochty/index.html">ну вот уже почти-почти</a></li>
+<li><time class="datetime">23.07.2004</time> <a href="2004/07/ystoryya-dnya-sehodnya-uzh-bolno-horosha/index.html">история дня сегодня уж больно хороша</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/myhayl-fedorovych-romanov-pervaya-chast/index.html">Михаил Федорович Романов (первая часть)</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/zabavnyij-banner/index.html">забавный баннер</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/heroj-sehodnyashneho-rasskaza-2/index.html">герой сегодняшнего рассказа</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/podsmotreno-u-couchirard/index.html">подсмотрено у couchirard</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/perl-narodnoho-radyo/index.html">перл &amp;#8220;Народного радио&amp;#8221;</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/davajte-byistro-opredelymsya/index.html">давайте быстро определимся</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/ukraynskyj-sajt-fylma/index.html">украинский сайт фильма</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/nado-zapomnyt/index.html">надо запомнить</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/hm/index.html">хм&amp;#8230;</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/esche-o-fylme/index.html">еще о фильме</a></li>
+<li><time class="datetime">22.07.2004</time> <a href="2004/07/saundtrek-k-zatoichy/index.html">саундтрек к &amp;#8220;Затоічи&amp;#8221;</a></li>
+<li><time class="datetime">21.07.2004</time> <a href="2004/07/1-000-hytov-moeho-zhzh/index.html">1 000 хитов моего ЖЖ</a></li>
+<li><time class="datetime">21.07.2004</time> <a href="2004/07/zatojchy-y-takeshy-kytano/index.html">&amp;#8220;Затойчи&amp;#8221; и Такеши Китано</a></li>
+<li><time class="datetime">21.07.2004</time> <a href="2004/07/ynteresnaya-sytuatsyya-v-holosovanyy-za-personu-dnya/index.html">интересная ситуация в голосовании за персону дня</a></li>
+<li><time class="datetime">21.07.2004</time> <a href="2004/07/esche-odyn-fylm-k-prosmotru/index.html">еще один фильм к просмотру</a></li>
+<li><time class="datetime">21.07.2004</time> <a href="2004/07/heroj-sehodnyashneho-rasskaza/index.html">Герой сегодняшнего рассказа</a></li>
+<li><time class="datetime">20.07.2004</time> <a href="2004/07/marshrutnyie-taksy-kyeva-bez-pryhorodnyih-marshrutov/index.html">Маршрутные такси Киева (без пригородных маршрутов)</a></li>
+<li><time class="datetime">20.07.2004</time> <a href="2004/07/herbert-markuze/index.html">Герберт Маркузе</a></li>
+<li><time class="datetime">19.07.2004</time> <a href="2004/07/y-opyat-schyotchyk/index.html">и опять счётчик</a></li>
+<li><time class="datetime">19.07.2004</time> <a href="2004/07/tochno-podmecheno/index.html">точно подмечено</a></li>
+<li><time class="datetime">19.07.2004</time> <a href="2004/07/o-winxp-sp2-zdnet-ru/index.html">о WinXP SP2 @ Zdnet.RU</a></li>
+<li><time class="datetime">19.07.2004</time> <a href="2004/07/anton-pavlovych-chehov/index.html">Антон Павлович Чехов</a></li>
+<li><time class="datetime">19.07.2004</time> <a href="2004/07/chehov-na-podhode/index.html">Чехов на подходе..</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/zavtra-myi-pohovorym-o/index.html">Завтра мы поговорим о&amp;#8230;</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/opros-lychnosty-v-ystoryy/index.html">[опрос] Личности в истории</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/vse-chto-vyi-hotely-znat-obo-mne-no-boyalys-sprosyt/index.html">Все, что вы хотели знать обо мне, но боялись спросить</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/esche-o-nochnom-dozore/index.html">еще о &amp;#8220;Ночном Дозоре&amp;#8221;</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/frendam-y-chytayuschym-moj-zhzh-posvyaschaetsya/index.html">Френдам и читающим мой ЖЖ посвящается</a></li>
+<li><time class="datetime">15.07.2004</time> <a href="2004/07/ya-stal-burzhuem/index.html">я стал буржуем :)</a></li>
+<li><time class="datetime">14.07.2004</time> <a href="2004/07/yz-aphorism-ru/index.html">из aphorism.ru</a></li>
+<li><time class="datetime">13.07.2004</time> <a href="2004/07/fw-znamenytosty-o-sekse/index.html">Fw: Знаменитости о сексе</a></li>
+<li><time class="datetime">13.07.2004</time> <a href="2004/07/dom-yz-peska-y-tumana/index.html">Дом из песка и тумана</a></li>
+<li><time class="datetime">13.07.2004</time> <a href="2004/07/revnost/index.html">Ревность</a></li>
+<li><time class="datetime">13.07.2004</time> <a href="2004/07/ynteresnyij-y-zhyvoj-resurs/index.html">интересный и живой ресурс</a></li>
+<li><time class="datetime">13.07.2004</time> <a href="2004/07/zaporozhets-za-dunaem-pochty-styob/index.html">&amp;#8220;Запорожец за Дунаем&amp;#8221; (почти стёб)</a></li>
+<li><time class="datetime">12.07.2004</time> <a href="2004/07/etot-den-v-ystoryy/index.html">Этот день в истории</a></li>
+<li><time class="datetime">09.07.2004</time> <a href="2004/07/majskye-prazdnyky/index.html">Майские праздники</a></li>
+<li><time class="datetime">09.07.2004</time> <a href="2004/07/prodolzhaya-avtomobylnuyu-tematyku/index.html">продолжая автомобильную тематику</a></li>
+<li><time class="datetime">09.07.2004</time> <a href="2004/07/nochnoj-dozor/index.html">&amp;#8220;Ночной дозор&amp;#8221;</a></li>
+<li><time class="datetime">02.07.2004</time> <a href="2004/07/vash-typ/index.html">Ваш тип</a></li>
+<li><time class="datetime">01.07.2004</time> <a href="2004/07/voda/index.html">Вода</a></li>
+<li><time class="datetime">01.07.2004</time> <a href="2004/07/vot-takye-klynky-zarabotal/index.html">вот такие клинки &amp;#8220;заработал&amp;#8221;</a></li>
+<li><time class="datetime">25.06.2004</time> <a href="2004/06/aforzym-dnya/index.html">Афорзим дня</a></li>
+<li><time class="datetime">24.06.2004</time> <a href="2004/06/skolko-uchastnykov-ynternet-foruma-nuzhno-chtobyi-zamenyt-lampochku/index.html">Сколько участников интернет-форума нужно, чтобы заменить лампочку?</a></li>
+<li><time class="datetime">23.06.2004</time> <a href="2004/06/ha-ha-ha/index.html">Ха-ХА-ХА</a></li>
+<li><time class="datetime">23.06.2004</time> <a href="2004/06/yess/index.html">YESS!!!!</a></li>
+<li><time class="datetime">23.06.2004</time> <a href="2004/06/kto-tam-zanymaetsya-perevodamy/index.html">кто там занимается переводами?</a></li>
+<li><time class="datetime">23.06.2004</time> <a href="2004/06/nove-tovarystvo/index.html">нове товариство</a></li>
+<li><time class="datetime">18.06.2004</time> <a href="2004/06/najdennaya-propazha/index.html">найденная пропажа</a></li>
+<li><time class="datetime">18.06.2004</time> <a href="2004/06/lj-opera/index.html">LJ &amp;#038; Opera</a></li>
+<li><time class="datetime">18.06.2004</time> <a href="2004/06/a-znaete-ly-vyi-chto/index.html">а знаете ли вы что:</a></li>
+<li><time class="datetime">02.06.2004</time> <a href="2004/06/yumor-proshedshyh-dnej/index.html">юмор прошедших дней</a></li>
+<li><time class="datetime">28.05.2004</time> <a href="2004/05/pysmo-ot-byivsheho-shefa/index.html">письмо от бывшего шефа</a></li>
+<li><time class="datetime">27.05.2004</time> <a href="2004/05/marrakesh/index.html">&amp;#8220;Марракеш&amp;#8221;</a></li>
+<li><time class="datetime">27.05.2004</time> <a href="2004/05/a-rossyyane-vse-ravno-zavyduyut/index.html">а россияне все равно завидуют ))</a></li>
+<li><time class="datetime">27.05.2004</time> <a href="2004/05/pynhvynyi-v-zhzh/index.html">пингвины в ЖЖ :)</a></li>
+<li><time class="datetime">27.05.2004</time> <a href="2004/05/plevatelstvo-v-storonu-dozorov-fylma/index.html">плевательство в сторону &amp;#8220;Дозоров&amp;#8221; (фильма)</a></li>
+<li><time class="datetime">24.05.2004</time> <a href="2004/05/premera-uznyka-azkabana/index.html">премьера &amp;#8220;Узника Азкабана&amp;#8221;</a></li>
+<li><time class="datetime">24.05.2004</time> <a href="2004/05/vse-mohu-koroly/index.html">все могу короли</a></li>
+<li><time class="datetime">24.05.2004</time> <a href="2004/05/voskresene-proshlo/index.html">воскресенье прошло</a></li>
+<li><time class="datetime">23.05.2004</time> <a href="2004/05/zolotaya-palmovaya-vetv-kannskoho-festyvalya/index.html">Золотая пальмовая ветвь Каннского фестиваля</a></li>
+<li><time class="datetime">21.05.2004</time> <a href="2004/05/ynstruktsyya-po-polzovanyyu-ynstruktsyej/index.html">Инструкция по пользованию инструкцией</a></li>
+<li><time class="datetime">21.05.2004</time> <a href="2004/05/vot-takoe-uzhe-pyshut-pro-ruslanu-na-rossyjskyh-sajtah/index.html">вот такое уже пишут про Руслану на российских сайтах</a></li>
+<li><time class="datetime">21.05.2004</time> <a href="2004/05/terrabajt-gmail-okazalsya-shutkoj/index.html">Террабайт GMail оказался шуткой</a></li>
+<li><time class="datetime">20.05.2004</time> <a href="2004/05/500-hytov-moeho-zhzh/index.html">500 хитов моего ЖЖ</a></li>
+<li><time class="datetime">19.05.2004</time> <a href="2004/05/gmail/index.html">GMail</a></li>
+<li><time class="datetime">18.05.2004</time> <a href="2004/05/hreh-hou-greg-howe/index.html">Грег Хоу (Greg Howe)</a></li>
+<li><time class="datetime">18.05.2004</time> <a href="2004/05/cheho-ne-ozhydal-tak-eto/index.html">чего не ожидал так это&amp;#8230;.</a></li>
+<li><time class="datetime">18.05.2004</time> <a href="2004/05/spyaschaya-krasavytsa/index.html">спящая красавица&amp;#8230;</a></li>
+<li><time class="datetime">18.05.2004</time> <a href="2004/05/vstrechy-vstrechy-vstrechy/index.html">встречи&amp;#8230; встречи&amp;#8230; встречи</a></li>
+<li><time class="datetime">18.05.2004</time> <a href="2004/05/vremya-letyt/index.html">время летит</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/razyiskyvaetsya-dzhon-norman/index.html">разыскивается Джон Норман</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/skolko-stoyt-zhyzn-myllyarderov-rossyjskyh/index.html">сколько стоит жизнь миллиардеров (российских)</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/vstrecha/index.html">встреча</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/muzyika-kotoraya-soprovozhdala-predyiduschyj-post/index.html">музыка, которая сопровождала предыдущий пост</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/ryizhyj-chertenok/index.html">рыжий чертенок</a></li>
+<li><time class="datetime">14.05.2004</time> <a href="2004/05/sumasshedshye-dny/index.html">сумасшедшие дни</a></li>
+<li><time class="datetime">13.05.2004</time> <a href="2004/05/stereotypyi/index.html">стереотипы</a></li>
+<li><time class="datetime">13.05.2004</time> <a href="2004/05/poslednye-dva-posta/index.html">последние два поста</a></li>
+<li><time class="datetime">13.05.2004</time> <a href="2004/05/ydey-potratyt-zarplatu/index.html">идеи потратить зарплату</a></li>
+<li><time class="datetime">12.05.2004</time> <a href="2004/05/ydeya-dlya-manhala/index.html">идея для мангала</a></li>
+<li><time class="datetime">11.05.2004</time> <a href="2004/05/posle-dolhoj-razluky/index.html">после долгой разлуки&amp;#8230;</a></li>
+<li><time class="datetime">30.04.2004</time> <a href="2004/04/neobyichnyij-aksessuar-dlya-mobylnyih-telefonov/index.html">необычный аксессуар для мобильных телефонов</a></li>
+<li><time class="datetime">29.04.2004</time> <a href="2004/04/na-zametku/index.html">на заметку</a></li>
+<li><time class="datetime">29.04.2004</time> <a href="2004/04/veselo-zhyvem/index.html">весело живем!</a></li>
+<li><time class="datetime">29.04.2004</time> <a href="2004/04/zadavyl-haz/index.html">задавил? газ&amp;#8230;</a></li>
+<li><time class="datetime">29.04.2004</time> <a href="2004/04/dead-links/index.html">dead links</a></li>
+<li><time class="datetime">28.04.2004</time> <a href="2004/04/uchytsya-parkovatsya/index.html">учится парковаться</a></li>
+<li><time class="datetime">28.04.2004</time> <a href="2004/04/kommentyrovat-yly-tvoryt/index.html">комментировать или творить?</a></li>
+<li><time class="datetime">28.04.2004</time> <a href="2004/04/mobylnyie-telefonyi/index.html">мобильные телефоны</a></li>
+<li><time class="datetime">28.04.2004</time> <a href="2004/04/s-novyim-dnem-druzya/index.html">с новым днем друзья</a></li>
+<li><time class="datetime">27.04.2004</time> <a href="2004/04/y-snova-den/index.html">и снова день</a></li>
+<li><time class="datetime">26.04.2004</time> <a href="2004/04/za-oknom/index.html">за окном</a></li>
+<li><time class="datetime">26.04.2004</time> <a href="2004/04/y-snova-rabota/index.html">и снова работа</a></li>
+<li><time class="datetime">24.04.2004</time> <a href="2004/04/schyotchyk/index.html">счётчик</a></li>
+<li><time class="datetime">24.04.2004</time> <a href="2004/04/zaehaly-na-rabotu/index.html">заехали на работу</a></li>
+<li><time class="datetime">22.04.2004</time> <a href="2004/04/den-proletel/index.html">день пролетел</a></li>
+<li><time class="datetime">22.04.2004</time> <a href="2004/04/perls/index.html">perls</a></li>
+<li><time class="datetime">21.04.2004</time> <a href="2004/04/ya-anhel/index.html">Я &amp;#8211; Ангел</a></li>
+<li><time class="datetime">21.04.2004</time> <a href="2004/04/veloshlem/index.html">велошлем</a></li>
+<li><time class="datetime">21.04.2004</time> <a href="2004/04/moj-icq/index.html">мой icq</a></li>
+<li><time class="datetime">19.04.2004</time> <a href="2004/04/dokupyl-podeshevke/index.html">докупил подешевке</a></li>
+<li><time class="datetime">17.04.2004</time> <a href="2004/04/yaponyya/index.html">Япония&amp;#8230;</a></li>
+<li><time class="datetime">17.04.2004</time> <a href="2004/04/ynteresnoe-soobschestvo/index.html">интересное сообщество</a></li>
+<li><time class="datetime">17.04.2004</time> <a href="2004/04/prodayu-svoj-telefon/index.html">продаю свой телефон</a></li>
+<li><time class="datetime">17.04.2004</time> <a href="2004/04/postavyl-novyij-semagic/index.html">поставил новый Semagic</a></li>
+<li><time class="datetime">17.04.2004</time> <a href="2004/04/uehala/index.html">уехала</a></li>
+<li><time class="datetime">16.04.2004</time> <a href="2004/04/myisly-myily-myilom-menya/index.html">мысли мыли мылом меня</a></li>
+<li><time class="datetime">15.04.2004</time> <a href="2004/04/118-nykomu-nenuzhnyih-faktov/index.html">118 никому ненужных фактов</a></li>
+<li><time class="datetime">15.04.2004</time> <a href="2004/04/utro/index.html">утро</a></li>
+<li><time class="datetime">15.04.2004</time> <a href="2004/04/vse-techet/index.html">все течет</a></li>
+<li><time class="datetime">14.04.2004</time> <a href="2004/04/tyazhelo/index.html">тяжело</a></li>
+<li><time class="datetime">09.04.2004</time> <a href="2004/04/y-esche-odno-soobschestvo/index.html">и еще одно сообщество</a></li>
+<li><time class="datetime">09.04.2004</time> <a href="2004/04/sozdal-novoe-soobschestvo/index.html">создал новое сообщество</a></li>
+<li><time class="datetime">09.04.2004</time> <a href="2004/04/pyatnytsa/index.html">пятница</a></li>
+<li><time class="datetime">08.04.2004</time> <a href="2004/04/rastytelnoe-salo/index.html">растительное сало</a></li>
+<li><time class="datetime">08.04.2004</time> <a href="2004/04/utro-chetverha/index.html">утро четверга&amp;#8230;</a></li>
+<li><time class="datetime">07.04.2004</time> <a href="2004/04/pokatushky-na-vyihodnyih/index.html">покатушки на выходных</a></li>
+<li><time class="datetime">07.04.2004</time> <a href="2004/04/obnovlen-kataloh-muzyiky/index.html">обновлен каталог музыки</a></li>
+<li><time class="datetime">06.04.2004</time> <a href="2004/04/muzyika/index.html">музыка</a></li>
+<li><time class="datetime">06.04.2004</time> <a href="2004/04/vot-tolko-osvobodylsya/index.html">вот только освободился</a></li>
+<li><time class="datetime">05.04.2004</time> <a href="2004/04/muzyikalnaya-kollektsyya/index.html">музыкальная коллекция</a></li>
+<li><time class="datetime">05.04.2004</time> <a href="2004/04/byll-hejts-uzhe-ne-samyij-bohatyij/index.html">Билл Гейтс уже не самый богатый</a></li>
+<li><time class="datetime">05.04.2004</time> <a href="2004/04/a-kak-vam/index.html">а как вам?</a></li>
+<li><time class="datetime">05.04.2004</time> <a href="2004/04/pervyie-pokatushky/index.html">первые покатушки</a></li>
+<li><time class="datetime">02.04.2004</time> <a href="2004/04/y-snova-velyi/index.html">и снова велы</a></li>
+<li><time class="datetime">02.04.2004</time> <a href="2004/04/velyi-2/index.html">велы</a></li>
+<li><time class="datetime">02.04.2004</time> <a href="2004/04/vyiyhral-podpysku-na-stuff/index.html">выиграл подписку на stuff</a></li>
+<li><time class="datetime">02.04.2004</time> <a href="2004/04/y-snova-probky/index.html">и снова пробки</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/velosypednyij-yumor/index.html">велосипедный юмор</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/pohodka/index.html">погодка</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/myishka/index.html">мышка :)</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/pervoaprelskye-shutky/index.html">первоапрельские шутки</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/klavyatura/index.html">клавиатура</a></li>
+<li><time class="datetime">01.04.2004</time> <a href="2004/04/velyi/index.html">велы</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/ynternet-mahazyn-velosypedov/index.html">интернет-магазин велосипедов</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/ynteresnaya-kartynka/index.html">интересная картинка</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/vyistavka/index.html">выставка</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/pravda-y-lozh-v-ynternete/index.html">правда и ложь в Интернете</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/bajk/index.html">байк</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/funny/index.html">funny</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/lyubymyie-knyhy-serheya-bryna/index.html">любимые книги Сергея Брина</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/google-bombing/index.html">Google bombing</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/opera/index.html">Opera</a></li>
+<li><time class="datetime">31.03.2004</time> <a href="2004/03/probky/index.html">пробки</a></li>
+<li><time class="datetime">30.03.2004</time> <a href="2004/03/na-sehodnya-poslednyaya-zapys/index.html">на сегодня последняя запись</a></li>
+<li><time class="datetime">30.03.2004</time> <a href="2004/03/pro-zorander/index.html">про zorander</a></li>
+<li><time class="datetime">30.03.2004</time> <a href="2004/03/semagic-part-2/index.html">Semagic (part 2)</a></li>
+<li><time class="datetime">30.03.2004</time> <a href="2004/03/11/index.html">Semagic</a></li>
+<li><time class="datetime">30.03.2004</time> <a href="2004/03/alena-pysklova/index.html">Алена Писклова</a></li>
+</ul>
+</main>
+<footer id="site-footer" class="status">
+<p>Зібрано з 🫶 в <a href="https://www.gnu.org/software/emacs/">Emacs</a> + <a href="https://orgmode.org">Org mode</a></p>
+</footer>
+</body>
+</html>
