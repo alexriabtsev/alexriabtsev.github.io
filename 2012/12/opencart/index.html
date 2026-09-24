@@ -119,7 +119,7 @@ OpenCart, в котором необходимо было упростить п�
 
 <div class="CodeRay">
 
-<pre class="example" id="org5042b53">
+<pre class="example" id="orgfb39e9e">
 &lt;div class="code"&gt;
   &lt;pre&gt;if (file_exists(DIR_TEMPLATE . $this-&amp;gt;config-&amp;gt;get('config_template') . '/template/checkout/register.tpl')) {
 $this-&amp;gt;template = $this-&amp;gt;config-&amp;gt;get('config_template') . '/template/checkout/register.tpl';
@@ -131,7 +131,7 @@ $this-&amp;gt;template = $this-&amp;gt;config-&amp;gt;get('config_template') . '
 
 </pre>
 
-<pre class="example" id="orgf75e53a">
+<pre class="example" id="orgb8fa9cd">
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/td&gt;
@@ -165,7 +165,7 @@ $this-&amp;gt;template = $this-&amp;gt;config-&amp;gt;get('config_template') . '
 </p>
 
 <ul class="org-ul">
-<li><pre class="example" id="org8d8a2c8">
+<li><pre class="example" id="orgc583f23">
 &lt;pre&gt;&amp;lt;input class="large-field" style="display: none;" type="text" name="postcode" value="" /&amp;gt;&lt;/pre&gt;
 </pre></li>
 </ul>
@@ -207,7 +207,7 @@ Undefined index.
 умолчанию в форме.
 </p>
 
-<pre class="example" id="orgc60162c">
+<pre class="example" id="org8bdfc9d">
 &lt;pre&gt;if ($country_info &amp;amp;&amp;amp; $country_info['postcode_required'] &amp;amp;&amp;amp; (utf8_strlen($this-&amp;gt;request-&amp;gt;post['postcode']) &amp;lt; 2) || (utf8_strlen($this-&amp;gt;request-&amp;gt;post['postcode']) &amp;gt; 10)) {
 //$json['error']['postcode'] = $this-&amp;gt;language-&amp;gt;get('error_postcode');
 </pre>
@@ -239,7 +239,7 @@ Undefined index.
 
 <div class="CodeRay">
 
-<pre class="example" id="org2369ddc">
+<pre class="example" id="org75e53bf">
     &lt;div class="code"&gt;
       &lt;pre&gt;if ($this-&amp;gt;request-&amp;gt;server['REQUEST_METHOD'] == 'POST') {
 if (!$json) {
@@ -252,7 +252,7 @@ if (!$json) {
 
 </pre>
 
-<pre class="example" id="orge3efd78">
+<pre class="example" id="orga020f7f">
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/td&gt;
@@ -272,6 +272,7 @@ if (!$json) {
 </p>
 </main>
 <footer id="site-footer" class="status">
+<p class="post-date">Опубліковано: 28.12.2012</p>
 <p>Зібрано з 🫶 в <a href="https://www.gnu.org/software/emacs/">Emacs</a> + <a href="https://orgmode.org">Org mode</a></p>
 </footer>
 </body>

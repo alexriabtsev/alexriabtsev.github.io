@@ -14,8 +14,8 @@
   <link>https://alexrb.name/</link>
   <description><![CDATA[Особистий блог — думки, нотатки, проєкти]]></description>
   <language>en</language>
-  <pubDate>Thu, 24 Sep 2026 12:45:52 +0300</pubDate>
-  <lastBuildDate>Thu, 24 Sep 2026 12:45:52 +0300</lastBuildDate>
+  <pubDate>Thu, 24 Sep 2026 14:48:34 +0300</pubDate>
+  <lastBuildDate>Thu, 24 Sep 2026 14:48:34 +0300</lastBuildDate>
   <generator>Emacs 31.1 Org-mode 9.8.7</generator>
   <webMaster>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</webMaster>
   <image>
@@ -25,7 +25,7 @@
   </image>
 
   <item>
-    <title>The Comma Problem: What Russian Pop Music Reveals About the Limits of Content Moderation :content-moderation:recommender-systems:DSA:Ukraine:</title>
+    <title>The Comma Problem: What Russian Pop Music Reveals About the Limits of Content Moderation</title>
     <link>https://alexrb.name/2026/09/the-comma-problem/</link>
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2026/09/the-comma-problem/</guid>
@@ -42,9 +42,7 @@ In an old schoolhouse fable familiar across Eastern Europe, a schoolboy parses a
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/07/01/Jekyll-migration/</guid>
     <pubDate>Wed, 01 Jul 2020 23:59:00 +0300</pubDate>
-    <category><![CDATA[Jekyll]]></category>
-    <category><![CDATA[wordpress]]></category>
-    <category><![CDATA[blog]]></category>
+
     <description><![CDATA[<p>
 Певний час у нотатках лежав <a href="https://habr.com/ru/post/507918/">допис
 про міграцію</a> з Wordpress на SSG (Static Site Generator), що дає
@@ -60,10 +58,7 @@ OpenStreetMap</a>, де я беру активну участь.
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/ostanniy-den-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Wed, 25 Mar 2020 14:54:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 На жаль, сьогодні на 5 хвилин запізився на початку вебінару. Але далі
 все записано 🙂
@@ -76,10 +71,7 @@ OpenStreetMap</a>, де я беру активну участь.
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/p-iatyy-den-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Mon, 23 Mar 2020 14:49:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 Закінчився черговий вебінар Володимира Дегтярьова в рамках
 карантин-курсу “Особистий бренд”, а у мене традиційний уже конспект
@@ -93,10 +85,7 @@ OpenStreetMap</a>, де я беру активну участь.
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/chetvertyy-den-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Fri, 20 Mar 2020 14:54:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 Четвертий день карантин-курсу Volodymyr Dehtyarov “Личный бренд” про
 інструменти та майданчики
@@ -109,10 +98,7 @@ OpenStreetMap</a>, де я беру активну участь.
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/tretiy-den-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Thu, 19 Mar 2020 15:00:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 Третій день карантин-курсу “Личный бренд” от
 <a href="https://www.facebook.com/vdehtyarov?__cft__%5B0%5D=AZUFX9vxXA1PBAn1N6emdSFrwKgUUdcVmn1goHeWvt2OBgT_iixZE2CRrKb_1hlQfu9ctWnx_DuzE2zL8M7oZOKDH_T4M83bU48lSprDXuKtZ6EnCGZ7VFU55_xI4L74AI8&amp;__tn__=-%5DK-R"><b>Volodymyr
@@ -126,10 +112,7 @@ Dehtyarov</b></a> позаду і традиційний конспект:
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/konspekt-druhoho-dnia-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Wed, 18 Mar 2020 15:06:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 Конспект другого дня Карантин-курсу “Личный бренд” от
 <a href="https://www.facebook.com/vdehtyarov?__cft__%5B0%5D=AZXQ-7Mdn5KE88zd4dji-EqGZoiocl3CJ7Y2x_uGGHc7rQZaMNwqmoBTzY9o8xg9l_cFq8D8IVn-l_C18Dy_JsgZkOsU3MQcsl8DGTi7PdlPLw&amp;__tn__=-%5DK-R"><b>Volodymyr
@@ -143,10 +126,7 @@ Dehtyarov</b></a>
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/pershyy-den-karantyn-kursu-osobystyy-brend/</guid>
     <pubDate>Tue, 17 Mar 2020 15:09:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[dehtyarov]]></category>
-    <category><![CDATA[notes]]></category>
-    <category><![CDATA[personalbrand]]></category>
+
     <description><![CDATA[<p>
 Для тих, хто не вліз в 200 людей, що були у
 <a href="https://www.facebook.com/vdehtyarov?__cft__%5B0%5D=AZXQ-7Mdn5KE88zd4dji-EqGZoiocl3CJ7Y2x_uGGHc7rQZaMNwqmoBTzY9o8xg9l_cFq8D8IVn-l_C18Dy_JsgZkOsU3MQcsl8DGTi7PdlPLw&amp;__tn__=-%5DK-R"><b>Volodymyr
@@ -160,9 +140,7 @@ Dehtyarov</b></a> на першому вебінарі карантин курс
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/03/konspekt-zustrichi-z-dmytrom-korchevs-kym-v-ka-shah/</guid>
     <pubDate>Thu, 05 Mar 2020 22:15:00 +0200</pubDate>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[korchevskiy]]></category>
-    <category><![CDATA[notes]]></category>
+
     <description><![CDATA[<p>
 Вдохновитель 56 тысяч студентов<br />
 12 систем масштабирования бизнеса<br />
@@ -177,7 +155,7 @@ Dehtyarov</b></a> на першому вебінарі карантин курс
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/01/pidsumky-roku-knyhy/</guid>
     <pubDate>Tue, 21 Jan 2020 13:49:00 +0200</pubDate>
-    <category><![CDATA[Книги_фільми]]></category>
+
     <description><![CDATA[<p>
 У попередньому дописі я
 <a href="https://alexrb.name/2020/01/pidsumky-roku-open-source/">зібрав
@@ -187,7 +165,7 @@ open-source програми,</a> на які перейшов минулого 
 ]]></description>
   </item>
   <item>
-    <title>Підсумки року. Open-source :Lost-and-found:</title>
+    <title>Підсумки року. Open-source</title>
     <link>https://alexrb.name/2020/01/pidsumky-roku-open-source/</link>
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2020/01/pidsumky-roku-open-source/</guid>
@@ -202,7 +180,7 @@ open-source програми,</a> на які перейшов минулого 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2019/03/ya-proskanuvav-ukrainu/</guid>
     <pubDate>Tue, 19 Mar 2019 22:03:00 +0200</pubDate>
-    <category><![CDATA[Веб]]></category>
+
     <description><![CDATA[<p>
 У лютому австрієць Christian Haschek у своєму блозі опублікував цікаву
 статтю під назвою "Я просканував усю Австрію"
@@ -221,8 +199,7 @@ open-source програми,</a> на які перейшов минулого 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/10/ytohy-sentiabria/</guid>
     <pubDate>Tue, 02 Oct 2018 08:29:00 +0300</pubDate>
-    <category><![CDATA[Книги_фільми]]></category>
-    <category><![CDATA[Освіта]]></category>
+
     <description><![CDATA[<p>
 Пора начинать публично подводить итоги месяца, чтобы то, что происходит
 в моей Жизни становилось более явным для тех, кому она интересна.
@@ -237,7 +214,7 @@ open-source програми,</a> на які перейшов минулого 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/07/kak-sdelat-vse-vazhnoe-y-ne-sojty-s-uma/</guid>
     <pubDate>Sat, 21 Jul 2018 15:49:00 +0300</pubDate>
-    <category><![CDATA[Продуктивність]]></category>
+
     <description><![CDATA[<p>
 О приоритетах в наше время не пишет только ленивый (но о том, как
 побороть свою лень -- это совсем другая история). Попробую и я на основе
@@ -252,7 +229,7 @@ open-source програми,</a> на які перейшов минулого 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/06/dits-vozmozhnosty-dlya-novychkov-y-senorov/</guid>
     <pubDate>Mon, 11 Jun 2018 10:56:00 +0300</pubDate>
-    <category><![CDATA[Веб]]></category>
+
     <description><![CDATA[<p>
 Я не большой любитель Германии (так исторически сложилось, что
 предпочтитаю Дублин и Guinness), хотя и поддерживаю мнение, что
@@ -271,9 +248,7 @@ Python/Go с трудоустройством в Украине...
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/02/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-3-zaklyuchytelnaya-yhor-pertsyya/</guid>
     <pubDate>Mon, 12 Feb 2018 18:26:00 +0200</pubDate>
-    <category><![CDATA[Веб]]></category>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[notes]]></category>
+
     <description><![CDATA[<p>
 Первая часть --
 <a href="http://alexrb.name/2018/01/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-1-evhenyj-shevchenko/">Евгений
@@ -291,12 +266,7 @@ digital marketing и PR. На сцене -- Игорь Перция с коро�
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/02/digital-marketing-for-startup-chast-2-veroslava-novosylnaya/</guid>
     <pubDate>Sun, 04 Feb 2018 14:57:00 +0200</pubDate>
-    <category><![CDATA[Веб]]></category>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[marketing]]></category>
-    <category><![CDATA[pr]]></category>
-    <category><![CDATA[press]]></category>
-    <category><![CDATA[notes]]></category>
+
     <description><![CDATA[<p>
 Во второй части -- конспект про пиар для стартапов от
 <a href="https://www.facebook.com/veroslava.novosilnaya?ref=br_rs">Верославы
@@ -313,10 +283,7 @@ digital marketing и PR. На сцене -- Игорь Перция с коро�
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2018/01/konspekt-vstrechy-digital-marketing-y-pr-25-yanvarya-2018-hoda-chast-1-evhenyj-shevchenko/</guid>
     <pubDate>Fri, 26 Jan 2018 14:05:00 +0200</pubDate>
-    <category><![CDATA[Веб]]></category>
-    <category><![CDATA[Освіта]]></category>
-    <category><![CDATA[маркетинг]]></category>
-    <category><![CDATA[notes]]></category>
+
     <description><![CDATA[<p>
 Друзья, поздравляю всех с прошедшими зимними праздниками. Надеюсь, что
 все успели отдохнуть и набраться сил для новых достижений в 2018 году. В
@@ -335,7 +302,7 @@ Marketing/PR и немного инвестициям. На сцене были 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2017/11/ynteresnyie-zadachy-y-reshenyya-mongodb/</guid>
     <pubDate>Tue, 28 Nov 2017 22:26:00 +0200</pubDate>
-    <category><![CDATA[Веб]]></category>
+
     <description><![CDATA[<p>
 Обратился ко мне один знакомый с “проблемой” -- умер диск на dedicated,
 хостинг откатил бекап, но сайт лежит и информацию “вытащить” с него
@@ -351,7 +318,7 @@ Marketing/PR и немного инвестициям. На сцене были 
     <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
     <guid isPermaLink="false">https://alexrb.name/2016/06/brexit-ukrajinski-naslidky/</guid>
     <pubDate>Mon, 27 Jun 2016 20:09:00 +0300</pubDate>
-    <category><![CDATA[Громадянське_суспільство]]></category>
+
     <description><![CDATA[<p>
 Минулого тижня Європа жила в очікуванні результатів, які можуть мати
 історичні наслідки для неї. У Великобританії відбувся референдум, який
