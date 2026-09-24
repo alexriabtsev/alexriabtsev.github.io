@@ -14,8 +14,8 @@
   <link>https://alexrb.name/</link>
   <description><![CDATA[Особистий блог — думки, нотатки, проєкти]]></description>
   <language>en</language>
-  <pubDate>Thu, 24 Sep 2026 14:48:34 +0300</pubDate>
-  <lastBuildDate>Thu, 24 Sep 2026 14:48:34 +0300</lastBuildDate>
+  <pubDate>Thu, 24 Sep 2026 18:14:38 +0300</pubDate>
+  <lastBuildDate>Thu, 24 Sep 2026 18:14:38 +0300</lastBuildDate>
   <generator>Emacs 31.1 Org-mode 9.8.7</generator>
   <webMaster>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</webMaster>
   <image>
@@ -24,6 +24,18 @@
     <link>https://alexrb.name/</link>
   </image>
 
+  <item>
+    <title>Блог переїхав на org-mode в emacs</title>
+    <link>https://alexrb.name/2026/09/bloh-pereikhav-na-org-mode-v-emacs/</link>
+    <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
+    <guid isPermaLink="false">https://alexrb.name/2026/09/bloh-pereikhav-na-org-mode-v-emacs/</guid>
+    <pubDate>Thu, 24 Sep 2026 18:08:00 +0300</pubDate>
+
+    <description><![CDATA[<p>
+Сьогодні завершив міграцію блога з Jekyll, на якому він крутився останні кілька років. Тепер все крутиться в emacs, org-publish. З точки зору користувацького досіду не має нічого змінитися, а от для мене, як редактора, зміна разюча. Якщо цікаво, то можу описати детальніше.
+</p>
+]]></description>
+  </item>
   <item>
     <title>The Comma Problem: What Russian Pop Music Reveals About the Limits of Content Moderation</title>
     <link>https://alexrb.name/2026/09/the-comma-problem/</link>
@@ -309,24 +321,6 @@ Marketing/PR и немного инвестициям. На сцене были 
 обычными способами получить не удается, а есть необходимость сохранить
 базу контактов пользователей. Задача относительно простая, за
 исключением одного но -- есть только shell, а код никто не знает.
-</p>
-]]></description>
-  </item>
-  <item>
-    <title>BrExit: українські наслідки</title>
-    <link>https://alexrb.name/2016/06/brexit-ukrajinski-naslidky/</link>
-    <author>ral@Alexs-MacBook-Pro.local (Oleksandr Riabtsev)</author>
-    <guid isPermaLink="false">https://alexrb.name/2016/06/brexit-ukrajinski-naslidky/</guid>
-    <pubDate>Mon, 27 Jun 2016 20:09:00 +0300</pubDate>
-
-    <description><![CDATA[<p>
-Минулого тижня Європа жила в очікуванні результатів, які можуть мати
-історичні наслідки для неї. У Великобританії відбувся референдум, який
-мав відповісти на сакральне питання -- “to be or not to be”. Чи
-залишиться ця країна членом Європейського союзи, чи залишить число
-країн, які входять до нього. Для України, яка поки лише докладає зусиль
-для того, щоб стати повноправним членом європейської родини, здається,
-прямих наслідків не мало б бути. Але чи це насправді так?
 </p>
 ]]></description>
   </item>
